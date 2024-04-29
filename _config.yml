@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "SODYN"
+title                    : "MCl"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "sodyn99"
-description              : "Welcome to SODYN."
-url                      : "https://sodyn99.github.io"
+name                     : "mcl"
+description              : "Welcome to MCL."
+url                      : "https://khu-mcl.github.io"
 baseurl                  : "/"
-repository               : "sodyn99/sodyn99.github.io"
+repository               : "khu-mcl/khu-mcl.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png"
 masthead_title           :
@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom""
   disqus:
-    shortname            : "sodyn99"
+    shortname            : "mcl"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:

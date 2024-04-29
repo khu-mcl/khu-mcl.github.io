@@ -115,10 +115,10 @@ Kml 파일은 구글어스로 시각화 할 수 있다.
 
 <div class="post__stage-container">
     <div class="post__stage">
-        <img class="modal img__medium" src="/_pages/study/paper_review/images/mobility_001/4.jpg" alt="<b>[Fig. 4]</b> Busan."/>
+        <img class="modal img__medium" src="/_pages/study/paper_review/images/mobility_001/4.png" alt="<b>[Fig. 4]</b> Busan."/>
     </div>
     <div class="post__stage">
-        <img class="modal img__medium" src="/_pages/study/paper_review/images/mobility_001/5.jpg" alt="<b>[Fig. 5]</b> San Francisco."/>
+        <img class="modal img__medium" src="/_pages/study/paper_review/images/mobility_001/5.png" alt="<b>[Fig. 5]</b> San Francisco."/>
     </div>
 </div>
 
