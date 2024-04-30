@@ -75,7 +75,7 @@ google:
 # SEO Related
 google_site_verification :
 bing_site_verification   :
-naver_site_verification  : "06acecf7fb0a1404baa3fe16f8edb02311e95984"
+naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
 
@@ -98,7 +98,7 @@ social:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : G-Q9YGDHDV4F
+    tracking_id          : G-0T0KB2WT2J
     anonymize_ip         : false # true, false (default)
 
 
