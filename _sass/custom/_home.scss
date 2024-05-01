@@ -96,18 +96,16 @@
     }
 }
 .hero__image {
-    border-radius: 2.5em;
-    height: 300px;
+    height: 400px;
     width: 100%;
     object-fit: cover;
     @include breakpoint($medium) {
-        height: 400px;
-        width: 400px;
-        border-radius: 4em;
+        height: 600px;
+        width: 100%;
     }
     @include breakpoint($large) {
-        height: 500px;
-        width: 500px;
+        height: 600px;
+        width: 100%;
     }
 }
 //--------------------------------------------------------------------
@@ -170,14 +168,14 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     @include breakpoint($small) {
         width: $small;
