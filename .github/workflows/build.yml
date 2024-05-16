@@ -32,7 +32,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: x64-mingw
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
