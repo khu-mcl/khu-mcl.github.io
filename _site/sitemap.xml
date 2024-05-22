@@ -12,10 +12,10 @@
 <loc>http://localhost:4000/study/programming/github/1/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/study/ai/2/</loc>
+<loc>http://localhost:4000/study/programming/github/2/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/study/programming/github/2/</loc>
+<loc>http://localhost:4000/study/ai/2/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
@@ -45,6 +45,9 @@
 <loc>http://localhost:4000/study/paper_review/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/about/professor/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/study/programming/</loc>
 </url>
 <url>
@@ -52,6 +55,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/search/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/about/students/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/study/</loc>
