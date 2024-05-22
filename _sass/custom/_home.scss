@@ -15,6 +15,20 @@
         height: 700px;
     }
 }
+.hero-title {
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    p {
+        margin: 0;
+        &:first-child {
+            font-size: 2.5em;
+        }
+    }
+}
+
 .hero__inner {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -259,6 +273,7 @@
     color: #fff;
     font-size: 1.5em;
     font-weight: 900;
+    text-align: center;
 }
 .qna-box {
     cursor: pointer;

@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "MCL"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "mcl"
+name                     : "경희대학교 이동통신 연구실"
 description              : "Welcome to MCL."
 url                      : "https://khu-mcl.github.io"
 baseurl                  : "/"
