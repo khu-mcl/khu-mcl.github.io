@@ -7,7 +7,7 @@ prev: about
 
 <div class="post__stage-container">
   <div class="post__stage professor-image">
-    <img class="modal" src="/_pages/about/images/professor/professor.png" alt=""/>
+    <img src="/_pages/about/images/professor/professor.png" alt="" style="border-radius:10px;"/>
   </div>
   <div class="post__stage professor-brief" markdown="1">
 

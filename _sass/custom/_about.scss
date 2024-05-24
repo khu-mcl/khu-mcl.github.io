@@ -198,16 +198,21 @@
     }
 }
 .students-image {
-    width: 204px;
-    height: 234px;
+    width: 100px;
+    height: 113px;
     overflow: hidden;
-    background-color: #d1d1d1;
+    background-color: #e2eafc;
     object-fit: cover;
     border-radius: $border-radius;
     padding: 0;
     margin-right: 1em;
+    border: 2px solid #19486e;
     img {
         height: 100%;
+    }
+    @include breakpoint($small) {
+        width: 204px;
+        height: 234px;
     }
 }
 .students-card {

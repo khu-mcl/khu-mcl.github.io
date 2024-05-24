@@ -24,7 +24,7 @@ var store = [{
     "excerpt":"   404   Page Not Found  ","url": "http://localhost:4000/404.html"
   },{
     "title": "About",
-    "excerpt":"                    CONTACT                 Professor,        College of Electronic & Information, Kyung Hee University, 1732, Deogyoung Road, Giheung, Yongin, Gyeonggi, 17104, South Korea.        E-mail: ekhong@khu.ac.kr        주소: (17104) 경기도 용인시 기흥구 덕영대로 1732번지 경희대학교 전자정보대학 549호        전화: 031-201-2982                                       Members                                        Professor                                     Students                        ","url": "http://localhost:4000/about/"
+    "excerpt":"                      CONTACT                 Professor,        College of Electronic & Information, Kyung Hee University, 1732, Deogyoung Road, Giheung, Yongin, Gyeonggi, 17104, South Korea.        E-mail: ekhong@khu.ac.kr        주소: (17104) 경기도 용인시 기흥구 덕영대로 1732번지 경희대학교 전자정보대학 549호        전화: 031-201-2982                                       Members                                        Professor                                     Students                        ","url": "http://localhost:4000/about/"
   },{
     "title": "AI",
     "excerpt":"                                    AI 개요                                        딥러닝                        ","url": "http://localhost:4000/study/ai/"
@@ -43,6 +43,9 @@ var store = [{
   },{
     "title": null,
     "excerpt":"","url": "http://localhost:4000/"
+  },{
+    "title": "Lab Meeting",
+    "excerpt":"                                    Open RAN                                                                Communication System                                                                Radio Resource Management                                                                Spectrum Engineering                                                                Wireless Power Transmission                                                                Zero Touch Network                              ","url": "http://localhost:4000/lab_meeting/"
   },{
     "title": null,
     "excerpt":"var idx = lunr(function () { this.field('title') this.field('excerpt') this.field('categories') this.field('tags') this.ref('id') this.pipeline.remove(lunr.trimmer) for (var item in store) { this.add({ title: store[item].title, excerpt: store[item].excerpt, categories: store[item].categories, tags: store[item].tags, id: item }) } }); $(document).ready(function() { $('input#search').on('keyup', function () { var resultdiv = $('#results'); var query = $(this).val().toLowerCase(); var result = idx.query(function...","url": "http://localhost:4000/assets/js/lunr/lunr-en.js"
