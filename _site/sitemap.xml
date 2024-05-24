@@ -39,6 +39,9 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/lab_meeting/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/study/paper_review/magma_001/</loc>
 </url>
 <url>
