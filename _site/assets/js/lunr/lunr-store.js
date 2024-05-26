@@ -29,17 +29,17 @@ var store = [{
     "title": "[IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning",
     "excerpt":"발제자: 1.md 발제일: 2024년 05월 10일 키워드: [Cell on/off] [Energy-saving] [Network] [Artificial Intelligence] URL: https://ieeexplore.ieee.org/document/9682160 발표자료: PDF Why this paper Energy-saving을 실현하고 QoS 기준을 만족하는 cell 온오프 알고리즘을 RL 문제로 정의 다양한 Operational mode에서 training된 RL agent들간의 성능을 비교 현실 세계를 모방한 replicatvie simulator를 활용하여 training한 모델 사용 Summary of...","url": "http://localhost:4000/_lab_meeting/1/"
   },{
-    "title": null,
-    "excerpt":"   발제자: 2.md     발제일: 2024년 05월 11일     키워드:  [Cell on/off]  [Energy-saving]  [Network]  [Artificial Intelligence]     URL:      발표자료:    ","url": "http://localhost:4000/_lab_meeting/2/"
+    "title": "딥 러닝",
+    "excerpt":"딥 러닝은 인간 두뇌의 구조를 본 따 개발된 인공지능이다. 인간이 사물을 인식하기의 과정은, 먼저 눈으로 보고 그 정보가 여러 뇌를 거치게 되는데 마찬가지로 딥 러닝 또한 여러 계층으로 구성된다. 인간의 신경과 뇌에는 수백만개의 뉴런이 연결되어 있듯 딥 러닝 신경망도 인공 신경 세포 노드를 통해 계층을 구성하고 있다. 딥 러닝의 목표는...","url": "http://localhost:4000/study/ai/2/"
   },{
     "title": "Github 개요",
     "excerpt":"git init git add README.md git commit -e git branch -M main git remote add origin https://github.com/&lt;user_name&gt;/&lt;repository_name&gt;.git git push -u origin main      ","url": "http://localhost:4000/study/programming/github/2/"
   },{
-    "title": "딥 러닝",
-    "excerpt":"딥 러닝은 인간 두뇌의 구조를 본 따 개발된 인공지능이다. 인간이 사물을 인식하기의 과정은, 먼저 눈으로 보고 그 정보가 여러 뇌를 거치게 되는데 마찬가지로 딥 러닝 또한 여러 계층으로 구성된다. 인간의 신경과 뇌에는 수백만개의 뉴런이 연결되어 있듯 딥 러닝 신경망도 인공 신경 세포 노드를 통해 계층을 구성하고 있다. 딥 러닝의 목표는...","url": "http://localhost:4000/study/ai/2/"
+    "title": null,
+    "excerpt":"   발제자: 2.md     발제일: 2024년 05월 11일     키워드:  [Cell on/off]  [Energy-saving]  [Network]  [Artificial Intelligence]     URL:      발표자료:    ","url": "http://localhost:4000/_lab_meeting/2/"
   },{
     "title": "Page Not Found",
-    "excerpt":"   404   Page Not Found  ","url": "http://localhost:4000/404.html"
+    "excerpt":"         404   Page Not Found                               ","url": "http://localhost:4000/404.html"
   },{
     "title": "About",
     "excerpt":"                      CONTACT                 Professor,        College of Electronic & Information, Kyung Hee University, 1732, Deogyoung Road, Giheung, Yongin, Gyeonggi, 17104, South Korea.        E-mail: ekhong@khu.ac.kr        주소: (17104) 경기도 용인시 기흥구 덕영대로 1732번지 경희대학교 전자정보대학 549호        전화: 031-201-2982                                       Members                                        Professor                                     Students                        ","url": "http://localhost:4000/about/"
@@ -100,6 +100,9 @@ var store = [{
   },{
     "title": "Tag",
     "excerpt":"","url": "http://localhost:4000/tags/"
+  },{
+    "title": "Thanks",
+    "excerpt":"                  Thanks!              The form was submitted successfully.                                                               ","url": "http://localhost:4000/thanks/"
   },{
     "title": null,
     "excerpt":"{% if page.xsl %} {% endif %} {% assign collections = site.collections | where_exp:'collection','collection.output != false' %}{% for collection in collections %}{% assign docs = collection.docs | where_exp:'doc','doc.sitemap != false' %}{% for doc in docs %} {{ doc.url | replace:'/index.html','/' | absolute_url | xml_escape }} {% if doc.last_modified_at or doc.date...","url": "http://localhost:4000/sitemap.xml"

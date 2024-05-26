@@ -9,7 +9,7 @@
               <div class="home-logo-top" style="width:80%;display:flex;align-items: center;justify-content: center;">
                 <a class="site-logo" style="display: flex;align-items: center;justify-content: center;" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"/></a>
               </div>
-              <div class="home-logo-bottom" style="display: flex;flex-direction: column;-webkit-box-align: center;-ms-flex-align: center;align-items: center;justify-content: center;font-size: 0.6em;font-family: KIMM_Bold;font-weight: 700;">
+              <div class="home-logo-bottom" style="display: flex;flex-direction: column;-webkit-box-align: center;-ms-flex-align: center;align-items: center;justify-content: center;font-size: 0.7em;font-family: KIMM_Bold;font-weight: 700;">
                 <a href="{{ '/' | relative_url }}" style="margin-top:0;text-align: center;">{{ site.masthead_title | default: site.title }}</a>
               </div>
           </div>
@@ -17,7 +17,8 @@
         <a class="site-title" href="{{ '/' | relative_url }}">
           <!-- {{ site.masthead_title | default: site.title }} -->
           <!-- {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %} -->
-          <span class="site-subtitle">Kyunghee<br>University</span>
+          <p class="site-subtitle">Kyunghee</p>
+          <p class="site-subtitle">University</p>
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
