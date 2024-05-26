@@ -387,25 +387,37 @@
   <div id="contact" class="home-contact">
     <h2><a name="contact">Get In Touch</a></h2>
     <div id="contact-form" class="contact-container">
-          <form action="https://formspree.io/f/mayrzapw" method="POST">
-            <label class="label__email">
-              <span>Email</span>
-              <input id="email" name="_replyto" type="email" required="" placeholder="example@gmail.com" value="">
-            </label>
-            <label class="label__name">
-              <span>Name</span>
-              <input name="name" type="text" required="" placeholder="John Smith" value="">
-            </label>
-            <label class="label__message">
-              <span>Message</span>
-              <textarea name="message" required="" placeholder="Hey there!"></textarea>
-            </label>
-            <button type="submit" value="send">Send</button>
+          <form data-email="ssjj3552@khu.ac.kr" class="gform" action="https://script.google.com/macros/s/AKfycbzQQxoFBsb3Ajx9jQD4g0-aaTEUO527HMy97_7YPhKImqOj5_QlqVU-ZPynrSeRwsQR/exec" method="POST">
+            <div class="form-elements">
+              <label class="label__email">
+                <span>Email</span>
+                <input id="email" name="email" type="email" required="" placeholder="example@gmail.com" value="">
+              </label>
+              <label class="label__name">
+                <span>Name</span>
+                <input name="name" type="text" required="" placeholder="John Smith" value="">
+              </label>
+              <label class="label__message">
+                <span>Message</span>
+                <textarea name="message" required="" placeholder="Hey there!"></textarea>
+              </label>
+              <button type="submit" value="send">Send</button>
+            </div>
+
+            <div class="loading_message" style="display:none;">
+              <div class="spinner"></div>
+            </div>
+
+            <div class="thankyou_message" style="display:none;">
+              <h2><em>Thanks</em> for contacting us!
+                We will get back to you soon!</h2>
+            </div>
         </form>
     </div>
   </div>
 </div>
 
+<script data-cfasync="false" src="/assets/js/custom/form-submission-handler.js"></script>
     </div>
 
     
