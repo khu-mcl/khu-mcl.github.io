@@ -68,7 +68,18 @@
 
 .site-subtitle {
   display: block;
-  font-size: $type-size-8;
+  font-size: 13px;
+  margin: 0;
+  height: 14px;
+  line-height: 10px;
+  @include breakpoint($small) {
+    max-width: $small;
+  }
+  @include breakpoint($medium) {
+    font-size: 22px;
+    height: 24px;
+    line-height: 20px;
+  }
 }
 
 .masthead__menu {
