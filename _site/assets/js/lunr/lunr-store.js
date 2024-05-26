@@ -1,4 +1,16 @@
 var store = [{
+        "title": "[IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning",
+        "excerpt":"발제자: 김건 발제일: 2024년 05월 10일 URL: https://ieeexplore.ieee.org/document/9682160 발표자료: PDF Why this paper Energy-saving을 실현하고 QoS 기준을 만족하는 cell 온오프 알고리즘을 RL 문제로 정의 다양한 Operational mode에서 training된 RL agent들간의 성능을 비교 현실 세계를 모방한 replicatvie simulator를 활용하여 training한 모델 사용 Summary of paper 1. Introduction 연구 배경 사용자들이 요구하는...","categories": [],
+        "tags": [],
+        "url": "/lab_meeting/1-copy/",
+        "teaser": null
+      },{
+        "title": "[IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning",
+        "excerpt":"발제자: 김건 발제일: 2024년 05월 10일 URL: https://ieeexplore.ieee.org/document/9682160 발표자료: PDF Why this paper Energy-saving을 실현하고 QoS 기준을 만족하는 cell 온오프 알고리즘을 RL 문제로 정의 다양한 Operational mode에서 training된 RL agent들간의 성능을 비교 현실 세계를 모방한 replicatvie simulator를 활용하여 training한 모델 사용 Summary of paper 1. Introduction 연구 배경 사용자들이 요구하는...","categories": [],
+        "tags": [],
+        "url": "/lab_meeting/1/",
+        "teaser": null
+      },{
         "title": "Test 1",
         "excerpt":"Test 1  ","categories": ["daily"],
         "tags": [],
@@ -11,8 +23,14 @@ var store = [{
         "url": "/daily/Test-2-copy/",
         "teaser": null
       },{
+    "title": "[IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning",
+    "excerpt":"발제자: 1 copy.md 발제일: 2024년 05월 10일 URL: https://ieeexplore.ieee.org/document/9682160 발표자료: PDF Why this paper Energy-saving을 실현하고 QoS 기준을 만족하는 cell 온오프 알고리즘을 RL 문제로 정의 다양한 Operational mode에서 training된 RL agent들간의 성능을 비교 현실 세계를 모방한 replicatvie simulator를 활용하여 training한 모델 사용 Summary of paper 1. Introduction 연구 배경 사용자들이...","url": "http://localhost:4000/_lab_meeting/1%20copy/"
+  },{
     "title": "Git",
     "excerpt":"   ","url": "http://localhost:4000/study/programming/github/1/"
+  },{
+    "title": "[IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning",
+    "excerpt":"발제자: 1.md 발제일: 2024년 05월 10일 URL: https://ieeexplore.ieee.org/document/9682160 발표자료: PDF Why this paper Energy-saving을 실현하고 QoS 기준을 만족하는 cell 온오프 알고리즘을 RL 문제로 정의 다양한 Operational mode에서 training된 RL agent들간의 성능을 비교 현실 세계를 모방한 replicatvie simulator를 활용하여 training한 모델 사용 Summary of paper 1. Introduction 연구 배경 사용자들이 요구하는...","url": "http://localhost:4000/_lab_meeting/1/"
   },{
     "title": "Github 개요",
     "excerpt":"git init git add README.md git commit -e git branch -M main git remote add origin https://github.com/&lt;user_name&gt;/&lt;repository_name&gt;.git git push -u origin main      ","url": "http://localhost:4000/study/programming/github/2/"
@@ -45,7 +63,7 @@ var store = [{
     "excerpt":"","url": "http://localhost:4000/"
   },{
     "title": "Lab Meeting",
-    "excerpt":"                                    Open RAN                                                                Communication System                                                                Radio Resource Management                                                                Spectrum Engineering                                                                Wireless Power Transmission                                                                Zero Touch Network                              ","url": "http://localhost:4000/lab_meeting/"
+    "excerpt":"                                                                                                                 [IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning                                                       May 10, 2024                      김건                                                                                                                                                    [IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning                                                       May 10, 2024                      김건                                                     ","url": "http://localhost:4000/lab_meeting/"
   },{
     "title": null,
     "excerpt":"var idx = lunr(function () { this.field('title') this.field('excerpt') this.field('categories') this.field('tags') this.ref('id') this.pipeline.remove(lunr.trimmer) for (var item in store) { this.add({ title: store[item].title, excerpt: store[item].excerpt, categories: store[item].categories, tags: store[item].tags, id: item }) } }); $(document).ready(function() { $('input#search').on('keyup', function () { var resultdiv = $('#results'); var query = $(this).val().toLowerCase(); var result = idx.query(function...","url": "http://localhost:4000/assets/js/lunr/lunr-en.js"

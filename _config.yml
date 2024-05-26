@@ -163,6 +163,7 @@ include:
   - .htaccess
   - _pages
   - _blogs
+  - _lab_meeting
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -284,6 +285,10 @@ jekyll-archives:
     category: /categories/:name/
     tag: /tags/:name/
     blog: /blog/:name/
+collections:
+  lab_meeting:
+    output: true
+    permalink: /lab_meeting/:name/
 
 
 # HTML Compression
@@ -311,6 +316,12 @@ defaults:
       toc: true
       #toc_icon: "bars"
       toc_sticky: true
+  - scope:
+      path: ""
+      type: lab_meeting
+    values:
+      layout: posts
+      comments: true
 data_format: "%Y.%m.%d"
 
 dark_theme_toggle        : true
