@@ -66,6 +66,10 @@
 
             {% elsif page.prev == 'blog' %}
                 location.replace('/blog/');
+
+            {% elsif page.prev == 'lab_meeting' %}
+                location.replace('/lab_meeting/');
+
             {% endif %}
         });
     });
