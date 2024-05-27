@@ -170,17 +170,19 @@
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/"  class="selected"  >Home</a>
             </li><li class="masthead__menu-item">
+              <a href="/news/"  >News</a>
+            </li><li class="masthead__menu-item">
               <a href="/study/"  >Study</a>
             </li><li class="masthead__menu-item">
               <a href="/projects/"  >Projects</a>
-            </li><li class="masthead__menu-item">
-              <a href="/news/"  >News</a>
             </li><li class="masthead__menu-item">
               <a href="/publications/"  >Publications</a>
             </li><li class="masthead__menu-item">
               <a href="/gallery/"  >Gallery</a>
             </li><li class="masthead__menu-item">
               <a href="/lab_meeting/"  >Lab Meeting</a>
+            </li><li class="masthead__menu-item">
+              <a href="/members/"  >Members</a>
             </li><li class="masthead__menu-item">
               <a href="/about/"  >About</a>
             </li><!-- <li class="masthead__menu-item">
@@ -230,6 +232,92 @@
 </div>
 
 <!--------------------------- Section -------------------------------->
+<div class="home__section blog">
+  <div class="home__section-info">
+    <div class="home__section-head">
+      News
+      <div class="link" OnClick="location.href ='/news/'">More<i class="fas fa-arrow-circle-right"></i></div>
+    </div>
+    <!-- <p> My personal posts </p> -->
+  </div>
+  <div class="home__section-blog-contents">
+    
+      <!-- Recent Post용 Draggable Carousel 추가 예정 -->
+      <div class="carousel-container">
+        <div class="carousel">
+          
+            
+
+
+<div class="blog__container" OnClick="location.href ='/news/1/'">
+
+  <div class="blog__teaser">
+      <img src="/assets/images/blog-teasers/daily.jpeg" class="blog__image"></img>
+      
+      
+  </div>
+  <div class="blog__info">
+      <div class="blog__category">news</div>
+      <div class="blog__title">
+        
+          <a href="/news/1/" rel="permalink">경희대 이공계 홍보영상
+</a>
+        
+      </div>
+      <div class="blog__description"><p class="archive__item-excerpt" itemprop="description">
+</p></div>
+  </div>
+</div>
+          
+            
+
+
+<div class="blog__container" OnClick="location.href ='https://zdnet.co.kr/view/?no=20230602153814'">
+
+  <div class="blog__teaser">
+      <img src="/assets/news/images/2/1.png" class="blog__image"></img>
+      
+      
+  </div>
+  <div class="blog__info">
+      <div class="blog__category">news</div>
+      <div class="blog__title">
+        
+          <a href="/news/2/" rel="permalink">“오픈랜, 지능·속도 다 잡은 6G 시대 필수기술”
+</a>
+        
+      </div>
+      <div class="blog__description"><p class="archive__item-excerpt" itemprop="description">“6G의 가장 큰 특징은 인공지능(AI)이다. 네트워크에 AI 기술을 적용해 5G 보다 성능을 올릴 것으로 기대된다. 이 때문에 6G에서는 개방화, 지능화가 특징인 오픈랜 기술 필요성이 높아진다.” 한국통신학회장을 맡고 있는 홍인기 경희대 전자공학과 교수는 오픈랜...</p></div>
+  </div>
+</div>
+          
+            
+
+
+<div class="blog__container" OnClick="location.href ='https://n.news.naver.com/article/277/0005218766'">
+
+  <div class="blog__teaser">
+      <img src="/assets/news/images/3/1.png" class="blog__image"></img>
+      
+      
+  </div>
+  <div class="blog__info">
+      <div class="blog__category">news</div>
+      <div class="blog__title">
+        
+          <a href="/news/3/" rel="permalink">LG CNS, 경희대에 ‘이음5G’ 구축…5G특화망 사업 본격화
+</a>
+        
+      </div>
+      <div class="blog__description"><p class="archive__item-excerpt" itemprop="description">LG CNS가 공장, 건물 등 특정 범위에 한해 5G 통신망을 구현할 수 있는 ‘이음5G’ 사업을 본격화한다, LG CNS는 경희대와 ‘이음5G 구축 및 연구·개발’을 위한 업무협약을 체결했다고 16일 밝혔다. 양측은 이음5G를 기반으로 제조·물류 등 산업현장에 ...</p></div>
+  </div>
+</div>
+          
+        </div>
+      </div>
+  </div>
+</div>
+
 <div class="home__section study">
   <div class="home__section-info">
     <div class="home__section-head">
@@ -322,25 +410,6 @@
         <img class="home__section-image" src="/assets/images/home/KPI.jpeg"></img>
     </div>
 </div>
-</div>
-
-<div class="home__section blog">
-  <div class="home__section-info">
-    <div class="home__section-head">
-      Recent posts
-      <div class="link" OnClick="location.href ='/blog/'">More<i class="fas fa-arrow-circle-right"></i></div>
-    </div>
-    <p> My personal posts </p>
-  </div>
-  <div class="home__section-blog-contents">
-    
-      <!-- Recent Post용 Draggable Carousel 추가 예정 -->
-      <div class="carousel-ontainer">
-        <div class="carousel">
-          
-        </div>
-      </div>
-  </div>
 </div>
 
 <!---------------------------- Contact ---------------------------------------->
@@ -468,7 +537,7 @@ $(document).ready(function() {
 
 <!-- end custom footer snippets -->
         <div class="page__footer-follow">
-  <ul class="social-icons">
+  <!-- <ul class="social-icons">
     
       <li><strong>팔로우:</strong></li>
     
@@ -504,7 +573,10 @@ $(document).ready(function() {
     
       <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> 피드</a></li>
     
-  </ul>
+  </ul> -->
+  <h1>경희대학교 이동통신 연구실 | Mobile Communication Lab</h1>
+  <p>17104 경기도 용인시 기흥구 덕영대로 1732 경희대학교 국제캠퍼스 전자정보대학 549호</p>
+  <p>TEL : 031-201-2982</p>
 </div>
 
 <div class="page__footer-copyright">&copy; 2024 경희대학교 이동통신 연구실.</div>

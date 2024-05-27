@@ -32,6 +32,27 @@ search: false
 </div>
 
 <!--------------------------- Section -------------------------------->
+<div class="home__section blog">
+  <div class="home__section-info">
+    <div class="home__section-head">
+      News
+      <div class="link" OnClick="location.href ='/news/'">More<i class="fas fa-arrow-circle-right"></i></div>
+    </div>
+    <!-- <p> My personal posts </p> -->
+  </div>
+  <div class="home__section-blog-contents">
+    {% assign posts = site.news %}
+      <!-- Recent Post용 Draggable Carousel 추가 예정 -->
+      <div class="carousel-container">
+        <div class="carousel">
+          {% for post in posts reversed limit:3%}
+            {% include archive-single.html type=entries_layout %}
+          {% endfor %}
+        </div>
+      </div>
+  </div>
+</div>
+
 <div class="home__section study">
   <div class="home__section-info">
     <div class="home__section-head">
@@ -57,27 +78,6 @@ search: false
     </p>
   </div>
   {% include pages-contents/projects.html %}
-</div>
-
-<div class="home__section blog">
-  <div class="home__section-info">
-    <div class="home__section-head">
-      Recent posts
-      <div class="link" OnClick="location.href ='/blog/'">More<i class="fas fa-arrow-circle-right"></i></div>
-    </div>
-    <p> My personal posts </p>
-  </div>
-  <div class="home__section-blog-contents">
-    {% assign posts = site.posts %}
-      <!-- Recent Post용 Draggable Carousel 추가 예정 -->
-      <div class="carousel-ontainer">
-        <div class="carousel">
-          {% for post in posts limit:3%}
-            {% include archive-single.html type=entries_layout %}
-          {% endfor %}
-        </div>
-      </div>
-  </div>
 </div>
 
 <!---------------------------- Contact ---------------------------------------->

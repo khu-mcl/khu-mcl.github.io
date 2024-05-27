@@ -1,5 +1,5 @@
 <div class="page__footer-follow">
-  <ul class="social-icons">
+  <!-- <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
@@ -15,7 +15,10 @@
     {% unless site.atom_feed.hide %}
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
     {% endunless %}
-  </ul>
+  </ul> -->
+  <h1>경희대학교 이동통신 연구실 | Mobile Communication Lab</h1>
+  <p>17104 경기도 용인시 기흥구 덕영대로 1732 경희대학교 국제캠퍼스 전자정보대학 549호</p>
+  <p>TEL : 031-201-2982</p>
 </div>
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.</div>
