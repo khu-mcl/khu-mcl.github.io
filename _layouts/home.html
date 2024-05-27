@@ -117,21 +117,81 @@ search: false
 </div>
 
 <script data-cfasync="false" src="/assets/js/custom/form-submission-handler.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 <script>
-let currentIndex = 0;
-const slides = document.querySelectorAll('.hero-slide');
-const totalSlides = slides.length;
+$(document).ready(function() {
+    let currentIndex = 0;
+    const $slides = $('.hero-slide');
+    const totalSlides = $slides.length;
 
-function showSlide(index) {
-    const slidesContainer = document.querySelector('.slides');
-    slidesContainer.style.transform = `translateX(${-index * 100}%)`;
-}
+    // 슬라이드 클론 생성
+    const $firstSlideClone = $slides.first().clone();
+    const $lastSlideClone = $slides.last().clone();
+    $('.slides').append($firstSlideClone);
+    $('.slides').prepend($lastSlideClone);
 
-function nextSlide() {
-    currentIndex = (currentIndex + 1) % totalSlides;
-    showSlide(currentIndex);
-}
+    const $allSlides = $('.hero-slide');
+    const totalSlidesWithClones = $allSlides.length;
 
-setInterval(nextSlide, 5000); // 3초마다 슬라이드 변경
-showSlide(currentIndex);
+    function showSlide(index, withTransition = true) {
+        const $slidesContainer = $('.slides');
+        if (withTransition) {
+            $slidesContainer.css('transition', 'transform 0.5s ease-in-out');
+        } else {
+            $slidesContainer.css('transition', 'none');
+        }
+        $slidesContainer.css('transform', `translateX(${-index * 100}%)`);
+    }
+
+    function nextSlide() {
+        if (currentIndex >= totalSlides) {
+            showSlide(totalSlides + 1, true);
+            setTimeout(() => {
+                showSlide(1, false);
+            }, 500); // transition duration
+            currentIndex = 1;
+        } else {
+            currentIndex++;
+            showSlide(currentIndex, true);
+        }
+    }
+
+    function previousSlide() {
+        if (currentIndex <= 1) {
+            showSlide(0, true);
+            setTimeout(() => {
+                showSlide(totalSlides, false);
+            }, 500); // transition duration
+            currentIndex = totalSlides;
+        } else {
+            currentIndex--;
+            showSlide(currentIndex, true);
+        }
+    }
+
+    function handleStart(e) {
+        startPoint = e.type.includes('touch') ? e.touches[0].pageX : e.pageX;
+    }
+
+    function handleEnd(e) {
+        endPoint = e.type.includes('touch') ? e.changedTouches[0].pageX : e.pageX;
+        if (startPoint < endPoint) {
+            previousSlide();
+        } else if (startPoint > endPoint) {
+            nextSlide();
+        }
+    }
+
+    // 슬라이드에 마우스 및 터치 이벤트 리스너 추가
+    $allSlides.each(function(index, slide) {
+        $(slide).on('mousedown touchstart', handleStart);
+        $(slide).on('mouseup touchend', handleEnd);
+    });
+
+    setInterval(nextSlide, 10000); // 10초마다 슬라이드 변경
+    showSlide(currentIndex, true);
+});
+
 </script>
