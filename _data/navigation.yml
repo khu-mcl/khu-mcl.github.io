@@ -6,8 +6,12 @@ main:
     url: /study/
   - title: "Projects"
     url: /projects/
-  - title: "Blog"
-    url: /blog/
+  - title: "News"
+    url: /news/
+  - title: "Publications"
+    url: /publications/
+  - title: "Gallery"
+    url: /gallery/
   - title: "Lab Meeting"
     url: /lab_meeting/
   - title: "About"

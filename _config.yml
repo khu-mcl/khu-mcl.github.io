@@ -289,6 +289,9 @@ collections:
   lab_meeting:
     output: true
     permalink: /lab_meeting/:name/
+  news:
+    output: true
+    permalink: /news/:name/
 
 
 # HTML Compression
