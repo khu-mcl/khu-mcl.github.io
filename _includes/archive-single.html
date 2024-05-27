@@ -4,8 +4,8 @@
   {% assign title = post.title %}
 {% endif %}
 
-{% if post.target %}
-<div class="blog__container" OnClick="location.href ='{{ post.target }}'">
+{% if post.link %}
+<div class="blog__container" OnClick="location.href ='{{ post.link }}'">
 {% else %}
 <div class="blog__container" OnClick="location.href ='{{ post.url | relative_url }}'">
 {% endif %}
@@ -28,8 +28,9 @@
       <div class="blog__category">{{ post.category }}</div>
       <div class="blog__title">
         {% if post.link %}
-          <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-        {% else %}
+          <!-- <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a> -->
+          <a href="{{ post.link }}">{{ title }}</a>
+          {% else %}
           <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
         {% endif %}
       </div>
