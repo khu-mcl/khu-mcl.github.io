@@ -52,6 +52,15 @@
 }
 
 .page__footer-follow {
+  h1 {
+    font-size: $type-size-5;
+  }
+
+  p {
+    font-size: $type-size-6;
+    margin: 0;
+  }
+
   ul {
     margin: 0;
     padding: 0;

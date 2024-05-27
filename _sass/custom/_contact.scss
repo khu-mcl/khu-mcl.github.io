@@ -36,6 +36,9 @@
             align-items: center;
             justify-content: center;
             padding: 2em 5%;
+            .form-elements {
+                width: 100%;
+            }
             .label__email {
                 width: 49%;
                 height: 6em;
