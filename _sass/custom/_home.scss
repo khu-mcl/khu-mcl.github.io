@@ -16,6 +16,22 @@
     height: 100%;
     display: flex;
     flex-direction: row;
+    @include breakpoint($small) {
+        width: $small;
+    }
+    @include breakpoint($medium) {
+        width: $medium;
+    }
+    @include breakpoint($medium-wide) {
+        width: $medium-wide;
+    }
+    @include breakpoint($large) {
+        width: $large;
+    }
+    @include breakpoint($x-large) {
+        width: $x-large;
+        max-width: $max-width;
+    }
 }
 .slides {
     transition: transform 0.5s ease-in-out;
