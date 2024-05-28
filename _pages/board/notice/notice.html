@@ -1,0 +1,51 @@
+---
+layout: pages
+title: "Notice"
+permalink: /notice/
+prev: board
+pagination:
+    enabled: true
+---
+
+<section class="page__section">
+    <table class="notice__table">
+        <thead>
+        <tr>
+            <th class="number-column">번호</th>
+            <th class="title-column">제목</th>
+            <th class="author-column">글쓴이</th>
+            <th class="date-column">날짜</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% if paginator.page == 1 %}
+        {% for notice in site.notices reversed %}
+        {% if notice.highlight %}
+        <tr class="highlight">
+            <td style="font-weight: bold; color: rgb(211, 1, 1);">공지</td>
+            <td><a href="{{ notice.url }}">{{ notice.title }}</a></td>
+            <td>{{ notice.author }}</td>
+            <td>{{ notice.date | date: "%Y-%m-%d" }}</td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+
+        {% assign total_notices = site.notices.size %}
+        {% assign page_offset = paginator.page | minus: 1 | times: paginator.per_page %}
+        {% assign start_index = total_notices | minus: page_offset %}
+        {% for notice in paginator.posts %}
+        <tr class="normal">
+            <td>{{ start_index | minus: forloop.index | plus: 1 }}</td>
+            <td><a href="{{ notice.url }}">{{ notice.title }}</a></td>
+            <td>{{ notice.author }}</td>
+            <td>{{ notice.date | date: "%Y-%m-%d" }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+
+  <!-- Pagination links -->
+  {% include paginator.html %}

@@ -5,7 +5,7 @@
     <i class="fa fa-chevron-up" aria-hidden="true"></i>
 </a>
 
-{% if page.url == '/' or page.url == '/study/' or page.url == '/members/' or page.url == '/projects/' or page.url == '/news/' or page.url == '/about/' or page.url == '/lab_meeting/' or page.url == '/publications/' or page.url == '/gallery/' %}
+{% if page.url == '/' or page.url == '/members/' or page.url == '/research/' or page.url == '/about/' or page.url == '/publications/' or page.url == '/board/' %}
 {% else %}
 <a id="prevBtn" href="#">
     <i class="fas fa-align-justify" aria-hidden="true"></i>
@@ -45,6 +45,8 @@
                 location.replace('/members/');
 
 
+            {% elsif page.prev == 'research' %}
+                location.replace('/research/');
             {% elsif page.prev == 'study' %}
                 location.replace('/study/');
             {% elsif page.prev == 'paper_review' %}
@@ -67,6 +69,10 @@
             {% elsif page.prev == 'kpi' %}
                 location.replace('/projects/kpi/');
 
+            {% elsif page.prev == 'board' %}
+                location.replace('/board/');
+            {% elsif page.prev == 'notice' %}
+                location.replace('/notice/');
             {% elsif page.prev == 'news' %}
                 location.replace('/news/');
 
