@@ -26,7 +26,37 @@ var store = [{
         "title": "경희대 이공계 홍보영상",
         "excerpt":" ","categories": ["news"],
         "tags": [],
-        "url": "/news/1/",
+        "url": "/notice/1-copy-2/",
+        "teaser": null
+      },{
+        "title": "경희대 이공계 홍보영상",
+        "excerpt":" ","categories": ["news"],
+        "tags": [],
+        "url": "/notice/1-copy-3/",
+        "teaser": null
+      },{
+        "title": "경희대 이공계 홍보영상",
+        "excerpt":" ","categories": ["news"],
+        "tags": [],
+        "url": "/notice/1-copy-4/",
+        "teaser": null
+      },{
+        "title": "경희대 이공계 홍보영상",
+        "excerpt":" ","categories": ["news"],
+        "tags": [],
+        "url": "/notice/1-copy-5/",
+        "teaser": null
+      },{
+        "title": "경희대 이공계 홍보영상",
+        "excerpt":" ","categories": ["news"],
+        "tags": [],
+        "url": "/notice/1-copy/",
+        "teaser": null
+      },{
+        "title": "경희대 이공계 홍보영상",
+        "excerpt":" ","categories": ["news"],
+        "tags": [],
+        "url": "/notice/1/",
         "teaser": null
       },,{
     "title": "Git",
@@ -35,29 +65,38 @@ var store = [{
     "title": "[IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning",
     "excerpt":"발제자: 1.md 발제일: 2024년 05월 10일 키워드: [Cell on/off] [Energy-saving] [Network] [Artificial Intelligence] URL: https://ieeexplore.ieee.org/document/9682160 발표자료: PDF Why this paper Energy-saving을 실현하고 QoS 기준을 만족하는 cell 온오프 알고리즘을 RL 문제로 정의 다양한 Operational mode에서 training된 RL agent들간의 성능을 비교 현실 세계를 모방한 replicatvie simulator를 활용하여 training한 모델 사용 Summary of...","url": "http://localhost:4000/_lab_meeting/1/"
   },{
+    "title": "딥 러닝",
+    "excerpt":"딥 러닝은 인간 두뇌의 구조를 본 따 개발된 인공지능이다. 인간이 사물을 인식하기의 과정은, 먼저 눈으로 보고 그 정보가 여러 뇌를 거치게 되는데 마찬가지로 딥 러닝 또한 여러 계층으로 구성된다. 인간의 신경과 뇌에는 수백만개의 뉴런이 연결되어 있듯 딥 러닝 신경망도 인공 신경 세포 노드를 통해 계층을 구성하고 있다. 딥 러닝의 목표는...","url": "http://localhost:4000/study/ai/2/"
+  },{
     "title": "Open RAN for detection of a jamming attack in a 5G network",
     "excerpt":"발제자: 2.md 발제일: 2024년 05월 17일 키워드: [OpenRAN] [jamming detection] [Kolmogorov-Smirnov Test] URL: https://ieeexplore.ieee.org/document/10201067 발표자료: PDF Why this paper 무선 네트워크에 대한 jamming을 O-RAN RIC의 siangl quailty indicators를 통해 해결 네트워크 구조나 UE 분포에 대한 가정을 사용하지 않은 가벼운 algorithm 사용 Summary of paper 1. Introduction 1.1 Jamming 주파수대역에 신호를...","url": "http://localhost:4000/_lab_meeting/2/"
   },{
     "title": "Github 개요",
     "excerpt":"git init git add README.md git commit -e git branch -M main git remote add origin https://github.com/&lt;user_name&gt;/&lt;repository_name&gt;.git git push -u origin main      ","url": "http://localhost:4000/study/programming/github/2/"
   },{
-    "title": "딥 러닝",
-    "excerpt":"딥 러닝은 인간 두뇌의 구조를 본 따 개발된 인공지능이다. 인간이 사물을 인식하기의 과정은, 먼저 눈으로 보고 그 정보가 여러 뇌를 거치게 되는데 마찬가지로 딥 러닝 또한 여러 계층으로 구성된다. 인간의 신경과 뇌에는 수백만개의 뉴런이 연결되어 있듯 딥 러닝 신경망도 인공 신경 세포 노드를 통해 계층을 구성하고 있다. 딥 러닝의 목표는...","url": "http://localhost:4000/study/ai/2/"
-  },{
     "title": "Page Not Found",
     "excerpt":"         404   Page Not Found                               ","url": "http://localhost:4000/404.html"
   },{
     "title": "About",
-    "excerpt":"                      Contact                 Professor,        College of Electronic & Information, Kyung Hee University, 1732, Deogyoung Road, Giheung, Yongin, Gyeonggi, 17104, South Korea.        E-mail: ekhong@khu.ac.kr        주소: (17104) 경기도 용인시 기흥구 덕영대로 1732 경희대학교 전자정보대학 549호        전화: 031-201-2982                                       Members                                        Professor                                     Students                        ","url": "http://localhost:4000/about/"
+    "excerpt":"                      Contact                 Professor,        College of Electronic & Information, Kyung Hee University, 1732, Deogyoung Road, Giheung, Yongin, Gyeonggi, 17104, South Korea.        E-mail: ekhong@khu.ac.kr        주소: (17104) 경기도 용인시 기흥구 덕영대로 1732 경희대학교 전자정보대학 549호        전화: 031-201-2982                                       Members                                    Professor                               Students                      ","url": "http://localhost:4000/about/"
   },{
     "title": "AI",
     "excerpt":"                                    AI 개요                                        딥러닝                        ","url": "http://localhost:4000/study/ai/"
+  },{
+    "title": "Alumni",
+    "excerpt":"방석영 21 기 현대모비스 나세현 20 기 KT 김영준 20 기 KT 안희준 19 기 현대모비스 이재우 18 기 큐셀네트웍스 김영민 18 기 티맥스소프트 한종원 17 기 SKT 박재완 17 기 삼성전자 박태윤 17 기 SK C&amp;C 김응호 17 기 삼성전자 하재우 15 기 현대모비스 백정연 15 기 Univ. of...","url": "http://localhost:4000/members/alumni/"
+  },{
+    "title": "Board",
+    "excerpt":"","url": "http://localhost:4000/board/"
   },{
     "title": "Category",
     "excerpt":" ","url": "http://localhost:4000/categories/"
   },{
     "title": "Copyright Attribution",
     "excerpt":"Powered by Jekyll &amp; Minimal Mistakes. Source & License Logo Created by ChatGPT Fonts Font: Suit by Sunn Source/License: SIL Open Font License v1.1 Font: Roboto by Christian Robertson Source/License: Google Fonts Attribution Font: Noto Sans Korean by Google Source/License: Google Fonts Attribution Font: Y이드스트릿체 by KT 'Y' Source/License: (주)케이티...","url": "http://localhost:4000/copyright/"
+  },{
+    "title": "Foregin Alumni",
+    "excerpt":"Ph.D. Tran Le Nam Professor, Dublin Univ. Ireland Vu Quang Doanh Senior Engineer, Nokia Finland M.S. Tran Ha Vu Senior Engineer, Huawei Canada MD Sohel Rana Director of Spectrum Management Division of Bangladesh Naing Win Swe Bureau, Myanmar Vien Quoc Tuan Senior Lecturer, Middlesex Univ. London Thai Binh Nguyen Wen...","url": "http://localhost:4000/members/foreign_alumni/"
   },{
     "title": "Gallery",
     "excerpt":"","url": "http://localhost:4000/gallery/"
@@ -84,16 +123,19 @@ var store = [{
     "excerpt":"","url": "http://localhost:4000/study/paper_review/magma_001/"
   },{
     "title": "Members",
-    "excerpt":"                          Members                                        Professor                                     Students                        ","url": "http://localhost:4000/members/"
+    "excerpt":"                                Professor                         Students                                   Alumni                         Foreign Alumni                 ","url": "http://localhost:4000/members/"
   },{
     "title": "News",
     "excerpt":"","url": "http://localhost:4000/news/"
+  },{
+    "title": "Notice",
+    "excerpt":"","url": "http://localhost:4000/notice/"
   },{
     "title": "Paper Review",
     "excerpt":"                                    magma         Building Flexible, Low-Cost Wireless Access Networks With Magma         How to configure low-cost cellular network using Magma.       ","url": "http://localhost:4000/study/paper_review/"
   },{
     "title": "Professor",
-    "excerpt":"홍인기 약력 BRIEF BIOGRAPHY 경희대학교 전자정보대학 전자공학과 교수 (1999.03 ~ 현재) 연세대학교 전기공학과 학사(1989),석사(1991),박사(1995) SK Telecom 중앙연구원 선임연구원 (1995-1999) NTT DoCoMo (Japan) 교환연구원 (1997-1998) 한국통신학회 부회장, 상임이사, 이사, 감사 (1999.03 ~ 2022) 이동통신 연구회 위원, 위원장 (2000~현재) 정보통신부 주파수 연구반, 이동통신 분과 위원장 (2003 ~ 2005) Oregon State Univ. 방문교수...","url": "http://localhost:4000/about/professor/"
+    "excerpt":"홍인기 약력 BRIEF BIOGRAPHY 경희대학교 전자정보대학 전자공학과 교수 (1999.03 ~ 현재) 연세대학교 전기공학과 학사(1989),석사(1991),박사(1995) SK Telecom 중앙연구원 선임연구원 (1995-1999) NTT DoCoMo (Japan) 교환연구원 (1997-1998) 한국통신학회 부회장, 상임이사, 이사, 감사 (1999.03 ~ 2022) 이동통신 연구회 위원, 위원장 (2000~현재) 정보통신부 주파수 연구반, 이동통신 분과 위원장 (2003 ~ 2005) Oregon State Univ. 방문교수...","url": "http://localhost:4000/members/professor/"
   },{
     "title": "Programming",
     "excerpt":"                                    Github                          ","url": "http://localhost:4000/study/programming/"
@@ -104,11 +146,14 @@ var store = [{
     "title": "Publications",
     "excerpt":"# SCI Journal 38. Hyeon-Min Yoo, Jung-Mo Moon, Jeehyeon Na, Een-Kee Hong, \"User Association and Load Balancing Based on Monte Carlo Tree Search,\" in IEEE Access, vol. 11, pp. 126087-126097, 2023. 11 37. Jae-Wan Park, Eung-Hyo Kim, Een-Kee Hong, Cluster splitting and combining in ultra-dense networks, IET Communications (14, 9),...","url": "http://localhost:4000/publications/"
   },{
+    "title": "Research",
+    "excerpt":"","url": "http://localhost:4000/research/"
+  },{
     "title": "Search",
     "excerpt":"","url": "http://localhost:4000/search/"
   },{
     "title": "Students",
-    "excerpt":"유현민 Ph.D.Student SD-RAN Engineering Team, Aether 한국전자통신연구원 위촉연구원 SKT AI Fellowship 5기 이상연 M.S.Student 김유빈 M.S.Student 권혁선 M.S.Student 이종석 M.S.Student 김건 M.S.Student SD-RAN Engineering Team, Aether 이성진 M.S.Student 최호성 M.S.Student # Alumni --- # Foreign Alumni --- ## Ph.D. Tran Le Nam 현) Professor, Dublin Univ. Ireland Vu Quang Doanh...","url": "http://localhost:4000/about/students/"
+    "excerpt":"   {%- for student in site.data.members.students -%}                                         {{ student.name }}                       {{ student.course }}          {% for info in student.info %}         {{ info }}          {% endfor %}                  {%- endfor -%}  ","url": "http://localhost:4000/members/students/"
   },{
     "title": "Study",
     "excerpt":"     {% include pages-contents/study.html %} ","url": "http://localhost:4000/study/"

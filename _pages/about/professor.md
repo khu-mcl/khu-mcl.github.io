@@ -1,13 +1,13 @@
 ---
 layout: pages
 title: "Professor"
-permalink: /about/professor/
-prev: about
+permalink: /members/professor/
+prev: members
 ---
 
 <div class="post__stage-container">
   <div class="post__stage professor-image">
-    <img src="/_pages/about/images/professor/professor.png" alt="" style="border-radius:10px;"/>
+    <img src="/assets/images/members/professor/professor.png" alt="" style="border-radius:10px;"/>
   </div>
   <div class="post__stage professor-brief" markdown="1">
 

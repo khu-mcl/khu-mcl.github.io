@@ -1,0 +1,10 @@
+---
+layout: posts
+title: "경희대 이공계 홍보영상"
+category: news
+teaser: /assets/news/images/1/1.png
+prev: news
+date: 2024-02-10
+---
+
+<iframe class="vid__large" src="https://www.youtube.com/embed/s_ha-FZDluY?si=LQA7gRyyEHFYMq_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -1,0 +1,208 @@
+students:
+  - name: 유현민
+    course: Ph.D.Student
+    info: ['SD-RAN Engineering Team, Aether', 한국전자통신연구원 위촉연구원, SKT AI Fellowship 5기]
+  - name: 이종석
+    course: M.S.Student
+    info: [SKT AI Fellowship 5기]
+  - name: 이상연
+    course: M.S.Student
+  - name: 김건
+    course: M.S.Student
+    info: ['SD-RAN Engineering Team, Aether', SKT AI Fellowship 6기]
+  - name: 김유빈
+    course: M.S.Student
+    info: [SKT AI Fellowship 5기]
+  - name: 이성진
+    course: M.S.Student
+    info: [SKT AI Fellowship 6기]
+  - name: 권혁선
+    course: M.S.Student
+  - name: 최호성
+    course: M.S.Student
+
+alumnis:
+  - name: 방석영
+    generation: 21
+    corp: 현대모비스
+  - name: 나세현
+    generation: 20
+    corp: KT
+  - name: 김영준
+    generation: 20
+    corp: KT
+  - name: 안희준
+    generation: 19
+    corp: 현대모비스
+  - name: 이재우
+    generation: 18
+    corp: 큐셀네트웍스
+  - name: 김영민
+    generation: 18
+    corp: 티맥스소프트
+  - name: 한종원
+    generation: 17
+    corp: SKT
+  - name: 박재완
+    generation: 17
+    corp: 삼성전자
+  - name: 박태윤
+    generation: 17
+    corp: SK C&C
+  - name: 김응호
+    generation: 17
+    corp: 삼성전자
+  - name: 하재우
+    generation: 15
+    corp: 현대모비스
+  - name: 백정연
+    generation: 15
+    corp: Univ. of Quebec, Canada
+  - name: 방주선
+    generation: 14
+    corp: SK C&C
+  - name: 박지혜
+    generation: 14
+    corp: 현대자동차
+  - name: 강도혁
+    generation: 13
+    corp: LG화학
+  - name: 이병규
+    generation: 13
+    corp: Broadcom
+  - name: 조은형
+    generation: 12
+    corp: 현대오트론
+  - name: 장예옥
+    generation: 12
+    corp: 삼성전자
+  - name: 김현진
+    generation: 12
+    corp: 삼성SDS
+  - name: 김기수
+    generation: 11
+    corp: 현대중공업
+  - name: 김성의
+    generation: 11
+    corp: LG전자
+  - name: 이근표
+    generation: 10
+    corp: 현대모비스
+  - name: 임효성
+    generation: 10
+    corp: LG Ericsson
+  - name: 김영래
+    generation: 9
+    corp: 현대모비스
+  - name: 김성천
+    generation: 9
+    corp: 국방과학연구소
+  - name: 김주형
+    generation: 8
+    corp: LG전자
+  - name: 김세진
+    generation: 6
+    corp: 삼성전자
+  - name: 장민석
+    generation: 6
+    corp: SKT
+  - name: 윤상혁
+    generation: 5
+    corp: Google USA
+  - name: 신현준
+    generation: 5
+    corp: 삼성전자
+  - name: 고광훈
+    generation: 5
+    corp: 삼성전자
+  - name: 김동철
+    generation: 5
+    corp: LG전자
+  - name: 김준혁
+    generation: 5
+    corp: 삼성전자
+  - name: 고재훈
+    generation: 5
+    corp: 삼성전자
+  - name: 김명민
+    generation: 4
+    corp: LG전자
+  - name: 장준
+    generation: 4
+    corp: LG전자
+  - name: 이연호
+    generation: 4
+    corp: 삼성전자
+  - name: 장현철
+    generation: 4
+    corp: 삼성전자
+  - name: 정준면
+    generation: 4
+    corp: 삼지전자
+  - name: 이성하
+    generation: 3
+    corp: 삼성전자
+  - name: 천병걸
+    generation: 3
+    corp: LG전자
+  - name: 주세준
+    generation: 3
+    corp: 서원인텍
+  - name: 이훈민
+    generation: 3
+    corp: LG전자
+  - name: 송경식
+    generation: 2
+    corp: 삼성전자
+  - name: 조우경
+    generation: 2
+    corp: LG전자
+  - name: 이원문
+    generation: 2
+    corp: Qualcomm
+  - name: 안무건
+    generation: 2
+    corp: 팬택
+  - name: 유미연
+    generation: 2
+    corp: 삼성전자
+  - name: 강신규
+    generation: 1
+    corp: 삼성전자
+  - name: 박장원
+    generation: 1
+    corp: 삼성전자
+  - name: 황기환
+    generation: 1
+    corp: 삼성전자
+
+
+
+foreign_alumnis:
+  phd:
+    - name: Tran Le Nam
+      course: Ph.D.
+      info: ['Professor, Dublin Univ. Ireland']
+    - name: Vu Quang Doanh
+      course: Ph.D.
+      info: ['Senior Engineer, Nokia Finland']
+  ms:
+    - name: Tran Ha Vu
+      course: M.S.
+      info: ['Senior Engineer, Huawei Canada']
+    - name: MD Sohel Rana
+      course: M.S.
+      info: ['Director of Spectrum Management Division of Bangladesh']
+    - name: Naing Win Swe
+      course: M.S.
+      info: ['Bureau, Myanmar']
+    - name: Vien Quoc Tuan
+      course: M.S.
+      info: ['Senior Lecturer, Middlesex Univ. London']
+    - name: Thai Binh Nguyen
+      course: M.S.
+      info: []
+    - name: Wen Thao Hoang
+      course: M.S.
+      info: []
+
