@@ -1,0 +1,47 @@
+---
+layout: pages
+title: "Notice"
+permalink: /notice/
+toc: false
+author_profile: false
+---
+
+<section class="page__section projects">
+  <div class="home__section-contents meeting">
+  {% for meeting in paginator.notice reversed %}
+      <div class="meeting__container" OnClick="location.href ='{{ meeting.url }}'">
+          <div class="meeting__teaser">
+              {% if meeting.teaser %}
+                  <img src="{{ meeting.teaser }}" class="meeting__image"></img>
+              {% else if %}
+                  <img src="/_lab_meeting/teasers/default.jpg" class="meeting__image"></img>
+              {% endif %}
+          </div>
+          <div class="meeting__info">
+              <div class="meeting__title">
+                  <a href="{{ meeting.url | relative_url }}" rel="permalink">{{ meeting.title }}</a>
+              </div>
+              <div class="meeting__meta">
+                  <p>{{ meeting.date | date: "%B %d, %Y" }}</p>
+                  <p>{{ meeting.name }}</p>
+              </div>
+          </div>
+      </div>
+  {% endfor %}
+  </div>
+</section>
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>

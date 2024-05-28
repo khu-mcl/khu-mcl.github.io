@@ -2,19 +2,36 @@
 main:
   - title: "Home"
     url: /
-  - title: "News"
-    url: /news/
-  - title: "Study"
-    url: /study/
-  - title: "Projects"
-    url: /projects/
+  - title: "Research"
+    url: /research/
+    sublinks:
+      - title: "Study"
+        url: /study/
+      - title: "Projects"
+        url: /projects/
+      - title: "Lab Meeting"
+        url: /lab_meeting/
   - title: "Publications"
     url: /publications/
-  - title: "Gallery"
-    url: /gallery/
-  - title: "Lab Meeting"
-    url: /lab_meeting/
   - title: "Members"
     url: /members/
+    sublinks:
+      - title: "Professor"
+        url: /members/professor/
+      - title: "Students"
+        url: /members/students/
+      - title: "Alumni"
+        url: /members/alumni/
+      - title: "Foreign Alumni"
+        url: /members/foreign_alumni/
+  - title: "Board"
+    url: /board/
+    sublinks:
+      - title: "Notice"
+        url: /notice/
+      - title: "Gallery"
+        url: /gallery/
+      - title: "News"
+        url: /news/
   - title: "About"
     url: /about/

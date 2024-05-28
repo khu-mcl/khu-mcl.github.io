@@ -5,26 +5,36 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         {% unless logo_path == empty %}
-          <div style="margin-right:-0.5em;display: flex;flex-direction: column;align-items: center;justify-content: center;">
-              <div class="home-logo-top" style="width:80%;display:flex;align-items: center;justify-content: center;">
-                <a class="site-logo" style="display: flex;align-items: center;justify-content: center;" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"/></a>
-              </div>
-              <div class="home-logo-bottom" style="display: flex;flex-direction: column;-webkit-box-align: center;-ms-flex-align: center;align-items: center;justify-content: center;font-size: 0.7em;font-family: KIMM_Bold;font-weight: 700;">
-                <a href="{{ '/' | relative_url }}" style="margin-top:0;text-align: center;">{{ site.masthead_title | default: site.title }}</a>
-              </div>
-          </div>
+          <div class="home-logo" onclick="location.href='/'">
+              <div class="site-logo"><img src="/assets/images/khu_logo.png" alt="KHU"/></div>
+              <div class="site-logo"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"/></div>
+              <a class="site-title" href="{{ '/' | relative_url }}">
+                {{ site.masthead_title | default: site.title }}
+                <!-- {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %} -->
+                <!-- <p class="site-subtitle">University</p> -->
+              </a>
+            </div>
         {% endunless %}
-        <a class="site-title" href="{{ '/' | relative_url }}">
-          <!-- {{ site.masthead_title | default: site.title }} -->
-          <!-- {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %} -->
-          <p class="site-subtitle">Kyunghee</p>
-          <p class="site-subtitle">University</p>
-        </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
+          {% assign class = nil %}
+          {% if page.url contains link.url %}
+              {% assign class = 'active' %}
+          {% endif %}
+          {% if link.sublinks %}
+            <li class="dropdown {{ class }}">
+                <a class="dropdown-toggle {% for sublink in link.sublinks %}{% if page.url == link.url or page.url == sublink.url %} selected {% endif %}{% endfor %}" href="{{ link.url | relative_url }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link.title }} <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
+                <ul class="dropdown-content" >
+                    {% for sublink in link.sublinks %}
+                        <a class="dropdown-item" href="{{ sublink.url | relative_url }}">{{ sublink.title }}</a>
+                    {% endfor %}
+                </ul>
+            </li>
+          {% else %}
             <li class="masthead__menu-item">
               <a href="{{ link.url | relative_url }}" {% if link.url == page.url %} class="selected" {% endif %} {% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
+          {% endif %}
           {%- endfor -%}
             <!-- <li class="masthead__menu-item">
               <a href="https://41vin.notion.site/2acb0f2db3a744b1b5d25b243c332b16?v=5c23eb36438b4b9497f9690ec89d52b1">Lab Meeting</a>

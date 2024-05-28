@@ -229,9 +229,9 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:title/
 paginate: 3 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: /notice/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -292,6 +292,9 @@ collections:
   news:
     output: true
     permalink: /news/:name/
+  notice:
+    output: true
+    permalink: /notice/:name/
 
 
 # HTML Compression
@@ -322,6 +325,12 @@ defaults:
   - scope:
       path: ""
       type: lab_meeting
+    values:
+      layout: posts
+      comments: true
+  - scope:
+      path: ""
+      type: notice
     values:
       layout: posts
       comments: true
