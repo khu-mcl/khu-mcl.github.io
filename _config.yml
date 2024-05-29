@@ -229,23 +229,23 @@ sass:
 
 
 # Outputting
-pagination:
-  enabled: true
-  collection: notices # 페이지네이션을 적용할 컬렉션 이름
-  per_page: 10 # 페이지당 항목 수
-  title: ':title' # 페이지 제목 형식
-  permalink: '/:num/' # 페이지네이션 URL 형식
-  sort_field: 'date' # 정렬할 필드
-  sort_reverse: true # 역순 정렬
-# permalink: /:categories/:title/
-# paginate: 3 # amount of posts to show
-# paginate_path: /page:num/
-# timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# pagination:
+#   enabled: true
+#   collection: notices # 페이지네이션을 적용할 컬렉션 이름
+#   per_page: 10 # 페이지당 항목 수
+#   title: ':title' # 페이지 제목 형식
+#   permalink: '/:num/' # 페이지네이션 URL 형식
+#   sort_field: 'date' # 정렬할 필드
+#   sort_reverse: true # 역순 정렬
+permalink: /:categories/:title/
+paginate: 3 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -253,7 +253,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
