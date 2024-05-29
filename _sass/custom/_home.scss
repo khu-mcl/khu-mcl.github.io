@@ -80,6 +80,17 @@
         user-drag: none;
         cursor: pointer;
     }
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-drag: none;
+        cursor: pointer;
+    }
 }
 
 

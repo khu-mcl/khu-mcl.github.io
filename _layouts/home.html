@@ -6,27 +6,7 @@ search: false
 <div class="hero">
   <div class="hero-inner">
     <div class="slides">
-      <!-- *** Slide ***-->
-      <div class="hero-slide">
-        <div class="hero-image">
-          <img src="/assets/images/home/home.jpg"/>
-        </div>
-        <div class="hero-title">
-          <p>Mobile Communications Lab</p>
-          <p>KyungHee University</p>
-        </div>
-      </div>
-      <!-- *** Slide ***-->
-      <div class="hero-slide">
-        <div class="hero-image">
-          <img src="/assets/images/home/home.jpg"/>
-        </div>
-        <div class="hero-title">
-          <p>Mobile Communications Lab</p>
-          <p>KyungHee University</p>
-        </div>
-      </div>
-      <!-- *** Slide ***-->
+      {% include pages-contents/banner.html %}
     </div>
   </div>
 </div>
@@ -145,6 +125,11 @@ $(document).ready(function() {
         $slidesContainer.css('transform', `translateX(${-index * 100}%)`);
     }
 
+    function resetSlideTimer() {
+        clearTimeout(slideTimer);
+        slideTimer = setTimeout(nextSlide, 10000); // 10초 후에 슬라이드 변경
+    }
+
     function nextSlide() {
         if (currentIndex >= totalSlides) {
             showSlide(totalSlides + 1, true);
@@ -156,6 +141,7 @@ $(document).ready(function() {
             currentIndex++;
             showSlide(currentIndex, true);
         }
+        resetSlideTimer();
     }
 
     function previousSlide() {
@@ -169,6 +155,7 @@ $(document).ready(function() {
             currentIndex--;
             showSlide(currentIndex, true);
         }
+        resetSlideTimer();
     }
 
     function handleStart(e) {
@@ -190,8 +177,31 @@ $(document).ready(function() {
         $(slide).on('mouseup touchend', handleEnd);
     });
 
-    setInterval(nextSlide, 10000); // 10초마다 슬라이드 변경
+    slideTimer = setTimeout(nextSlide, 10000);
     showSlide(currentIndex, true);
 });
 
 </script>
+
+
+<!-- <script>
+const videos = document.querySelectorAll('.loop-video');
+const loopStart = 0; // 시작 지점 (초)
+const loopEnd = 5;   // 종료 지점 (초)
+
+videos.forEach(video => {
+    // 비디오가 재생될 때 이벤트 리스너 추가
+    video.addEventListener('timeupdate', function() {
+        // 비디오가 loopEnd를 지나면 loopStart로 돌아갑니다.
+        if (video.currentTime >= loopEnd) {
+            video.currentTime = loopStart;
+            video.play();
+        }
+    });
+
+    // 비디오가 로드되면 시작 지점으로 이동
+    video.addEventListener('loadedmetadata', function() {
+        video.currentTime = loopStart;
+    });
+});
+</script> -->
