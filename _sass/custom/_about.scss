@@ -4,15 +4,11 @@
     display: -ms-flexbox;
     display: flex;
     flex-direction: row;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: center;
-    margin: 1em 0 4em 0;
+    align-items: start;
+    justify-content: start;
+    margin: 0.5em 0 0 0;
     >a {
-        margin: 0 1em;
+        margin-right: 0.5em;
     }
 }
 .about__container-column {
@@ -90,8 +86,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    @include breakpoint($small) {
-        width: $small;
+    @include breakpoint($x-large) {
+        width: $x-large;
         flex-direction: row;
         justify-content: space-between;
         height: 6em;
@@ -132,7 +128,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    @include breakpoint($small) {
+    @include breakpoint($x-large) {
         flex-direction: row;
     }
 }
@@ -143,7 +139,7 @@
     align-items: center;
     font-weight: 700;
     margin-top: 1em;
-    @include breakpoint($small) {
+    @include breakpoint($x-large) {
         margin-top: 0;
     }
 }
@@ -153,7 +149,7 @@
     border: 1px solid #c2c2c2;
     background-color: #fff;
     cursor: pointer;
-    width: 8em;
+    width: 10em;
     padding: 1em 0.5em;
     text-align: center;
     margin-left: 1em;

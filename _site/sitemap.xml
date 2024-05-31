@@ -65,7 +65,7 @@
 <loc>http://localhost:4000/members/foreign_alumni/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/gallery/</loc>
+<loc>http://localhost:4000/board/gallery/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/study/programming/github/</loc>
@@ -74,7 +74,7 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/lab_meeting/</loc>
+<loc>http://localhost:4000/research/lab_meeting/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/study/paper_review/magma_001/</loc>
@@ -83,10 +83,10 @@
 <loc>http://localhost:4000/members/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/news/</loc>
+<loc>http://localhost:4000/board/news/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/notice/</loc>
+<loc>http://localhost:4000/board/notice/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/study/paper_review/</loc>
@@ -98,7 +98,7 @@
 <loc>http://localhost:4000/study/programming/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/projects/</loc>
+<loc>http://localhost:4000/research/projects/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/publications/</loc>
@@ -113,7 +113,7 @@
 <loc>http://localhost:4000/members/students/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/study/</loc>
+<loc>http://localhost:4000/research/study/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tags/</loc>
@@ -136,5 +136,9 @@
 <url>
 <loc>http://localhost:4000/googleba44688350619a2a.html</loc>
 <lastmod>2024-05-27T14:51:13+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/naverbe17f124b38ef37eacc8c0cfc9500a9a.html</loc>
+<lastmod>2024-05-29T11:43:35+09:00</lastmod>
 </url>
 </urlset>

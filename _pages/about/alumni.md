@@ -10,7 +10,7 @@ prev: members
   {%- for alumni in site.data.members.alumnis -%}
   <div class="students-container">
     <div class="students-image">
-      <img src="/assets/images/members/alumni/{{ alumni.name }}.png" alt=""/>
+      <img src="/assets/members/alumni/{{ alumni.name }}.png" alt="" onerror="this.onerror=null; this.src='/assets/members/avatar1.png'"/>
     </div>
     <div class="students-card">
       <div class="students-name">

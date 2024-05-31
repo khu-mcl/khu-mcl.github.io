@@ -13,7 +13,7 @@ prev: members
   {%- for phd in site.data.members.foreign_alumnis.phd -%}
   <div class="students-container">
     <div class="students-image">
-      <img src="/assets/images/members/alumni/{{ phd.name }}.png" alt=""/>
+      <img src="/assets/images/members/alumni/{{ phd.name }}.png" alt="" onerror="this.onerror=null; this.src='/assets/members/avatar1.png'"/>
     </div>
     <div class="students-card">
       <div class="students-name">
@@ -38,7 +38,7 @@ prev: members
   {%- for ms in site.data.members.foreign_alumnis.ms -%}
   <div class="students-container">
     <div class="students-image">
-      <img src="/assets/images/members/alumni/{{ ms.name }}.png" alt=""/>
+      <img src="/assets/members/alumni/{{ ms.name }}.png" alt="" onerror="this.onerror=null; this.src='/assets/members/avatar1.png'"/>
     </div>
     <div class="students-card">
       <div class="students-name">

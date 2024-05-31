@@ -6,11 +6,11 @@ main:
     url: /research/
     sublinks:
       - title: "Study"
-        url: /study/
+        url: /research/study/
       - title: "Projects"
-        url: /projects/
+        url: /research/projects/
       - title: "Lab Meeting"
-        url: /lab_meeting/
+        url: /research/lab_meeting/
   - title: "Publications"
     url: /publications/
   - title: "Members"
@@ -28,10 +28,10 @@ main:
     url: /board/
     sublinks:
       - title: "Notice"
-        url: /notice/
+        url: /board/notice/
       - title: "Gallery"
-        url: /gallery/
+        url: /board/gallery/
       - title: "News"
-        url: /news/
+        url: /board/news/
   - title: "About"
     url: /about/

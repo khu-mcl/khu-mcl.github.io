@@ -60,16 +60,16 @@ var store = [{
     "excerpt":"         404   Page Not Found                               ","url": "http://localhost:4000/404.html"
   },{
     "title": "About",
-    "excerpt":"                      Contact                 Professor,        College of Electronic & Information, Kyung Hee University, 1732, Deogyoung Road, Giheung, Yongin, Gyeonggi, 17104, South Korea.        E-mail: ekhong@khu.ac.kr        주소: (17104) 경기도 용인시 기흥구 덕영대로 1732 경희대학교 전자정보대학 549호        전화: 031-201-2982                                       Members                                    Professor                               Students                                             Alumni                               Foreign Alumni                      ","url": "http://localhost:4000/about/"
+    "excerpt":"Contact If you are interested in our work or would like to collaborate, please contact us. Tel: 031-201-2982 Address: (17104) 경기도 용인시 기흥구 덕영대로 1732 경희대학교 전자정보대학 549호 College of Electronic &amp; Information, Kyung Hee University, 1732, Deogyoung Road, Giheung, Yongin, Gyeonggi, 17104, South Korea. Members Professor Students Alumni Foreign...","url": "http://localhost:4000/about/"
   },{
     "title": "AI",
     "excerpt":"                                    AI 개요                                        딥러닝                        ","url": "http://localhost:4000/study/ai/"
   },{
     "title": "Alumni",
-    "excerpt":"방석영 21 기 현대모비스 나세현 20 기 KT 김영준 20 기 KT 안희준 19 기 현대모비스 이재우 18 기 큐셀네트웍스 김영민 18 기 티맥스소프트 한종원 17 기 SKT 박재완 17 기 삼성전자 박태윤 17 기 SK C&amp;C 김응호 17 기 삼성전자 하재우 15 기 현대모비스 백정연 15 기 Univ. of...","url": "http://localhost:4000/members/alumni/"
+    "excerpt":"방석영 21 기 현대모비스 나세현 20 기 KT 김영준 20 기 KT 안희준 19 기 현대모비스 이재우 18 기 큐셀네트웍스 김영민 18 기 티맥스소프트 한종원 17 기 SKT 박재완 17 기 삼성전자 박태윤 17 기 SK C&amp;C 김응효 17 기 삼성전자 하재우 15 기 현대모비스 백정연 15 기 Univ. of...","url": "http://localhost:4000/members/alumni/"
   },{
     "title": "Board",
-    "excerpt":"","url": "http://localhost:4000/board/"
+    "excerpt":"                                  Notice                               Gallery                                             News                    ","url": "http://localhost:4000/board/"
   },{
     "title": "Category",
     "excerpt":" ","url": "http://localhost:4000/categories/"
@@ -81,7 +81,7 @@ var store = [{
     "excerpt":"Ph.D. Tran Le Nam Professor, Dublin Univ. Ireland Vu Quang Doanh Senior Engineer, Nokia Finland M.S. Tran Ha Vu Senior Engineer, Huawei Canada MD Sohel Rana Director of Spectrum Management Division of Bangladesh Naing Win Swe Bureau, Myanmar Vien Quoc Tuan Senior Lecturer, Middlesex Univ. London Thai Binh Nguyen Wen...","url": "http://localhost:4000/members/foreign_alumni/"
   },{
     "title": "Gallery",
-    "excerpt":"","url": "http://localhost:4000/gallery/"
+    "excerpt":"2024년 스승의날 행사 2024년 연구실 스승의 날 행사 2024.05.11 / 강남역 2024 상반기 현대모비스 Lab 리크루팅 24년도 상반기 현대모비스 Lab 리크루팅 2024.03.14 / 전자정보대학관 2024 연구실 신년회 연구실 신년회 행사 2024.01.02 / 양재역 Tech U+ 컨퍼런스 LG 유플러스 테크 컨퍼런스 초청 2023.09.11 / LG 사이언스파크 Asia & Pacific OTIC in...","url": "http://localhost:4000/board/gallery/"
   },{
     "title": "Github",
     "excerpt":"                                    Git                                        Github 개요                        ","url": "http://localhost:4000/study/programming/github/"
@@ -90,7 +90,7 @@ var store = [{
     "excerpt":"","url": "http://localhost:4000/"
   },{
     "title": "Lab Meeting",
-    "excerpt":"                                                                                                                                                       Open RAN for detection of a jamming attack in a 5G network                                                       May 17, 2024                      최호성                                                                                                                                                                                          [IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning                                                       May 10, 2024                      김건                                                     ","url": "http://localhost:4000/lab_meeting/"
+    "excerpt":"                                                                                                                                                       Open RAN for detection of a jamming attack in a 5G network                                                       May 17, 2024                      최호성                                                                                                                                                                                          [IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning                                                       May 10, 2024                      김건                                                     ","url": "http://localhost:4000/research/lab_meeting/"
   },{
     "title": null,
     "excerpt":"var idx = lunr(function () { this.field('title') this.field('excerpt') this.field('categories') this.field('tags') this.ref('id') this.pipeline.remove(lunr.trimmer) for (var item in store) { this.add({ title: store[item].title, excerpt: store[item].excerpt, categories: store[item].categories, tags: store[item].tags, id: item }) } }); $(document).ready(function() { $('input#search').on('keyup', function () { var resultdiv = $('#results'); var query = $(this).val().toLowerCase(); var result = idx.query(function...","url": "http://localhost:4000/assets/js/lunr/lunr-en.js"
@@ -108,37 +108,37 @@ var store = [{
     "excerpt":"                                Professor                         Students                                   Alumni                         Foreign Alumni                 ","url": "http://localhost:4000/members/"
   },{
     "title": "News",
-    "excerpt":"","url": "http://localhost:4000/news/"
+    "excerpt":"","url": "http://localhost:4000/board/news/"
   },{
     "title": "Notice",
-    "excerpt":"번호 제목 글쓴이 날짜 {% for notice in site.notices reversed %} {% if notice.highlight %} 공지 {{ notice.title }} {{ notice.author }} {{ notice.date | date: \"%Y-%m-%d\" }} {% endif %} {% endfor %} {% assign total_notices = site.notices.size %} {% for notice in site.notices reversed %} {{ start_index |...","url": "http://localhost:4000/notice/"
+    "excerpt":"번호 제목 글쓴이 날짜 {% for notice in site.notices reversed %} {% if notice.highlight %} 공지 {{ notice.title }} {{ notice.author }} {{ notice.date | date: \"%Y-%m-%d\" }} {% endif %} {% endfor %} {% assign total_notices = site.notices.size %} {% for notice in site.notices reversed %} {{ start_index |...","url": "http://localhost:4000/board/notice/"
   },{
     "title": "Paper Review",
     "excerpt":"                                    magma         Building Flexible, Low-Cost Wireless Access Networks With Magma         How to configure low-cost cellular network using Magma.       ","url": "http://localhost:4000/study/paper_review/"
   },{
     "title": "Professor",
-    "excerpt":"홍인기 약력 BRIEF BIOGRAPHY 경희대학교 전자정보대학 전자공학과 교수 (1999.03 ~ 현재) 연세대학교 전기공학과 학사(1989),석사(1991),박사(1995) SK Telecom 중앙연구원 선임연구원 (1995-1999) NTT DoCoMo (Japan) 교환연구원 (1997-1998) 한국통신학회 부회장, 상임이사, 이사, 감사 (1999.03 ~ 2022) 이동통신 연구회 위원, 위원장 (2000~현재) 정보통신부 주파수 연구반, 이동통신 분과 위원장 (2003 ~ 2005) Oregon State Univ. 방문교수...","url": "http://localhost:4000/members/professor/"
+    "excerpt":"{%- for professor in site.data.members.professor -%} {% if professor.contact %} {% for contact in professor.contact %} {% if contact.link %} {% endif %} {% if contact.linkedin %} {% endif %} {% if contact.github %} {% endif %} {% if contact.instagram %} {% endif %} {% if contact.twitter %} {% endif...","url": "http://localhost:4000/members/professor/"
   },{
     "title": "Programming",
     "excerpt":"                                    Github                          ","url": "http://localhost:4000/study/programming/"
   },{
     "title": "Projects",
-    "excerpt":"     {% include pages-contents/projects.html %} ","url": "http://localhost:4000/projects/"
+    "excerpt":"     {% include pages-contents/projects.html %} ","url": "http://localhost:4000/research/projects/"
   },{
     "title": "Publications",
     "excerpt":"# SCI Journal 38. Hyeon-Min Yoo, Jung-Mo Moon, Jeehyeon Na, Een-Kee Hong, \"User Association and Load Balancing Based on Monte Carlo Tree Search,\" in IEEE Access, vol. 11, pp. 126087-126097, 2023. 11 37. Jae-Wan Park, Eung-Hyo Kim, Een-Kee Hong, Cluster splitting and combining in ultra-dense networks, IET Communications (14, 9),...","url": "http://localhost:4000/publications/"
   },{
     "title": "Research",
-    "excerpt":"","url": "http://localhost:4000/research/"
+    "excerpt":"### Network Resource Management (Optimization) In modern telecommunications networks, resources are incredibly valuable. To meet the demands of burgeoning network traffic and the diverse requirements of various services, it is essential to manage and optimize these resources effectively. Our lab is developing advanced mathematical optimization techniques and algorithms to solve...","url": "http://localhost:4000/research/"
   },{
     "title": "Search",
     "excerpt":"","url": "http://localhost:4000/search/"
   },{
     "title": "Students",
-    "excerpt":"   {%- for student in site.data.members.students -%}                                         {{ student.name }}                       {{ student.course }}          {% for info in student.info %}         {{ info }}          {% endfor %}                  {%- endfor -%}  ","url": "http://localhost:4000/members/students/"
+    "excerpt":"{%- for student in site.data.members.students -%} {{ student.name }} {{ student.course }} {% for info in student.info %} {{ info }} {% endfor %} {% if student.contact %} {% for contact in student.contact %} {% if contact.link %} {% endif %} {% if contact.linkedin %} {% endif %} {% if...","url": "http://localhost:4000/members/students/"
   },{
     "title": "Study",
-    "excerpt":"     {% include pages-contents/study.html %} ","url": "http://localhost:4000/study/"
+    "excerpt":"     {% include pages-contents/study.html %} ","url": "http://localhost:4000/research/study/"
   },{
     "title": "Tag",
     "excerpt":"","url": "http://localhost:4000/tags/"
