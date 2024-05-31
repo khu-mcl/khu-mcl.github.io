@@ -28,7 +28,9 @@
   $(document).ready(function() {
     $('.modal').each(function(){
       var imgAlt = $(this).attr('alt');
-      $(this).after("<div class='caption'>"+imgAlt+"</div>")
+      if (imgAlt) {
+          $(this).after("<div class='caption'>" + imgAlt + "</div>");
+      }
     });
   });
   $('.modal').on('click', function() {

@@ -1,9 +1,26 @@
 ---
 layout: pages
 title: "Gallery"
-permalink: /gallery/
-toc: false
-author_profile: false
+permalink: /board/gallery/
 prev: board
 ---
 
+<div class="home__section-contents">
+  {%- assign sorted_galleries = site.data.gallery.main | sort: 'date' | reverse -%}
+  {%- for gallery in sorted_galleries -%}
+  <div class="gallery-container">
+    <div class="gallery-image">
+      <img class="modal" src="/assets/gallery/{{ gallery.img }}" alt=""/>
+    </div>
+    <div class="gallery-card modal" src="/assets/gallery/{{ gallery.img }}">
+      <div class="gallery-title">
+        {{ gallery.title }}
+      </div>
+      <div class="gallery-brief">
+        <p>{{ gallery.description }}</p>
+        <p style="font-size: 0.8em;">{{ gallery.date | date: "%Y.%m.%d" }} / {{ gallery.location }}</p>
+      </div>
+    </div>
+  </div>
+  {%- endfor -%}
+</div>

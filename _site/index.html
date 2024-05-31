@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- begin _includes/seo.html --><title>MCL</title>
+<!-- begin _includes/seo.html --><title>경희대학교 이동통신 연구실</title>
 <meta name="description" content="Welcome to MCL.">
 
 
@@ -20,8 +20,8 @@
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:site_name" content="MCL">
-<meta property="og:title" content="MCL">
+<meta property="og:site_name" content="경희대학교 이동통신 연구실">
+<meta property="og:title" content="경희대학교 이동통신 연구실">
 <meta property="og:url" content="http://localhost:4000/">
 
 
@@ -68,7 +68,7 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="MCL Feed">
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="경희대학교 이동통신 연구실 Feed">
 
 
 <!-- https://t.co/dKP3o1e -->
@@ -178,11 +178,11 @@
                 <a class="dropdown-toggle " href="/research/" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
                 <ul class="dropdown-content" >
                     
-                        <a class="dropdown-item" href="/study/">Study</a>
+                        <a class="dropdown-item" href="/research/study/">Study</a>
                     
-                        <a class="dropdown-item" href="/projects/">Projects</a>
+                        <a class="dropdown-item" href="/research/projects/">Projects</a>
                     
-                        <a class="dropdown-item" href="/lab_meeting/">Lab Meeting</a>
+                        <a class="dropdown-item" href="/research/lab_meeting/">Lab Meeting</a>
                     
                 </ul>
             </li>
@@ -216,11 +216,11 @@
                 <a class="dropdown-toggle " href="/board/" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Board <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
                 <ul class="dropdown-content" >
                     
-                        <a class="dropdown-item" href="/notice/">Notice</a>
+                        <a class="dropdown-item" href="/board/notice/">Notice</a>
                     
-                        <a class="dropdown-item" href="/gallery/">Gallery</a>
+                        <a class="dropdown-item" href="/board/gallery/">Gallery</a>
                     
-                        <a class="dropdown-item" href="/news/">News</a>
+                        <a class="dropdown-item" href="/board/news/">News</a>
                     
                 </ul>
             </li>
@@ -712,7 +712,9 @@ videos.forEach(video => {
   $(document).ready(function() {
     $('.modal').each(function(){
       var imgAlt = $(this).attr('alt');
-      $(this).after("<div class='caption'>"+imgAlt+"</div>")
+      if (imgAlt) {
+          $(this).after("<div class='caption'>" + imgAlt + "</div>");
+      }
     });
   });
   $('.modal').on('click', function() {

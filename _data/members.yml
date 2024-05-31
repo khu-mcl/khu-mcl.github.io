@@ -15,6 +15,14 @@ students:
     info: [SKT AI Fellowship 5기]
   - name: 이성진
     course: M.S.Student
+    contact:
+      - link: https://sodyn99.github.io
+        linkedin: sdin99
+        github: sodyn99
+        instagram: # sdin.99
+        twitter:
+        facebook:
+        email: ssjj3552@khu.ac.kr
     info: [SKT AI Fellowship 6기]
   - name: 권혁선
     course: M.S.Student
@@ -206,3 +214,8 @@ foreign_alumnis:
       course: M.S.
       info: []
 
+
+professor:
+  - name: 홍인기
+    contact:
+      - email: ekhong@khu.ac.kr

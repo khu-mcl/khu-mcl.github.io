@@ -7,8 +7,56 @@ prev: members
 
 <div class="post__stage-container">
   <div class="post__stage professor-image">
-    <img src="/assets/images/members/professor/professor.png" alt="" style="border-radius:10px;"/>
+    <img src="/assets/members/professor/professor.png" alt="" style="border-radius:10px;"/>
+    {%- for professor in site.data.members.professor -%}
+    {% if professor.contact %}
+    {% for contact in professor.contact %}
+      <div class="about__container-row">
+      {% if contact.link %}
+        <a href="{{ contact.link }}" class="contact" target="_blank" rel="me">
+          <i class="fas fa-fw fa-link" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      {% if contact.linkedin %}
+        <a href="https://www.linkedin.com/in/{{ contact.linkedin }}" class="contact" target="_blank" rel="me">
+          <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      {% if contact.github %}
+        <a href="https://github.com/{{ contact.github }}" class="contact" target="_blank" rel="me">
+          <i class="fab fa-fw fa-github" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      {% if contact.instagram %}
+        <a href="https://instagram.com/{{ contact.instagram }}" class="contact" target="_blank" rel="me">
+          <i class="fab fa-fw fa-instagram" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      {% if contact.twitter %}
+        <a href="{{ contact.twitter }}" class="contact" target="_blank" rel="me">
+          <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      {% if contact.facebook %}
+        <a href="{{ contact.facebook }}" class="contact" target="_blank" rel="me">
+          <i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      {% if contact.email %}
+      <p> <b>Email:</b>
+        <a href="mailto:{{ contact.email }}" class="contact" rel="me">
+          <span>{{ contact.email }}</span>
+          <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      </p>
+      </div>
+    {% endfor %}
+    {% endif %}
+    {%- endfor -%}
   </div>
+
+
   <div class="post__stage professor-brief" markdown="1">
 
   <h1>홍인기</h1>

@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "MCL"
+title                    : "경희대학교 이동통신 연구실"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "경희대학교 이동통신 연구실"
@@ -26,7 +26,7 @@ baseurl                  : "/"
 repository               : "khu-mcl/khu-mcl.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png"
-masthead_title           :
+masthead_title           : "MCL"
 breadcrumbs              : true
 words_per_minute         : 200
 comments:
