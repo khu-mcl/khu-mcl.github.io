@@ -7,10 +7,11 @@ students:
     info: [SKT AI Fellowship 5기]
   - name: 이상연
     course: M.S.Student
-  - name: [김건](https://geonkim.netlify.app)
+  - name: 김건
     course: M.S.Student
     contact:
-      - link: https://41vin.github.io
+      - address-card: https://geonkim.netlify.app/
+        link: https://41vin.github.io
         linkedin: 41vin
         github: 41vin
         instagram: # sdin.99
