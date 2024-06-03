@@ -7,8 +7,16 @@ students:
     info: [SKT AI Fellowship 5기]
   - name: 이상연
     course: M.S.Student
-  - name: 김건
+  - name: [김건](https://geonkim.netlify.app)
     course: M.S.Student
+    contact:
+      - link: https://41vin.github.io
+        linkedin: 41vin
+        github: 41vin
+        instagram: # sdin.99
+        twitter:
+        facebook:
+        email: gun@khu.ac.kr
     info: ['SD-RAN Engineering Team, Aether', SKT AI Fellowship 6기]
   - name: 김유빈
     course: M.S.Student
