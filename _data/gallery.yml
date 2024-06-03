@@ -22,16 +22,16 @@ main:
     date: 2024-01-02
     location: 양재역
     description: 연구실 신년회 행사
+  - title: AI Fellowship 5기
+    img: 6.JPG
+    date: 2023-10-22
+    location: SKT T타워
+    description: AI/ML 기반 단말 Power Saving 기술 개발[Seio]
   - title: Tech U+ 컨퍼런스
     img: 2.png
     date: 2023-09-11
     location: LG 사이언스파크
     description: LG 유플러스 테크 컨퍼런스 초청
-  - title: AI Fellowship 5기
-    img: 6.png
-    date: 2023-08-22
-    location: SKT T타워
-    description: AI/ML 기반 단말 Power Saving 기술 개발[Seio]
   - title: Asia & Pacific OTIC in Sigapore
     img: 1.png
     date: 2023-08-23
