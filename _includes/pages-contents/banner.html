@@ -7,21 +7,16 @@
   </div>
 </div> -->
 <!-- *** Slide ***-->
+{% for banner in site.data.banner.main %}
 <div class="hero-slide">
   <div class="hero-image">
-    <img src="/assets/banner/2.png"/>
+    <img src="{{ banner.img }}"/>
   </div>
   <div class="hero-title">
+    <p>{{ banner.title }}</p>
+    {% for description in banner.description %}
+    <p>{{ description }}</p>
+    {% endfor %}
   </div>
 </div>
-<!-- *** Slide ***-->
-<div class="hero-slide">
-  <div class="hero-image">
-    <img src="/assets/banner/home.jpg"/>
-  </div>
-  <div class="hero-title">
-    <p>Mobile Communications Lab</p>
-    <p>KyungHee University</p>
-  </div>
-</div>
-<!-- *** Slide ***-->
+{% endfor %}
