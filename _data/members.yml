@@ -10,8 +10,7 @@ students:
   - name: 김건
     course: M.S.Student
     contact:
-      - address-card: https://geonkim.netlify.app/
-        link: https://41vin.github.io
+      - link: https://geonkim.netlify.app/
         linkedin: 41vin
         github: 41vin
         instagram: # sdin.99
