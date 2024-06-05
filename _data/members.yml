@@ -34,6 +34,11 @@ students:
     info: [SKT AI Fellowship 6기]
   - name: 권혁선
     course: M.S.Student
+    contact:   # 연락처
+      - link: https://hyuksun98.github.io
+        github: hyuksun98
+        instagram:
+        email: gurtjs0116@khu.ac.kr
   - name: 최호성
     course: M.S.Student
 
