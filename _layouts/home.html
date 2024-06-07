@@ -21,15 +21,7 @@ search: false
     <!-- <p> My personal posts </p> -->
   </div>
   <div class="home__section-blog-contents">
-    {% assign posts = site.news %}
-      <!-- Recent Post용 Draggable Carousel 추가 예정 -->
-      <div class="carousel-container">
-        <div class="carousel">
-          {% for post in posts reversed limit:3%}
-            {% include archive-single.html type=entries_layout %}
-          {% endfor %}
-        </div>
-      </div>
+    {% include pages-contents/news.html %}
   </div>
 </div>
 

@@ -1,0 +1,24 @@
+main:
+  - title: "LG유플러스, ETRI·경희대 등 산학연 단체와 오픈랜 기술 개발 성과 공개"
+    category: news
+    teaser: /assets/news/teasers/3.png
+    prev: news
+    date: 2024-06-07
+    link: https://biz.chosun.com/it-science/ict/2024/06/07/JREWDSIG2BFXFG6BKO5QDZCV7I/?utm_source=naver&utm_medium=original&utm_campaign=biz
+    excerpt: "LG유플러스는 글로벌 오픈랜 표준화 단체 ‘O-RAN 얼라이언스’가 주최한 ‘플러그페스트(PlusFest)’에 한국전자통신연구원(ETRI), 경희대학교 등 국내 산학연 단체와 함께 참가해 기술 개발 성과를 공유했다고 7일 밝혔다. 플러그페스트는 개방형 무선접속망을 뜻하는 ‘오픈랜(Open RAN)’의 생태계 활성화를 위해 전 세계 이동통신 사업자와 통신장비 제조사, 연구기관이 참여하는 국제 기술 실증 행사다. LG유플러스는 2021년부터 국내 이동통신사 중 유일하게 4년 연속으로 참가하고 있다."
+  - title: '"오픈랜, 지능·속도 다 잡은 6G 시대 필수기술"'
+    category: news
+    teaser: /assets/news/teasers/2.png
+    date: 2023-06-04
+    link: https://zdnet.co.kr/view/?no=20230602153814
+    excerpt: '"6G의 가장 큰 특징은 인공지능(AI)이다. 네트워크에 AI 기술을 적용해 5G 보다 성능을 올릴 것으로 기대된다. 이 때문에 6G에서는 개방화, 지능화가 특징인 오픈랜 기술 필요성이 높아진다." 한국통신학회장을 맡고 있는 홍인기 경희대 전자공학과 교수는 오픈랜 활성화의 중요성에 대해 이와 같이 말했다. 홍 교수는 5G 확산과 차세대 이동통신 기술 발전을 위해 오픈랜 기술을 연구하고 있다.'
+  - title: "LG CNS, 경희대에 '이음5G' 구축…5G특화망 사업 본격화"
+    category: news
+    teaser: /assets/news/teasers/1.png
+    prev: news
+    date: 2023-02-16
+    link: https://n.news.naver.com/article/277/0005218766
+    excerpt: LG CNS가 공장, 건물 등 특정 범위에 한해 5G 통신망을 구현할 수 있는 '이음5G' 사업을 본격화한다, LG CNS는 경희대와 ‘이음5G 구축 및 연구·개발’을 위한 업무협약을 체결했다고 16일 밝혔다. 양측은 이음5G를 기반으로 제조·물류 등 산업현장에 적용할 수 있는 솔루션과 서비스 연구·개발을 확대해 나갈 계획이다. LG CNS와 경희대는 이번 협약으로 이음5G 기반의 ‘스마트팩토리 예지보전 솔루션’을 공동 개발한다. 예지보전은 설비 상태를 파악해 이상 징후를 예측하면서 유지·보수하는 과정을 의미한다. LG CNS와 경희대는 스마트팩토리의 로봇, 컨베이어벨트 등에 탑재된 모터에서 ▲전류 ▲온도 ▲진동 등 데이터를 수집하고 인공지능(AI)으로 분석하는 실증실험을 진행할 예정이다.
+
+
+

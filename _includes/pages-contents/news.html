@@ -1,0 +1,27 @@
+{% assign news = site.data.news.main | sort: 'date' | reverse %}
+{% for news in news %}
+<div class="blog__container" OnClick="location.href ='{{ news.link | relative_url }}'">
+  <div class="blog__teaser">
+      <img src="{{ news.teaser }}" class="blog__image"></img>
+      {% assign document = news | default: page %}
+      {% if document.read_time or document.show_date %}
+      <p class="blog__meta">
+        {% if document.show_date and document.date %}
+          {% assign date = document.date %}
+          <span class="blog__meta-date">
+            {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+            <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
+          </span>
+        {% endif %}
+      </p>
+      {% endif %}
+  </div>
+  <div class="blog__info">
+      <div class="blog__category">{{ news.date | date: "%Y.%m.%d"}}</div>
+      <div class="blog__title">
+          <a href="{{ news.link }}">{{ news.title }}</a>
+      </div>
+      <div class="blog__description"><p class="archive__item-excerpt" itemprop="description">{{ news.excerpt | markdownify | strip_html | truncate: 150 }}</p></div>
+  </div>
+</div>
+{% endfor %}
