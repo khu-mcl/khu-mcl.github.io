@@ -117,7 +117,7 @@ var store = [{
     "excerpt":"                                Professor                         Students                                   Alumni                         Foreign Alumni                 ","url": "http://localhost:4000/members/"
   },{
     "title": "News",
-    "excerpt":"","url": "http://localhost:4000/board/news/"
+    "excerpt":"{% include pages-contents/news.html %}  ","url": "http://localhost:4000/board/news/"
   },{
     "title": "Notice",
     "excerpt":"번호 제목 글쓴이 날짜 {% for notice in site.notices reversed %} {% if notice.highlight %} 공지 {{ notice.title }} {{ notice.author }} {{ notice.date | date: \"%Y-%m-%d\" }} {% endif %} {% endfor %} {% assign total_notices = site.notices.size %} {% for notice in site.notices reversed %} {{ start_index |...","url": "http://localhost:4000/board/notice/"
