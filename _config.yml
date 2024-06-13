@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/sodyn99"
+      # url: 
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -149,13 +149,13 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/sdin.99"
+      # url:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/s-din"
+      # url: 
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:sodyn99@gmail.com"
+      # url: 
 
 
 # Reading Files
