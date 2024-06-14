@@ -98,7 +98,7 @@ social:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : GTM-TPMLJJBZ
+    tracking_id          : G-B6NVKET65G
     anonymize_ip         : false # true, false (default)
 
 
@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: 
+      # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -152,10 +152,10 @@ footer:
       # url:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      # url: 
+      # url:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: 
+      # url:
 
 
 # Reading Files
