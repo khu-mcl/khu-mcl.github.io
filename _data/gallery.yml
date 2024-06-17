@@ -7,6 +7,11 @@
 #   description:     #
 #--------------------#
 main:
+  - title: 2023년 스승의날 행사
+    img: 7.png
+    date: 2023-05-13
+    location: 경희대학교
+    description: 2023년 연구실 스승의 날 행사
   - title: 2024년 스승의날 행사
     img: 5.png
     date: 2024-05-11
