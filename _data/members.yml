@@ -2,13 +2,9 @@ students:
   - name: 유현민
     course: Ph.D.Student
     info: ['SD-RAN Engineering Team, Aether', 한국전자통신연구원 위촉연구원, SKT AI Fellowship 5기]
-  - name: 이종석
-    course: M.S.Student
-    info: [SKT AI Fellowship 5기]
-  - name: 이상연
-    course: M.S.Student
   - name: 김건
     course: M.S.Student
+    info: ['SD-RAN Engineering Team, Aether', SKT AI Fellowship 6기]
     contact:
       - link: https://geonkim.netlify.app/
         linkedin: 41vin
@@ -17,12 +13,15 @@ students:
         twitter:
         facebook:
         email: gun@khu.ac.kr
-    info: ['SD-RAN Engineering Team, Aether', SKT AI Fellowship 6기]
   - name: 김유빈
     course: M.S.Student
     info: [SKT AI Fellowship 5기]
+    contact:
+      - linkedin: yviiiii
+        email: dbqls15@khu.ac.kr
   - name: 이성진
     course: M.S.Student
+    info: [SKT AI Fellowship 6기]
     contact:
       - link: https://sodyn99.github.io
         linkedin: sdin99
@@ -31,13 +30,25 @@ students:
         twitter:
         facebook:
         email: ssjj3552@khu.ac.kr
-    info: [SKT AI Fellowship 6기]
   - name: 권혁선
     course: M.S.Student
   - name: 최호성
     course: M.S.Student
+    contact:
+      - link: https://to6044.github.io
+        github: to6044
+        email: to6044@khu.ac.kr
 
 alumnis:
+  - name: 이상연
+    generation: 22
+    corp: TBD
+  - name: 이종석
+    generation: 22
+    corp: TBD
+  - name: 조영준
+    generation: 21
+    corp: TBD
   - name: 방석영
     generation: 21
     corp: 현대모비스
