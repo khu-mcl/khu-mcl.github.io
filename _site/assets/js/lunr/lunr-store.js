@@ -2,49 +2,49 @@ var store = [{
         "title": "[IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning",
         "excerpt":"발제자: 김건 발제일: 2024년 05월 10일 키워드: [Cell on/off] [Energy-saving] [Network] [Artificial Intelligence] URL: https://ieeexplore.ieee.org/document/9682160 발표자료: PDF Why this paper Energy-saving을 실현하고 QoS 기준을 만족하는 cell 온오프 알고리즘을 RL 문제로 정의 다양한 Operational mode에서 training된 RL agent들간의 성능을 비교 현실 세계를 모방한 replicatvie simulator를 활용하여 training한 모델 사용 Summary of...","categories": [],
         "tags": [],
-        "url": "/lab_meeting/1/",
+        "url": "/research/lab_meeting/1/",
         "teaser": null
       },{
         "title": "Open RAN for detection of a jamming attack in a 5G network",
         "excerpt":"발제자: 최호성 발제일: 2024년 05월 17일 키워드: [OpenRAN] [jamming detection] [Kolmogorov-Smirnov Test] URL: https://ieeexplore.ieee.org/document/10201067 발표자료: PDF Why this paper 무선 네트워크에 대한 jamming을 O-RAN RIC의 siangl quailty indicators를 통해 해결 네트워크 구조나 UE 분포에 대한 가정을 사용하지 않은 가벼운 algorithm 사용 Summary of paper 1. Introduction 1.1 Jamming 주파수대역에 신호를...","categories": [],
         "tags": [],
-        "url": "/lab_meeting/2/",
+        "url": "/research/lab_meeting/2/",
         "teaser": null
       },{
         "title": "AutoMLPoweredNetworks: Automated Machine Learning Service Provisioning for NextGen Networks",
         "excerpt":"발제자: 권혁선 발제일: 2024년 06월 05일 키워드: [AutoML] [ML resource provisioning] URL: https://ieeexplore.ieee.org/abstract/document/10437119 발표자료: PDF Why this paper Network operator가 효율적으로 ML(Machine Learning) Workflow를 구성할 수 있는 프레임워크(AutoMLPoweredNetworks)를 제시 5G network로 부터 얻은 real operator data(ie. KPI)를 사용해 테스트를 진행 Summary of paper 1. Introduction 5G 서비스 기반(Service-Based) 아키텍쳐 측면에서...","categories": [],
         "tags": [],
-        "url": "/lab_meeting/3/",
+        "url": "/research/lab_meeting/3/",
         "teaser": null
       },{
         "title": "LG CNS, 경희대에 '이음5G' 구축…5G특화망 사업 본격화",
         "excerpt":"LG CNS가 공장, 건물 등 특정 범위에 한해 5G 통신망을 구현할 수 있는 ‘이음5G’ 사업을 본격화한다, LG CNS는 경희대와 ‘이음5G 구축 및 연구·개발’을 위한 업무협약을 체결했다고 16일 밝혔다. 양측은 이음5G를 기반으로 제조·물류 등 산업현장에 적용할 수 있는 솔루션과 서비스 연구·개발을 확대해 나갈 계획이다. LG CNS와 경희대는 이번 협약으로 이음5G 기반의...","categories": ["news"],
         "tags": [],
-        "url": "/news/3/",
+        "url": "/board/news/3/",
         "teaser": null
       },{
         "title": "\"오픈랜, 지능·속도 다 잡은 6G 시대 필수기술\"",
         "excerpt":"“6G의 가장 큰 특징은 인공지능(AI)이다. 네트워크에 AI 기술을 적용해 5G 보다 성능을 올릴 것으로 기대된다. 이 때문에 6G에서는 개방화, 지능화가 특징인 오픈랜 기술 필요성이 높아진다.” 한국통신학회장을 맡고 있는 홍인기 경희대 전자공학과 교수는 오픈랜 활성화의 중요성에 대해 이와 같이 말했다. 홍 교수는 5G 확산과 차세대 이동통신 기술 발전을 위해 오픈랜 기술을...","categories": ["news"],
         "tags": [],
-        "url": "/news/2/",
+        "url": "/board/news/2/",
         "teaser": null
       },{
         "title": "경희대 이공계 홍보영상",
         "excerpt":" ","categories": [],
         "tags": [],
-        "url": "/notices/2/",
+        "url": "/board/notice/2/",
         "teaser": null
       },{
         "title": "홈페이지 리뉴얼 중",
         "excerpt":"현재 홈페이지 리뉴얼 중에 있습니다.   일부 페이지가 정상적으로 표시 되지 않을 수 있으니   양해 부탁드립니다.  ","categories": [],
         "tags": [],
-        "url": "/notices/1/",
+        "url": "/board/notice/1/",
         "teaser": null
       },{
         "title": "정규 랩미팅 참가",
         "excerpt":"정규 랩미팅 참가를 원하시는 분들은 아래에 댓글을 달아주시거나,  홈페이지 첫화면 아래 ‘Get In Touch‘로 연락 바랍니다.  ","categories": [],
         "tags": [],
-        "url": "/notices/3/",
+        "url": "/board/notice/3/",
         "teaser": null
       },,{
     "title": "Git",
@@ -75,7 +75,7 @@ var store = [{
     "excerpt":"                                    AI 개요                                        딥러닝                        ","url": "http://localhost:4000/study/ai/"
   },{
     "title": "Alumni",
-    "excerpt":"방석영 21 기 현대모비스 나세현 20 기 KT 김영준 20 기 KT 안희준 19 기 현대모비스 이재우 18 기 큐셀네트웍스 김영민 18 기 티맥스소프트 한종원 17 기 SKT 박재완 17 기 삼성전자 박태윤 17 기 SK C&amp;C 김응효 17 기 삼성전자 하재우 15 기 현대모비스 백정연 15 기 Univ. of...","url": "http://localhost:4000/members/alumni/"
+    "excerpt":"이상연 22 기 TBD 이종석 22 기 TBD 조영준 21 기 TBD 방석영 21 기 현대모비스 나세현 20 기 KT 김영준 20 기 KT 안희준 19 기 현대모비스 이재우 18 기 큐셀네트웍스 김영민 18 기 티맥스소프트 한종원 17 기 SKT 박재완 17 기 삼성전자 박태윤 17 기 SK C&amp;C 김응효...","url": "http://localhost:4000/members/alumni/"
   },{
     "title": "Board",
     "excerpt":"                                  Notice                               Gallery                                             News                    ","url": "http://localhost:4000/board/"

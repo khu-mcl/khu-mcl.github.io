@@ -296,13 +296,13 @@ jekyll-archives:
 collections:
   lab_meeting:
     output: true
-    permalink: /lab_meeting/:name/
+    permalink: /research/lab_meeting/:name/
   news:
     output: true
-    permalink: /news/:name/
+    permalink: /board/news/:name/
   notices:
     output: true
-    permalink: /notices/:title/
+    permalink: /board/notice/:title/
 
 
 # HTML Compression
