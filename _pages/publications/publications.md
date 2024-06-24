@@ -6,7 +6,16 @@ permalink: /publications/
 
 # SCI Journal
 
-38. Hyeon-Min Yoo, Jung-Mo Moon, Jeehyeon Na, Een-Kee Hong, "User Association and Load Balancing Based on Monte Carlo Tree Search," in IEEE Access, vol. 11, pp. 126087-126097, 2023. 11
+41. Mao V. Ngo, Nguyen-Bao-Long Tran, Hyun-Min Yoo, Yong-Hao Pua, Thanh-Long Le, Xian-Loong Liang, Binbin Chen, Een-Kee Hong, Tony Q.S. Quek, RAN Intelligent Controller (RIC): From open-source implementation to real-world validation, ICT Express, 2024.
+
+
+40. Hyeon-Min Yoo, Jung-Mo Moon, Jeehyeon Na, Een-Kee Hong, "User Association and Load Balancing Based on Monte Carlo Tree Search," in IEEE Access, vol. 11, pp. 126087-126097, 2023. 11
+
+
+39. Een-Kee Hong et al., "6G R&D vision: Requirements and candidate technologies," in Journal of Communications and Networks, vol. 24, no. 2, pp. 232-245, April 2022
+
+
+38. Young-Min Kim, Hee-Jun Ahn, Yeon-Soo Kim, Sung-Su Park, Een-Kee Hong, Performance evaluation of the effect of traffic decentralization with mobile edge computing, ICT Express, Volume 7, Issue 2, 2021, pp. 191-195.
 
 
 37. Jae-Wan Park, Eung-Hyo Kim, Een-Kee Hong, Cluster splitting and combining in ultra-dense networks, IET Communications (14, 9), 2020.06
