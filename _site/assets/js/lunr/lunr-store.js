@@ -75,7 +75,7 @@ var store = [{
     "excerpt":"                                    AI 개요                                        딥러닝                        ","url": "http://localhost:4000/study/ai/"
   },{
     "title": "Alumni",
-    "excerpt":"이상연 22 기 TBD 이종석 22 기 TBD 조영준 21 기 TBD 방석영 21 기 현대모비스 나세현 20 기 KT 김영준 20 기 KT 안희준 19 기 현대모비스 이재우 18 기 큐셀네트웍스 김영민 18 기 티맥스소프트 한종원 17 기 SKT 박재완 17 기 삼성전자 박태윤 17 기 SK C&amp;C 김응효...","url": "http://localhost:4000/members/alumni/"
+    "excerpt":"이름 기수 Corp 이상연 22 TBD 이종석 22 TBD 조영준 21 TBD 방석영 21 현대모비스 나세현 20 KT 김영준 20 KT 안희준 19 현대모비스 이재우 18 큐셀네트웍스 김영민 18 티맥스소프트 한종원 17 SKT 박재완 17 삼성전자 박태윤 17 SK C&amp;C 김응효 17 삼성전자 하재우 15 현대모비스 백정연 15 Univ. of...","url": "http://localhost:4000/members/alumni/"
   },{
     "title": "Board",
     "excerpt":"                                  Notice                               Gallery                                             News                    ","url": "http://localhost:4000/board/"
@@ -90,7 +90,7 @@ var store = [{
     "excerpt":"Ph.D. Tran Le Nam Professor, Dublin Univ. Ireland Vu Quang Doanh Senior Engineer, Nokia Finland M.S. Tran Ha Vu Senior Engineer, Huawei Canada MD Sohel Rana Director of Spectrum Management Division of Bangladesh Naing Win Swe Bureau, Myanmar Vien Quoc Tuan Senior Lecturer, Middlesex Univ. London Thai Binh Nguyen Wen...","url": "http://localhost:4000/members/foreign_alumni/"
   },{
     "title": "Gallery",
-    "excerpt":"2024년 스승의날 행사 2024년 연구실 스승의 날 행사 2024.05.11 / 강남역 2024 상반기 현대모비스 Lab 리크루팅 24년도 상반기 현대모비스 Lab 리크루팅 2024.03.14 / 전자정보대학관 2024 연구실 신년회 연구실 신년회 행사 2024.01.02 / 양재역 AI Fellowship 5기 AI/ML 기반 단말 Power Saving 기술 개발[Seio] 2023.10.22 / SKT T타워 Tech U+ 컨퍼런스...","url": "http://localhost:4000/board/gallery/"
+    "excerpt":"2024년 한국통신학회 하계종합학술발표회 2024년 한국통신학회 하계종합학술발표회 참가 2024.06.20 / 제주 라마다호텔 2024년 스승의날 행사 2024년 연구실 스승의 날 행사 2024.05.11 / 강남역 2024 상반기 현대모비스 Lab 리크루팅 24년도 상반기 현대모비스 Lab 리크루팅 2024.03.14 / 전자정보대학관 2024 연구실 신년회 연구실 신년회 행사 2024.01.02 / 양재역 AI Fellowship 5기 AI/ML 기반 단말...","url": "http://localhost:4000/board/gallery/"
   },{
     "title": "Github",
     "excerpt":"                                    Git                                        Github 개요                        ","url": "http://localhost:4000/study/programming/github/"
@@ -135,7 +135,7 @@ var store = [{
     "excerpt":"     {% include pages-contents/projects.html %} ","url": "http://localhost:4000/research/projects/"
   },{
     "title": "Publications",
-    "excerpt":"# SCI Journal 38. Hyeon-Min Yoo, Jung-Mo Moon, Jeehyeon Na, Een-Kee Hong, \"User Association and Load Balancing Based on Monte Carlo Tree Search,\" in IEEE Access, vol. 11, pp. 126087-126097, 2023. 11 37. Jae-Wan Park, Eung-Hyo Kim, Een-Kee Hong, Cluster splitting and combining in ultra-dense networks, IET Communications (14, 9),...","url": "http://localhost:4000/publications/"
+    "excerpt":"# SCI Journal 41. Mao V. Ngo, Nguyen-Bao-Long Tran, Hyun-Min Yoo, Yong-Hao Pua, Thanh-Long Le, Xian-Loong Liang, Binbin Chen, Een-Kee Hong, Tony Q.S. Quek, RAN Intelligent Controller (RIC): From open-source implementation to real-world validation, ICT Express, 2024. 40. Hyeon-Min Yoo, Jung-Mo Moon, Jeehyeon Na, Een-Kee Hong, \"User Association and Load...","url": "http://localhost:4000/publications/"
   },{
     "title": "Research",
     "excerpt":"### Network Resource Management (Optimization) In modern telecommunications networks, resources are incredibly valuable. To meet the demands of burgeoning network traffic and the diverse requirements of various services, it is essential to manage and optimize these resources effectively. Our lab is developing advanced mathematical optimization techniques and algorithms to solve...","url": "http://localhost:4000/research/"
