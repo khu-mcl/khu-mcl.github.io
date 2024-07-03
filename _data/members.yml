@@ -9,7 +9,7 @@ students:
       - link: https://geonkim.netlify.app/
         linkedin: 41vin
         github: 41vin
-        instagram: # sdin.99
+        instagram:
         twitter:
         facebook:
         email: gun@khu.ac.kr
@@ -38,6 +38,24 @@ students:
       - link: https://to6044.github.io
         github: to6044
         email: to6044@khu.ac.kr
+
+undergraduates:
+  - name: 권재현
+    info:
+    contact:
+      - link:
+        linkedin:
+        github:
+        instagram:
+        twitter:
+        facebook:
+        email:
+  - name: 현종석
+  - name: 권재빈
+  - name: 설민환
+  - name: 정태일
+  - name: 최재형
+  - name: 신주희
 
 alumnis:
   - name: 이상연
