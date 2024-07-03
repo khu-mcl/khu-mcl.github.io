@@ -48,7 +48,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Kaggle 특강",
-        "excerpt":"방학 중 Kaggle 특강을 진행합니다. Kaggle에 대해 관심이 있는 분들은 아래에 댓글을 달아주시거나, 홈페이지 첫화면 아래 ‘Get In Touch‘로 연락 바랍니다. 아래는 특강 일정입니다. 일시 내용 1주차 Kaggle 소개 - 강의 자료 2주차 Kaggle 실습(Titanic) 3주차 Instant Gratification 4주차 IEEE-CIS Fraud Detection 5주차 Quick, Draw! Doodle Recognition, Bengali.AI Handwritten Grapheme...","categories": [],
+        "excerpt":"방학 중 Kaggle 특강을 진행합니다. Kaggle에 대해 관심이 있는 분들은 아래에 댓글을 달아주시거나, 홈페이지 첫화면 아래 ‘Get In Touch‘로 연락 바랍니다. 아래는 특강 일정입니다. 일시 내용 1주차 Kaggle 소개 - 강의 자료 2주차 Kaggle 실습 - Titanic 3주차 Instant Gratification 4주차 IEEE-CIS Fraud Detection 5주차 Quick, Draw! Doodle Recognition, Bengali.AI...","categories": [],
         "tags": [],
         "url": "/board/notice/4/",
         "teaser": null
