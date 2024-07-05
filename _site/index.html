@@ -129,6 +129,9 @@
 
 <script type="text/javascript" src="/assets/js/custom/jquery.twbsPagination.min.js"></script>
 
+<!-- Google Symbols & Icons -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 <!-- end custom head snippets -->
     <style>
       body {
@@ -232,14 +235,19 @@
           </ul>
         <div id="homeSidebar" class="home-sidebar">
           <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">&times;</a>
+          <div class="sidebar-logo" onclick="location.href='/'"><img src="/assets/images/logo.png" alt="MCL" /></div>
           
           
-          <a class="item" href="/"  class="selected"  >Home</a>
+          <a class="item" href="/"  class="selected"  >
+            Home
+          </a>
           
           
           
           <li class="dropdown ">
-            <a class="dropdown-toggle" href="/research/" role="button" onclick="toggleDropdown(event)">Research <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i></a>
+            <a class="dropdown-toggle " href="/research/" role="button" onclick="toggleDropdown(event)">
+              Research <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i>
+            </a>
             <ul class="dropdown-content">
               
               <li><a class="dropdown-item" href="/research/study/">Study</a></li>
@@ -253,12 +261,16 @@
           
           
           
-          <a class="item" href="/publications/"  >Publications</a>
+          <a class="item" href="/publications/"  >
+            Publications
+          </a>
           
           
           
           <li class="dropdown ">
-            <a class="dropdown-toggle" href="/members/" role="button" onclick="toggleDropdown(event)">Members <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i></a>
+            <a class="dropdown-toggle " href="/members/" role="button" onclick="toggleDropdown(event)">
+              Members <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i>
+            </a>
             <ul class="dropdown-content">
               
               <li><a class="dropdown-item" href="/members/professor/">Professor</a></li>
@@ -275,7 +287,9 @@
           
           
           <li class="dropdown ">
-            <a class="dropdown-toggle" href="/board/" role="button" onclick="toggleDropdown(event)">Board <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i></a>
+            <a class="dropdown-toggle " href="/board/" role="button" onclick="toggleDropdown(event)">
+              Board <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i>
+            </a>
             <ul class="dropdown-content">
               
               <li><a class="dropdown-item" href="/board/notice/">Notice</a></li>
@@ -289,8 +303,15 @@
           
           
           
-          <a class="item" href="/about/"  >About</a>
+          <a class="item" href="/about/"  >
+            About
+          </a>
+          <div class="sidebar-footer">
+            <button class="contact-button" onclick="location.href='/#contact'; toggleSidebar();">
+              <i class="fas fa-phone"></i>
+            </button>
           </div>
+        </div>
         <div id="overlay" class="overlay" onclick="toggleSidebar()"></div>
         
       </nav>
