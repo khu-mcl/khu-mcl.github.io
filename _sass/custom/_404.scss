@@ -40,7 +40,7 @@ a#notFound-button {
 
 	width: 40px;
 	height: 40px;
-	background: #5c7aff;
+	background: $button-color;
 	color: #fff;
 	cursor: pointer;
 	opacity: 1;
@@ -55,5 +55,5 @@ a#notFound-button {
 	}
 }
 a#topBtn:hover {
-	background: #202e6b;
+	background: $button-hover-color;
 }

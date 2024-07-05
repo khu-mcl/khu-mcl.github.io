@@ -79,6 +79,8 @@ $callout-color: #8baaec !default;
 $info-color: #003cff; // #3b9cba !default;
 $focus-color: $primary-color !default;
 $active-color: mix(#fff, $primary-color, 80%) !default;
+$button-color: #8097ff !default;
+$button-hover-color: #5c7aff !default;
 
 /* YIQ color contrast */
 $yiq-contrasted-dark-default: $dark-gray !default;

@@ -38,6 +38,7 @@
         </ul>
         <div id="homeSidebar" class="home-sidebar">
           <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">&times;</a>
+          <div class="sidebar-logo" onclick="location.href='/'"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}" /></div>
           {%- for link in site.data.navigation.main -%}
           {% assign class = nil %}
           {% if page.url contains link.url %}
@@ -45,7 +46,9 @@
           {% endif %}
           {% if link.sublinks %}
           <li class="dropdown {{ class }}">
-            <a class="dropdown-toggle" href="{{ link.url | relative_url }}" role="button" onclick="toggleDropdown(event)">{{ link.title }} <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i></a>
+            <a class="dropdown-toggle {% for sublink in link.sublinks %}{% if page.url == link.url or page.url == sublink.url %} selected {% endif %}{% endfor %}" href="{{ link.url | relative_url }}" role="button" onclick="toggleDropdown(event)">
+              {{ link.title }} <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i>
+            </a>
             <ul class="dropdown-content">
               {% for sublink in link.sublinks %}
               <li><a class="dropdown-item" href="{{ sublink.url | relative_url }}">{{ sublink.title }}</a></li>
@@ -53,9 +56,16 @@
             </ul>
           </li>
           {% else %}
-          <a class="item" href="{{ link.url | relative_url }}" {% if link.url == page.url %} class="selected" {% endif %} {% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+          <a class="item" href="{{ link.url | relative_url }}" {% if link.url == page.url %} class="selected" {% endif %} {% if link.description %} title="{{ link.description }}"{% endif %}>
+            {{ link.title }}
+          </a>
           {% endif %}
           {%- endfor -%}
+          <div class="sidebar-footer">
+            <button class="contact-button" onclick="location.href='/#contact'; toggleSidebar();">
+              <i class="fas fa-phone"></i>
+            </button>
+          </div>
         </div>
         <div id="overlay" class="overlay" onclick="toggleSidebar()"></div>
         {% if site.search == true %}

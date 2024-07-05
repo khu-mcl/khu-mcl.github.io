@@ -63,7 +63,7 @@
   border-radius: $border-radius;
   transition: opacity 0.3s ease, visibility 0s 0.3s;
   .gallery-title {
-    color: #5c7aff;
+    color: $button-color;
     font-family: $title-font;
     font-size: 1.2em;
   }
