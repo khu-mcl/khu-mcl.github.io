@@ -40,17 +40,6 @@ students:
         email: to6044@khu.ac.kr
 
 undergraduates:
-  - name: 권재현
-    info:
-    contact:
-      - link:
-        linkedin:
-        github:
-        instagram:
-        twitter:
-        facebook:
-        email:
-  - name: 현종석
   - name: 권재빈
   - name: 설민환
   - name: 정태일
