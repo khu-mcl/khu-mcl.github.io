@@ -6,7 +6,7 @@ permalink: /publications/
 
 # SCI Journal
 
-42. Young-Jun Cho, Hyeon-Min Yoo, Kyung-Sook Kim, Jee-Hyeon Na and Een-Kee Hong, "Practical Load Balancing Algorithm for 5G Small Cell Networks Based on Real-World 5G Traffic and O-RAN Architecture," in IEEE Access, doi: 10.1109/ACCESS.2024.3452434.
+42. Young-Jun Cho, Hyeon-Min Yoo, Kyung-Sook Kim, Jee-Hyeon Na and Een-Kee Hong, "Practical Load Balancing Algorithm for 5G Small Cell Networks Based on Real-World 5G Traffic and O-RAN Architecture," in IEEE Access, 2024.
 
 41. Mao V. Ngo, Nguyen-Bao-Long Tran, Hyun-Min Yoo, Yong-Hao Pua, Thanh-Long Le, Xian-Loong Liang, Binbin Chen, Een-Kee Hong, Tony Q.S. Quek, RAN Intelligent Controller (RIC): From open-source implementation to real-world validation, ICT Express, 2024.
 
