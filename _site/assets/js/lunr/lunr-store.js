@@ -23,6 +23,18 @@ var store = [{
         "url": "/research/lab_meeting/4/",
         "teaser": null
       },{
+        "title": "Elastic O-RAN Slicing for Industrial Monitoring and Control - A Distributed Matching Game and Deep Reinforcement Learning Approach",
+        "excerpt":"발제자: 김건 발제일: 2024년 07월 15일 키워드: [Industrial IoT] [Open RAN Slicing] [Age of information] [Game theory] [Deep reinforcement learning] URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9813589 발표자료: 1. Why this paper Slicing 관련 배경지식 필요 IIoT를 기반으로 한 RAN Slicing 논문 작성 예정 2. Summary of paper 2.1 Introduction QoS Requirements for industrial use-cases...","categories": [],
+        "tags": [],
+        "url": "/research/lab_meeting/5/",
+        "teaser": null
+      },{
+        "title": "[학술제]: 3팀 연구 프로세스",
+        "excerpt":"발제자: 김건, 임재빈, 신주희 발제일: 2024년 07월 15일 키워드: [MLOps] [Anomaly Detection] [Deep Learning] [Time Series Forecasting] 연구 주제 설명 많은 사람들이 특정 시간과 장소에 집중되면, 무선 통신 품질 저하와 더불어 안전사고의 위험이 커진다. 통신사업자의 무선 기지국에서는 서비스 중인 단말의 통계 정보를 활용해 인구 밀집도를 파악할 수 있다. 이를 바탕으로,...","categories": [],
+        "tags": [],
+        "url": "/research/lab_meeting/6/",
+        "teaser": null
+      },{
         "title": "LG CNS, 경희대에 '이음5G' 구축…5G특화망 사업 본격화",
         "excerpt":"LG CNS가 공장, 건물 등 특정 범위에 한해 5G 통신망을 구현할 수 있는 ‘이음5G’ 사업을 본격화한다, LG CNS는 경희대와 ‘이음5G 구축 및 연구·개발’을 위한 업무협약을 체결했다고 16일 밝혔다. 양측은 이음5G를 기반으로 제조·물류 등 산업현장에 적용할 수 있는 솔루션과 서비스 연구·개발을 확대해 나갈 계획이다. LG CNS와 경희대는 이번 협약으로 이음5G 기반의...","categories": ["news"],
         "tags": [],
@@ -59,20 +71,20 @@ var store = [{
         "url": "/board/notice/4/",
         "teaser": null
       },,{
-    "title": "Git",
-    "excerpt":"   ","url": "http://localhost:4000/study/programming/github/1/"
-  },{
     "title": "[IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning",
     "excerpt":"발제자: 1.md 발제일: 2024년 05월 10일 키워드: [Cell on/off] [Energy-saving] [Network] [Artificial Intelligence] URL: https://ieeexplore.ieee.org/document/9682160 발표자료: PDF Why this paper Energy-saving을 실현하고 QoS 기준을 만족하는 cell 온오프 알고리즘을 RL 문제로 정의 다양한 Operational mode에서 training된 RL agent들간의 성능을 비교 현실 세계를 모방한 replicatvie simulator를 활용하여 training한 모델 사용 Summary of...","url": "http://localhost:4000/_lab_meeting/1/"
   },{
-    "title": "Open RAN for detection of a jamming attack in a 5G network",
-    "excerpt":"발제자: 2.md 발제일: 2024년 05월 17일 키워드: [OpenRAN] [jamming detection] [Kolmogorov-Smirnov Test] URL: https://ieeexplore.ieee.org/document/10201067 발표자료: PDF Why this paper 무선 네트워크에 대한 jamming을 O-RAN RIC의 siangl quailty indicators를 통해 해결 네트워크 구조나 UE 분포에 대한 가정을 사용하지 않은 가벼운 algorithm 사용 Summary of paper 1. Introduction 1.1 Jamming 주파수대역에 신호를...","url": "http://localhost:4000/_lab_meeting/2/"
+    "title": "Git",
+    "excerpt":"   ","url": "http://localhost:4000/study/programming/github/1/"
+  },{
+    "title": "Github 개요",
+    "excerpt":"git init git add README.md git commit -e git branch -M main git remote add origin https://github.com/&lt;user_name&gt;/&lt;repository_name&gt;.git git push -u origin main      ","url": "http://localhost:4000/study/programming/github/2/"
   },{
     "title": "딥 러닝",
     "excerpt":"딥 러닝은 인간 두뇌의 구조를 본 따 개발된 인공지능이다. 인간이 사물을 인식하기의 과정은, 먼저 눈으로 보고 그 정보가 여러 뇌를 거치게 되는데 마찬가지로 딥 러닝 또한 여러 계층으로 구성된다. 인간의 신경과 뇌에는 수백만개의 뉴런이 연결되어 있듯 딥 러닝 신경망도 인공 신경 세포 노드를 통해 계층을 구성하고 있다. 딥 러닝의 목표는...","url": "http://localhost:4000/study/ai/2/"
   },{
-    "title": "Github 개요",
-    "excerpt":"git init git add README.md git commit -e git branch -M main git remote add origin https://github.com/&lt;user_name&gt;/&lt;repository_name&gt;.git git push -u origin main      ","url": "http://localhost:4000/study/programming/github/2/"
+    "title": "Open RAN for detection of a jamming attack in a 5G network",
+    "excerpt":"발제자: 2.md 발제일: 2024년 05월 17일 키워드: [OpenRAN] [jamming detection] [Kolmogorov-Smirnov Test] URL: https://ieeexplore.ieee.org/document/10201067 발표자료: PDF Why this paper 무선 네트워크에 대한 jamming을 O-RAN RIC의 siangl quailty indicators를 통해 해결 네트워크 구조나 UE 분포에 대한 가정을 사용하지 않은 가벼운 algorithm 사용 Summary of paper 1. Introduction 1.1 Jamming 주파수대역에 신호를...","url": "http://localhost:4000/_lab_meeting/2/"
   },{
     "title": "AutoMLPoweredNetworks: Automated Machine Learning Service Provisioning for NextGen Networks",
     "excerpt":"발제자: 3.md 발제일: 2024년 06월 05일 키워드: [AutoML] [ML resource provisioning] URL: https://ieeexplore.ieee.org/abstract/document/10437119 발표자료: PDF Why this paper Network operator가 효율적으로 ML(Machine Learning) Workflow를 구성할 수 있는 프레임워크(AutoMLPoweredNetworks)를 제시 5G network로 부터 얻은 real operator data(ie. KPI)를 사용해 테스트를 진행 Summary of paper 1. Introduction 5G 서비스 기반(Service-Based) 아키텍쳐 측면에서...","url": "http://localhost:4000/_lab_meeting/3/"
@@ -82,6 +94,12 @@ var store = [{
   },{
     "title": "Page Not Found",
     "excerpt":"         404   Page Not Found                               ","url": "http://localhost:4000/404.html"
+  },{
+    "title": "Elastic O-RAN Slicing for Industrial Monitoring and Control - A Distributed Matching Game and Deep Reinforcement Learning Approach",
+    "excerpt":"발제자: 5.md 발제일: 2024년 07월 15일 키워드: [Industrial IoT] [Open RAN Slicing] [Age of information] [Game theory] [Deep reinforcement learning] URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9813589 발표자료: 1. Why this paper Slicing 관련 배경지식 필요 IIoT를 기반으로 한 RAN Slicing 논문 작성 예정 2. Summary of paper 2.1 Introduction QoS Requirements for industrial use-cases...","url": "http://localhost:4000/_lab_meeting/5/"
+  },{
+    "title": "[학술제]: 3팀 연구 프로세스",
+    "excerpt":"발제자: 6.md 발제일: 2024년 07월 15일 키워드: [MLOps] [Anomaly Detection] [Deep Learning] [Time Series Forecasting] 연구 주제 설명 많은 사람들이 특정 시간과 장소에 집중되면, 무선 통신 품질 저하와 더불어 안전사고의 위험이 커진다. 통신사업자의 무선 기지국에서는 서비스 중인 단말의 통계 정보를 활용해 인구 밀집도를 파악할 수 있다. 이를 바탕으로, 무선 네트워크의...","url": "http://localhost:4000/_lab_meeting/6/"
   },{
     "title": "About",
     "excerpt":"Contact If you are interested in our work or would like to collaborate, please contact us. Tel: 031-201-2982 Address: (17104) 경기도 용인시 기흥구 덕영대로 1732 경희대학교 전자정보대학 549호 College of Electronic &amp; Information, Kyung Hee University, 1732, Deogyoung Road, Giheung, Yongin, Gyeonggi, 17104, South Korea. Members Professor Students Alumni Foreign...","url": "http://localhost:4000/about/"
@@ -114,7 +132,7 @@ var store = [{
     "excerpt":"","url": "http://localhost:4000/"
   },{
     "title": "Lab Meeting",
-    "excerpt":"Toward Smaller and Lower-Cost 5G Devices with Longer Battery Life - An Overview of 3GPP Release 17 RedCap July 03, 2024 김건 AutoMLPoweredNetworks: Automated Machine Learning Service Provisioning for NextGen Networks June 05, 2024 권혁선 Open RAN for detection of a jamming attack in a 5G network May 17, 2024...","url": "http://localhost:4000/research/lab_meeting/"
+    "excerpt":"[학술제]: 3팀 연구 프로세스 July 15, 2024 김건, 임재빈, 신주희 Elastic O-RAN Slicing for Industrial Monitoring and Control - A Distributed Matching Game and Deep Reinforcement Learning Approach July 15, 2024 김건 Toward Smaller and Lower-Cost 5G Devices with Longer Battery Life - An Overview of 3GPP Release 17 RedCap...","url": "http://localhost:4000/research/lab_meeting/"
   },{
     "title": null,
     "excerpt":"var idx = lunr(function () { this.field('title') this.field('excerpt') this.field('categories') this.field('tags') this.ref('id') this.pipeline.remove(lunr.trimmer) for (var item in store) { this.add({ title: store[item].title, excerpt: store[item].excerpt, categories: store[item].categories, tags: store[item].tags, id: item }) } }); $(document).ready(function() { $('input#search').on('keyup', function () { var resultdiv = $('#results'); var query = $(this).val().toLowerCase(); var result = idx.query(function...","url": "http://localhost:4000/assets/js/lunr/lunr-en.js"
@@ -150,7 +168,7 @@ var store = [{
     "excerpt":"     {% include pages-contents/projects.html %} ","url": "http://localhost:4000/research/projects/"
   },{
     "title": "Publications",
-    "excerpt":"# SCI Journal 41. Mao V. Ngo, Nguyen-Bao-Long Tran, Hyun-Min Yoo, Yong-Hao Pua, Thanh-Long Le, Xian-Loong Liang, Binbin Chen, Een-Kee Hong, Tony Q.S. Quek, RAN Intelligent Controller (RIC): From open-source implementation to real-world validation, ICT Express, 2024. 40. Hyeon-Min Yoo, Jung-Mo Moon, Jeehyeon Na, Een-Kee Hong, \"User Association and Load...","url": "http://localhost:4000/publications/"
+    "excerpt":"# SCI Journal 42. Young-Jun Cho, Hyeon-Min Yoo, Kyung-Sook Kim, Jee-Hyeon Na and Een-Kee Hong, \"Practical Load Balancing Algorithm for 5G Small Cell Networks Based on Real-World 5G Traffic and O-RAN Architecture,\" in IEEE Access, 2024. 41. Mao V. Ngo, Nguyen-Bao-Long Tran, Hyun-Min Yoo, Yong-Hao Pua, Thanh-Long Le, Xian-Loong Liang,...","url": "http://localhost:4000/publications/"
   },{
     "title": "Research",
     "excerpt":"### Network Resource Management (Optimization) In modern telecommunications networks, resources are incredibly valuable. To meet the demands of burgeoning network traffic and the diverse requirements of various services, it is essential to manage and optimize these resources effectively. Our lab is developing advanced mathematical optimization techniques and algorithms to solve...","url": "http://localhost:4000/research/"
