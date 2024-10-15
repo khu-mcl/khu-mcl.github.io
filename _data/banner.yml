@@ -1,7 +1,10 @@
 main:
   - title:
-    img: /assets/banner/2.png
+    img: /assets/banner/실험동.png
     description:
   - title: Mobile Communications Lab
     img: /assets/banner/home.jpg
     description: [KyungHee University]
+  - title:
+    img: /assets/banner/모집중.png
+    description:

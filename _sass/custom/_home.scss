@@ -1,11 +1,20 @@
 .hero {
     width: 100%;
-    height: 400px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     @include breakpoint($medium) {
+        height: 400px;
+    }
+    @include breakpoint($medium-wide) {
+        height: 400px;
+    }
+    @include breakpoint($large) {
+        height: 500px;
+    }
+    @include breakpoint($x-large) {
         height: 600px;
     }
 }
@@ -64,7 +73,7 @@
     }
 }
 .hero-image {
-    height: 400px;
+    height: 100%;
     width: 100%;
     @include breakpoint($medium) {
         height: 600px;
@@ -181,33 +190,30 @@
     }
 }
 .home__section-card {
+    background-color: #fff;
+    border: 1px solid #779ae7;
     position: relative;
-    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     border-radius: 1em;
     overflow: hidden;
     margin: 10px;
-    width: 450px;
-    height: 450px;
+    width: 100%;
+    height: 80px;
     @include breakpoint($small) {
-        width: calc(600px - 20px);
-        height: calc(600px - 20px);
+        height: 100px;
     }
     @include breakpoint($medium) {
-        width: calc(768px / 2 - 20px);
-        height: calc(768px / 2 - 20px);
+        height: 120px;
     }
     @include breakpoint($medium-wide) {
-        width: calc(900px / 3 - 20px);
-        height: calc(900px / 3 - 20px);
+        height: 140px;
     }
     @include breakpoint($large) {
-        width: calc(1024px / 3 - 20px);
-        height: calc(1024px / 3 - 20px);
-    }
-    @include breakpoint($x-large) {
-        width: calc(1280px / 3 - 20px);
-        height: calc(1280px / 3 - 20px);
+        height: 160px;
     }
 }
 .home__section-image {
@@ -221,31 +227,52 @@
     position: absolute;
     opacity: 0;
     border-radius: 1em;
-    background: linear-gradient(to top, rgb(64, 80, 224), rgb(64, 80, 224), rgba(64, 80, 224, 0.8), rgba(64, 80, 224, 0.5));
+    // background: linear-gradient(to top, rgb(64, 80, 224), rgb(64, 80, 224), rgba(64, 80, 224, 0.8), rgba(64, 80, 224, 0.5));
+    background-color: #003060;
     transition: opacity .2s ease-in-out;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: end;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: center;
-    padding-bottom: 2.5em;
     width: 100%;
     height: 100%;
+    img {
+        width: 0%;
+        height: 0%;
+        object-fit: cover;
+        filter: brightness(0.3);
+    }
 }
 .home__section-card:hover .home__section-cover  {
     opacity: 1;
 }
+.home__section-card:hover
+.home__section-cover-head {
+    color: #fff;
+}
 .home__section-cover-head {
     font-family: $title-font;
-    color: #fff;
-    font-size: 1.5em;
+    color: #003060;
+    font-size: $type-size-6;
     font-weight: 900;
     text-align: center;
+    z-index: 10;
+    transition: all 0.2s;
+    @include breakpoint($small) {
+        font-size: $type-size-5;
+    }
+    @include breakpoint($medium) {
+        font-size: $type-size-4;
+    }
+    @include breakpoint($medium-wide) {
+        font-size: $type-size-3;
+    }
 }
 .qna-box {
     cursor: pointer;

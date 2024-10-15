@@ -30,7 +30,7 @@ var store = [{
         "teaser": null
       },{
         "title": "[학술제]: 3팀 연구 프로세스",
-        "excerpt":"발제자: 김건, 임재빈, 신주희 발제일: 2024년 07월 15일 키워드: [MLOps] [Anomaly Detection] [Deep Learning] [Time Series Forecasting] 연구 주제 설명 많은 사람들이 특정 시간과 장소에 집중되면, 무선 통신 품질 저하와 더불어 안전사고의 위험이 커진다. 통신사업자의 무선 기지국에서는 서비스 중인 단말의 통계 정보를 활용해 인구 밀집도를 파악할 수 있다. 이를 바탕으로,...","categories": [],
+        "excerpt":"발제자: 멘티 - [권재빈, 신주희], 멘토 - [김건] 발제일: 2024년 09월 20일 키워드: [MLOps] [Anomaly Detection] [Deep Learning] [Time Series Forecasting] 연구 주제 설명 많은 사람들이 특정 시간과 장소에 집중되면, 무선 통신 품질 저하와 더불어 안전사고의 위험이 커진다. 통신사업자의 무선 기지국에서는 서비스 중인 단말의 통계 정보를 활용해 인구 밀집도를 파악할...","categories": [],
         "tags": [],
         "url": "/research/lab_meeting/6/",
         "teaser": null
@@ -70,18 +70,15 @@ var store = [{
         "tags": [],
         "url": "/board/notice/4/",
         "teaser": null
+      },{
+        "title": "2025 학부생 및 대학원생 모집",
+        "excerpt":"2025학년도 학부생 및 대학원생을 모집합니다.      차세대 이동통신에 관심이 있는 학생   Linux 경험이 있는 학생   Microservice Architecture에 흥미가 있는 학생   머신러닝에 흥미가 있는 학생   관심이 있는 학생은 Contact를 통해 연락바랍니다.  ","categories": [],
+        "tags": [],
+        "url": "/board/notice/5/",
+        "teaser": null
       },,{
     "title": "[IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning",
     "excerpt":"발제자: 1.md 발제일: 2024년 05월 10일 키워드: [Cell on/off] [Energy-saving] [Network] [Artificial Intelligence] URL: https://ieeexplore.ieee.org/document/9682160 발표자료: PDF Why this paper Energy-saving을 실현하고 QoS 기준을 만족하는 cell 온오프 알고리즘을 RL 문제로 정의 다양한 Operational mode에서 training된 RL agent들간의 성능을 비교 현실 세계를 모방한 replicatvie simulator를 활용하여 training한 모델 사용 Summary of...","url": "http://localhost:4000/_lab_meeting/1/"
-  },{
-    "title": "Git",
-    "excerpt":"   ","url": "http://localhost:4000/study/programming/github/1/"
-  },{
-    "title": "Github 개요",
-    "excerpt":"git init git add README.md git commit -e git branch -M main git remote add origin https://github.com/&lt;user_name&gt;/&lt;repository_name&gt;.git git push -u origin main      ","url": "http://localhost:4000/study/programming/github/2/"
-  },{
-    "title": "딥 러닝",
-    "excerpt":"딥 러닝은 인간 두뇌의 구조를 본 따 개발된 인공지능이다. 인간이 사물을 인식하기의 과정은, 먼저 눈으로 보고 그 정보가 여러 뇌를 거치게 되는데 마찬가지로 딥 러닝 또한 여러 계층으로 구성된다. 인간의 신경과 뇌에는 수백만개의 뉴런이 연결되어 있듯 딥 러닝 신경망도 인공 신경 세포 노드를 통해 계층을 구성하고 있다. 딥 러닝의 목표는...","url": "http://localhost:4000/study/ai/2/"
   },{
     "title": "Open RAN for detection of a jamming attack in a 5G network",
     "excerpt":"발제자: 2.md 발제일: 2024년 05월 17일 키워드: [OpenRAN] [jamming detection] [Kolmogorov-Smirnov Test] URL: https://ieeexplore.ieee.org/document/10201067 발표자료: PDF Why this paper 무선 네트워크에 대한 jamming을 O-RAN RIC의 siangl quailty indicators를 통해 해결 네트워크 구조나 UE 분포에 대한 가정을 사용하지 않은 가벼운 algorithm 사용 Summary of paper 1. Introduction 1.1 Jamming 주파수대역에 신호를...","url": "http://localhost:4000/_lab_meeting/2/"
@@ -99,19 +96,16 @@ var store = [{
     "excerpt":"발제자: 5.md 발제일: 2024년 07월 15일 키워드: [Industrial IoT] [Open RAN Slicing] [Age of information] [Game theory] [Deep reinforcement learning] URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9813589 발표자료: 1. Why this paper Slicing 관련 배경지식 필요 IIoT를 기반으로 한 RAN Slicing 논문 작성 예정 2. Summary of paper 2.1 Introduction QoS Requirements for industrial use-cases...","url": "http://localhost:4000/_lab_meeting/5/"
   },{
     "title": "[학술제]: 3팀 연구 프로세스",
-    "excerpt":"발제자: 6.md 발제일: 2024년 07월 15일 키워드: [MLOps] [Anomaly Detection] [Deep Learning] [Time Series Forecasting] 연구 주제 설명 많은 사람들이 특정 시간과 장소에 집중되면, 무선 통신 품질 저하와 더불어 안전사고의 위험이 커진다. 통신사업자의 무선 기지국에서는 서비스 중인 단말의 통계 정보를 활용해 인구 밀집도를 파악할 수 있다. 이를 바탕으로, 무선 네트워크의...","url": "http://localhost:4000/_lab_meeting/6/"
+    "excerpt":"발제자: 6.md 발제일: 2024년 09월 20일 키워드: [MLOps] [Anomaly Detection] [Deep Learning] [Time Series Forecasting] 연구 주제 설명 많은 사람들이 특정 시간과 장소에 집중되면, 무선 통신 품질 저하와 더불어 안전사고의 위험이 커진다. 통신사업자의 무선 기지국에서는 서비스 중인 단말의 통계 정보를 활용해 인구 밀집도를 파악할 수 있다. 이를 바탕으로, 무선 네트워크의...","url": "http://localhost:4000/_lab_meeting/6/"
   },{
     "title": "About",
     "excerpt":"Contact If you are interested in our work or would like to collaborate, please contact us. Tel: 031-201-2982 Address: (17104) 경기도 용인시 기흥구 덕영대로 1732 경희대학교 전자정보대학 549호 College of Electronic &amp; Information, Kyung Hee University, 1732, Deogyoung Road, Giheung, Yongin, Gyeonggi, 17104, South Korea. Members Professor Students Alumni Foreign...","url": "http://localhost:4000/about/"
-  },{
-    "title": "AI",
-    "excerpt":"                                    AI 개요                                        딥러닝                        ","url": "http://localhost:4000/study/ai/"
   },{
     "title": "Alumni",
     "excerpt":"이름 기수 Corp 이상연 22 TBD 이종석 22 TBD 조영준 21 TBD 방석영 21 현대모비스 나세현 20 KT 김영준 20 KT 안희준 19 현대모비스 이재우 18 큐셀네트웍스 김영민 18 티맥스소프트 한종원 17 SKT 박재완 17 삼성전자 박태윤 17 SK C&amp;C 김응효 17 삼성전자 하재우 15 현대모비스 백정연 15 Univ. of...","url": "http://localhost:4000/members/alumni/"
   },{
     "title": "Board",
-    "excerpt":"                                  Notice                               Gallery                                             News                    ","url": "http://localhost:4000/board/"
+    "excerpt":"                                  공지사항                               갤러리                                             뉴스                    ","url": "http://localhost:4000/board/"
   },{
     "title": "Category",
     "excerpt":" ","url": "http://localhost:4000/categories/"
@@ -122,17 +116,14 @@ var store = [{
     "title": "Foregin Alumni",
     "excerpt":"Ph.D. Tran Le Nam Professor, Dublin Univ. Ireland Vu Quang Doanh Senior Engineer, Nokia Finland M.S. Tran Ha Vu Senior Engineer, Huawei Canada MD Sohel Rana Director of Spectrum Management Division of Bangladesh Naing Win Swe Bureau, Myanmar Vien Quoc Tuan Senior Lecturer, Middlesex Univ. London Thai Binh Nguyen Wen...","url": "http://localhost:4000/members/foreign_alumni/"
   },{
-    "title": "Gallery",
+    "title": "갤러리",
     "excerpt":"2024년 한국통신학회 하계종합학술발표회 2024년 한국통신학회 하계종합학술발표회 참가 2024.06.20 / 제주 라마다호텔 2024년 스승의날 행사 2024년 연구실 스승의 날 행사 2024.05.11 / 강남역 2024 상반기 현대모비스 Lab 리크루팅 24년도 상반기 현대모비스 Lab 리크루팅 2024.03.14 / 전자정보대학관 2024 연구실 신년회 연구실 신년회 행사 2024.01.02 / 양재역 AI Fellowship 5기 AI/ML 기반 단말...","url": "http://localhost:4000/board/gallery/"
-  },{
-    "title": "Github",
-    "excerpt":"                                    Git                                        Github 개요                        ","url": "http://localhost:4000/study/programming/github/"
   },{
     "title": null,
     "excerpt":"","url": "http://localhost:4000/"
   },{
     "title": "Lab Meeting",
-    "excerpt":"[학술제]: 3팀 연구 프로세스 July 15, 2024 김건, 임재빈, 신주희 Elastic O-RAN Slicing for Industrial Monitoring and Control - A Distributed Matching Game and Deep Reinforcement Learning Approach July 15, 2024 김건 Toward Smaller and Lower-Cost 5G Devices with Longer Battery Life - An Overview of 3GPP Release 17 RedCap...","url": "http://localhost:4000/research/lab_meeting/"
+    "excerpt":"[학술제]: 3팀 연구 프로세스 September 20, 2024 멘티 - [권재빈, 신주희], 멘토 - [김건] Elastic O-RAN Slicing for Industrial Monitoring and Control - A Distributed Matching Game and Deep Reinforcement Learning Approach July 15, 2024 김건 Toward Smaller and Lower-Cost 5G Devices with Longer Battery Life - An Overview of...","url": "http://localhost:4000/research/lab_meeting/"
   },{
     "title": null,
     "excerpt":"var idx = lunr(function () { this.field('title') this.field('excerpt') this.field('categories') this.field('tags') this.ref('id') this.pipeline.remove(lunr.trimmer) for (var item in store) { this.add({ title: store[item].title, excerpt: store[item].excerpt, categories: store[item].categories, tags: store[item].tags, id: item }) } }); $(document).ready(function() { $('input#search').on('keyup', function () { var resultdiv = $('#results'); var query = $(this).val().toLowerCase(); var result = idx.query(function...","url": "http://localhost:4000/assets/js/lunr/lunr-en.js"
@@ -143,26 +134,17 @@ var store = [{
     "title": null,
     "excerpt":"var store = [ {%- for c in site.collections -%} {%- if forloop.last -%} {%- assign l = true -%} {%- endif -%} {%- assign docs = c.docs | where_exp:'doc','doc.search != false' -%} {%- for doc in docs -%} {%- if doc.header.teaser -%} {%- capture teaser -%}{{ doc.header.teaser }}{%- endcapture...","url": "http://localhost:4000/assets/js/lunr/lunr-store.js"
   },{
-    "title": "Building Flexible, Low-Cost Wireless Access Networks With Magma",
-    "excerpt":"","url": "http://localhost:4000/study/paper_review/magma_001/"
-  },{
     "title": "Members",
     "excerpt":"                                Professor                         Students                                   Alumni                         Foreign Alumni                 ","url": "http://localhost:4000/members/"
   },{
-    "title": "News",
+    "title": "뉴스",
     "excerpt":"{% include pages-contents/news.html %}  ","url": "http://localhost:4000/board/news/"
   },{
-    "title": "Notice",
+    "title": "공지사항",
     "excerpt":"번호 제목 글쓴이 날짜 {% for notice in site.notices reversed %} {% if notice.highlight %} 공지 {{ notice.title }} {{ notice.author }} {{ notice.date | date: \"%Y-%m-%d\" }} {% endif %} {% endfor %} {% assign total_notices = site.notices.size %} {% for notice in site.notices reversed %} {{ start_index |...","url": "http://localhost:4000/board/notice/"
-  },{
-    "title": "Paper Review",
-    "excerpt":"                                    magma         Building Flexible, Low-Cost Wireless Access Networks With Magma         How to configure low-cost cellular network using Magma.       ","url": "http://localhost:4000/study/paper_review/"
   },{
     "title": "Professor",
     "excerpt":"{%- for professor in site.data.members.professor -%} {% if professor.contact %} {% for contact in professor.contact %} {% if contact.link %} {% endif %} {% if contact.linkedin %} {% endif %} {% if contact.github %} {% endif %} {% if contact.instagram %} {% endif %} {% if contact.twitter %} {% endif...","url": "http://localhost:4000/members/professor/"
-  },{
-    "title": "Programming",
-    "excerpt":"                                    Github                          ","url": "http://localhost:4000/study/programming/"
   },{
     "title": "Projects",
     "excerpt":"     {% include pages-contents/projects.html %} ","url": "http://localhost:4000/research/projects/"
@@ -178,9 +160,6 @@ var store = [{
   },{
     "title": "Students",
     "excerpt":"{%- for student in site.data.members.students -%} {{ student.name }} {{ student.course }} {% for info in student.info %} {{ info }} {% endfor %} {% if student.contact %} {% for contact in student.contact %} {% if contact.link %} {% endif %} {% if contact.linkedin %} {% endif %} {% if...","url": "http://localhost:4000/members/students/"
-  },{
-    "title": "Study",
-    "excerpt":"     {% include pages-contents/study.html %} ","url": "http://localhost:4000/research/study/"
   },{
     "title": "Tag",
     "excerpt":"","url": "http://localhost:4000/tags/"
