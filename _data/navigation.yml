@@ -5,8 +5,6 @@ main:
   - title: "Research"
     url: /research/
     sublinks:
-      - title: "Study"
-        url: /research/study/
       - title: "Projects"
         url: /research/projects/
       - title: "Lab Meeting"
@@ -27,11 +25,11 @@ main:
   - title: "Board"
     url: /board/
     sublinks:
-      - title: "Notice"
+      - title: "공지사항"
         url: /board/notice/
-      - title: "Gallery"
+      - title: "갤러리"
         url: /board/gallery/
-      - title: "News"
+      - title: "뉴스"
         url: /board/news/
   - title: "About"
     url: /about/
