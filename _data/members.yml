@@ -68,7 +68,7 @@ alumnis:
   - name: 안희준
     generation: 19
     corp: 현대모비스
-  - name: 이재우
+  - name: 이제우
     generation: 18
     corp: 큐셀네트웍스
   - name: 김영민
@@ -124,7 +124,7 @@ alumnis:
     corp: 현대모비스
   - name: 임효성
     generation: 10
-    corp: LG Ericsson
+    corp: Ericsson-LG
   - name: 김영래
     generation: 9
     corp: 현대모비스
