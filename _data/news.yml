@@ -1,11 +1,18 @@
 main:
+  - title: "SKT AI Fellowship 우수 연구상 수상을 축하합니다!"
+    category: news
+    teaser: /assets/news/teasers/4.JPG
+    prev: news
+    date: 2024-11-20
+    link: https://www.newsis.com/view/NISX20241119_0002963949
+    excerpt: "김건, 이성진, 홍현오(ASAP, 5G Green AI 알고리즘 개발) 수상을 축하합니다."
   - title: "LG유플러스, ETRI·경희대 등 산학연 단체와 오픈랜 기술 개발 성과 공개"
     category: news
     teaser: /assets/news/teasers/3.png
     prev: news
     date: 2024-06-07
     link: https://biz.chosun.com/it-science/ict/2024/06/07/JREWDSIG2BFXFG6BKO5QDZCV7I/?utm_source=naver&utm_medium=original&utm_campaign=biz
-    excerpt: "LG유플러스는 글로벌 오픈랜 표준화 단체 ‘O-RAN 얼라이언스’가 주최한 ‘플러그페스트(PlusFest)’에 한국전자통신연구원(ETRI), 경희대학교 등 국내 산학연 단체와 함께 참가해 기술 개발 성과를 공유했다고 7일 밝혔다. 플러그페스트는 개방형 무선접속망을 뜻하는 ‘오픈랜(Open RAN)’의 생태계 활성화를 위해 전 세계 이동통신 사업자와 통신장비 제조사, 연구기관이 참여하는 국제 기술 실증 행사다. LG유플러스는 2021년부터 국내 이동통신사 중 유일하게 4년 연속으로 참가하고 있다."
+    excerpt: "LG유플러스는 글로벌 오픈랜 표준화 단체 ‘O-RAN 얼라이언스’가 주최한 ‘플러그페스트(PlusFest)’에 한국전자통신연구원(ETRI), 경희대학교 등 국내 산학연 단체와 함께 참가해 기술 개발 성과를 공유했다고 7일 밝혔다. 플러그페스트는 개방형 무선접속망을 뜻하는 ‘오픈랜(Open RAN)’의 생태계 활성화를 위해 전 세계 이동통신 사업자와 통신장비 제조사, 연구기궁이 참여하는 국제 기술 실증 행사다. LG유플러스는 2021년부터 국내 이동통신사 중 유일하게 4년 연속으로 참가하고 있다."
   - title: '"오픈랜, 지능·속도 다 잡은 6G 시대 필수기술"'
     category: news
     teaser: /assets/news/teasers/2.png
