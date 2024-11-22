@@ -7,6 +7,21 @@
 #   description:     #
 #--------------------#
 main:
+  - title: 2024년 한국통신학회 하계우수논문상 수상
+    img: 2024_통신학회_하계우수논문상.jpg
+    date: 2024-11-21
+    location: 라한셀렉트 경주
+    description: 2024년 한국통신학회 하계 우수논문상 시상식
+  - title: 2024년 한국통신학회 추계종합학술발표회
+    img: 2024_통신학회_추계.jpg
+    date: 2024-11-20
+    location: 라한셀렉트 경주
+    description: 2024년 한국통신학회 추계종합학술발표회 참가
+  - title: SKT AI Fellowship 6기 수료식
+    img: SKT_AI_Fellowship_6기.jpeg
+    date: 2024-11-19
+    location: SKT타워
+    description: 5G Green AI 알고리즘 개발[ASAP]
   - title: 2024년 한국통신학회 하계종합학술발표회
     img: 2024_통신학회_하계.jpg
     date: 2024-06-20
@@ -32,10 +47,10 @@ main:
     date: 2024-01-02
     location: 양재역
     description: 연구실 신년회 행사
-  - title: AI Fellowship 5기
+  - title: SKT AI Fellowship 5기
     img: 6.JPG
     date: 2023-10-22
-    location: SKT T타워
+    location: SKT타워
     description: AI/ML 기반 단말 Power Saving 기술 개발[Seio]
   - title: Tech U+ 컨퍼런스
     img: 2.png
