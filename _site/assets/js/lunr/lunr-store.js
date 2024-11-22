@@ -126,7 +126,7 @@ var store = [{
     "excerpt":"Ph.D. Tran Le Nam Professor, Dublin Univ. Ireland Vu Quang Doanh Senior Engineer, Nokia Finland M.S. Tran Ha Vu Senior Engineer, Huawei Canada MD Sohel Rana Director of Spectrum Management Division of Bangladesh Naing Win Swe Bureau, Myanmar Vien Quoc Tuan Senior Lecturer, Middlesex Univ. London Thai Binh Nguyen Wen...","url": "http://localhost:4000/members/foreign_alumni/"
   },{
     "title": "갤러리",
-    "excerpt":"2024년 한국통신학회 하계종합학술발표회 2024년 한국통신학회 하계종합학술발표회 참가 2024.06.20 / 제주 라마다호텔 2024년 스승의날 행사 2024년 연구실 스승의 날 행사 2024.05.11 / 강남역 2024 상반기 현대모비스 Lab 리크루팅 24년도 상반기 현대모비스 Lab 리크루팅 2024.03.14 / 전자정보대학관 2024 연구실 신년회 연구실 신년회 행사 2024.01.02 / 양재역 AI Fellowship 5기 AI/ML 기반 단말...","url": "http://localhost:4000/board/gallery/"
+    "excerpt":"2024년 한국통신학회 하계우수논문상 수상 2024년 한국통신학회 하계 우수논문상 시상식 2024.11.21 / 라한셀렉트 경주 2024년 한국통신학회 추계종합학술발표회 2024년 한국통신학회 추계종합학술발표회 참가 2024.11.20 / 라한셀렉트 경주 SKT AI Fellowship 6기 수료식 5G Green AI 알고리즘 개발[ASAP] 2024.11.19 / SKT타워 2024년 한국통신학회 하계종합학술발표회 2024년 한국통신학회 하계종합학술발표회 참가 2024.06.20 / 제주 라마다호텔 2024년 스승의날...","url": "http://localhost:4000/board/gallery/"
   },{
     "title": null,
     "excerpt":"","url": "http://localhost:4000/"
