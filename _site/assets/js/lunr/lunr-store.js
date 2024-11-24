@@ -23,16 +23,22 @@ var store = [{
         "url": "/research/lab_meeting/4/",
         "teaser": null
       },{
-        "title": "Elastic O-RAN Slicing for Industrial Monitoring and Control - A Distributed Matching Game and Deep Reinforcement Learning Approach",
-        "excerpt":"발제자: 김건 발제일: 2024년 07월 15일 키워드: [Industrial IoT] [Open RAN Slicing] [Age of information] [Game theory] [Deep reinforcement learning] URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9813589 발표자료: 1. Why this paper Slicing 관련 배경지식 필요 IIoT를 기반으로 한 RAN Slicing 논문 작성 예정 2. Summary of paper 2.1 Introduction QoS Requirements for industrial use-cases...","categories": [],
-        "tags": [],
-        "url": "/research/lab_meeting/5/",
-        "teaser": null
-      },{
         "title": "[학술제]: 3팀 연구 프로세스",
         "excerpt":"발제자: 멘티 - [권재빈, 신주희], 멘토 - [김건] 발제일: 2024년 09월 20일 키워드: [MLOps] [Anomaly Detection] [Deep Learning] [Time Series Forecasting] 연구 주제 설명 많은 사람들이 특정 시간과 장소에 집중되면, 무선 통신 품질 저하와 더불어 안전사고의 위험이 커진다. 통신사업자의 무선 기지국에서는 서비스 중인 단말의 통계 정보를 활용해 인구 밀집도를 파악할...","categories": [],
         "tags": [],
         "url": "/research/lab_meeting/6/",
+        "teaser": null
+      },{
+        "title": "Anomaly Detection in Time Series: A Comprehensive Evaluation",
+        "excerpt":"발제자: 권재빈 발제일: 2024년 11월 14일 키워드: [Anomaly Detection] [Deep Learning] [Machine Learning] [Stastical Learning] 1. Why this paper 이상치 탐지 알고리즘 관련 지식 필요 동계학회 포스터 발표 예정 2. Summary of Paper Abstract 현재, time series에서 이상치를 탐지하는 다양한 알고리즘이 개발됨. 하지만, 이들 알고리즘이 독립적으로 개발되어 서로 다른 알고리즘을...","categories": [],
+        "tags": [],
+        "url": "/research/lab_meeting/7/",
+        "teaser": null
+      },{
+        "title": "[논문 분석] : Time Series Data Augmentation for Deep Learning: A Survey",
+        "excerpt":"발제자: 신주희 발제일: 2024년 11월 14일 키워드: [Time Domain] [Anomaly Detection] [Deep Learning] [Time Series Forecasting] [Time Series Augmentation] 1. Why this paper 학술제 연구 프로세스 관련 참고 데이터 증강 기법 중 가우시안 분포를 활용하여 데이터 분해 및 증강을 하기 위함 AI 기반 트래픽 이상치 탐지를 통한 기지국 안정성 향상...","categories": [],
+        "tags": [],
+        "url": "/research/lab_meeting/8/",
         "teaser": null
       },{
         "title": "LG CNS, 경희대에 '이음5G' 구축…5G특화망 사업 본격화",
@@ -92,17 +98,20 @@ var store = [{
     "title": "Page Not Found",
     "excerpt":"         404   Page Not Found                               ","url": "http://localhost:4000/404.html"
   },{
-    "title": "Elastic O-RAN Slicing for Industrial Monitoring and Control - A Distributed Matching Game and Deep Reinforcement Learning Approach",
-    "excerpt":"발제자: 5.md 발제일: 2024년 07월 15일 키워드: [Industrial IoT] [Open RAN Slicing] [Age of information] [Game theory] [Deep reinforcement learning] URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9813589 발표자료: 1. Why this paper Slicing 관련 배경지식 필요 IIoT를 기반으로 한 RAN Slicing 논문 작성 예정 2. Summary of paper 2.1 Introduction QoS Requirements for industrial use-cases...","url": "http://localhost:4000/_lab_meeting/5/"
-  },{
     "title": "[학술제]: 3팀 연구 프로세스",
     "excerpt":"발제자: 6.md 발제일: 2024년 09월 20일 키워드: [MLOps] [Anomaly Detection] [Deep Learning] [Time Series Forecasting] 연구 주제 설명 많은 사람들이 특정 시간과 장소에 집중되면, 무선 통신 품질 저하와 더불어 안전사고의 위험이 커진다. 통신사업자의 무선 기지국에서는 서비스 중인 단말의 통계 정보를 활용해 인구 밀집도를 파악할 수 있다. 이를 바탕으로, 무선 네트워크의...","url": "http://localhost:4000/_lab_meeting/6/"
+  },{
+    "title": "Anomaly Detection in Time Series: A Comprehensive Evaluation",
+    "excerpt":"발제자: 7.md 발제일: 2024년 11월 14일 키워드: [Anomaly Detection] [Deep Learning] [Machine Learning] [Stastical Learning] 1. Why this paper 이상치 탐지 알고리즘 관련 지식 필요 동계학회 포스터 발표 예정 2. Summary of Paper Abstract 현재, time series에서 이상치를 탐지하는 다양한 알고리즘이 개발됨. 하지만, 이들 알고리즘이 독립적으로 개발되어 서로 다른 알고리즘을...","url": "http://localhost:4000/_lab_meeting/7/"
+  },{
+    "title": "[논문 분석] : Time Series Data Augmentation for Deep Learning: A Survey",
+    "excerpt":"발제자: 8.md 발제일: 2024년 11월 14일 키워드: [Time Domain] [Anomaly Detection] [Deep Learning] [Time Series Forecasting] [Time Series Augmentation] 1. Why this paper 학술제 연구 프로세스 관련 참고 데이터 증강 기법 중 가우시안 분포를 활용하여 데이터 분해 및 증강을 하기 위함 AI 기반 트래픽 이상치 탐지를 통한 기지국 안정성 향상...","url": "http://localhost:4000/_lab_meeting/8/"
   },{
     "title": "About",
     "excerpt":"Contact If you are interested in our work or would like to collaborate, please contact us. Tel: 031-201-2982 Address: (17104) 경기도 용인시 기흥구 덕영대로 1732 경희대학교 전자정보대학 549호 College of Electronic &amp; Information, Kyung Hee University, 1732, Deogyoung Road, Giheung, Yongin, Gyeonggi, 17104, South Korea. Members Professor Students Alumni Foreign...","url": "http://localhost:4000/about/"
   },{
     "title": "Alumni",
-    "excerpt":"이름 기수 Corp 이상연 22 TBD 이종석 22 TBD 조영준 21 TBD 방석영 21 현대모비스 나세현 20 KT 김영준 20 KT 안희준 19 현대모비스 이재우 18 큐셀네트웍스 김영민 18 티맥스소프트 한종원 17 SKT 박재완 17 삼성전자 박태윤 17 SK C&amp;C 김응효 17 삼성전자 하재우 15 현대모비스 백정연 15 Univ. of...","url": "http://localhost:4000/members/alumni/"
+    "excerpt":"이름 기수 Corp 이상연 22 TBD 이종석 22 TBD 조영준 21 TBD 방석영 21 현대모비스 나세현 20 KT 김영준 20 KT 안희준 19 현대모비스 이제우 18 큐셀네트웍스 김영민 18 티맥스소프트 한종원 17 SKT 박재완 17 삼성전자 박태윤 17 SK C&amp;C 김응효 17 삼성전자 하재우 15 현대모비스 백정연 15 Univ. of...","url": "http://localhost:4000/members/alumni/"
   },{
     "title": "Board",
     "excerpt":"                                  공지사항                               갤러리                                             뉴스                    ","url": "http://localhost:4000/board/"
@@ -117,13 +126,13 @@ var store = [{
     "excerpt":"Ph.D. Tran Le Nam Professor, Dublin Univ. Ireland Vu Quang Doanh Senior Engineer, Nokia Finland M.S. Tran Ha Vu Senior Engineer, Huawei Canada MD Sohel Rana Director of Spectrum Management Division of Bangladesh Naing Win Swe Bureau, Myanmar Vien Quoc Tuan Senior Lecturer, Middlesex Univ. London Thai Binh Nguyen Wen...","url": "http://localhost:4000/members/foreign_alumni/"
   },{
     "title": "갤러리",
-    "excerpt":"2024년 한국통신학회 하계종합학술발표회 2024년 한국통신학회 하계종합학술발표회 참가 2024.06.20 / 제주 라마다호텔 2024년 스승의날 행사 2024년 연구실 스승의 날 행사 2024.05.11 / 강남역 2024 상반기 현대모비스 Lab 리크루팅 24년도 상반기 현대모비스 Lab 리크루팅 2024.03.14 / 전자정보대학관 2024 연구실 신년회 연구실 신년회 행사 2024.01.02 / 양재역 AI Fellowship 5기 AI/ML 기반 단말...","url": "http://localhost:4000/board/gallery/"
+    "excerpt":"2024년 한국통신학회 하계우수논문상 수상 2024년 한국통신학회 하계 우수논문상 시상식 2024.11.21 / 라한셀렉트 경주 2024년 한국통신학회 추계종합학술발표회 2024년 한국통신학회 추계종합학술발표회 참가 2024.11.20 / 라한셀렉트 경주 SKT AI Fellowship 6기 수료식 5G Green AI 알고리즘 개발[ASAP] 2024.11.19 / SKT타워 2024년 한국통신학회 하계종합학술발표회 2024년 한국통신학회 하계종합학술발표회 참가 2024.06.20 / 제주 라마다호텔 2024년 스승의날...","url": "http://localhost:4000/board/gallery/"
   },{
     "title": null,
     "excerpt":"","url": "http://localhost:4000/"
   },{
     "title": "Lab Meeting",
-    "excerpt":"[학술제]: 3팀 연구 프로세스 September 20, 2024 멘티 - [권재빈, 신주희], 멘토 - [김건] Elastic O-RAN Slicing for Industrial Monitoring and Control - A Distributed Matching Game and Deep Reinforcement Learning Approach July 15, 2024 김건 Toward Smaller and Lower-Cost 5G Devices with Longer Battery Life - An Overview of...","url": "http://localhost:4000/research/lab_meeting/"
+    "excerpt":"[논문 분석] : Time Series Data Augmentation for Deep Learning: A Survey November 14, 2024 신주희 Anomaly Detection in Time Series: A Comprehensive Evaluation November 14, 2024 권재빈 [학술제]: 3팀 연구 프로세스 September 20, 2024 멘티 - [권재빈, 신주희], 멘토 - [김건] Toward Smaller and Lower-Cost 5G Devices with Longer...","url": "http://localhost:4000/research/lab_meeting/"
   },{
     "title": null,
     "excerpt":"var idx = lunr(function () { this.field('title') this.field('excerpt') this.field('categories') this.field('tags') this.ref('id') this.pipeline.remove(lunr.trimmer) for (var item in store) { this.add({ title: store[item].title, excerpt: store[item].excerpt, categories: store[item].categories, tags: store[item].tags, id: item }) } }); $(document).ready(function() { $('input#search').on('keyup', function () { var resultdiv = $('#results'); var query = $(this).val().toLowerCase(); var result = idx.query(function...","url": "http://localhost:4000/assets/js/lunr/lunr-en.js"
