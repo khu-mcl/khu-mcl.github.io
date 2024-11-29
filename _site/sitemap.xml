@@ -122,6 +122,9 @@
 <loc>http://localhost:4000/board/notice/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/research/projects/oran/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/members/professor/</loc>
 </url>
 <url>

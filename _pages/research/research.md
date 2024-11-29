@@ -34,8 +34,6 @@ Artificial intelligence (AI) holds significant potential to enhance the efficien
 
 Open RAN technology focuses on standardizing and ensuring interoperability among different components of telecommunications networks. By adopting Open RAN, networks can become more flexible and cost-effective, as equipment from various vendors becomes compatible. Our lab is pursuing international collaborations to implement and apply Open RAN technologies.
 
-<object type="image/svg+xml" data="/_pages/research/images/Federated_Learning.svg" class="modal img__small"></object>
-
 ### Cloud Native RAN
 
 The telecommunications industry is undergoing a significant transformation, driven by the need for greater agility and scalability. To address the surging network traffic and the varied demands of modern services, adopting cutting-edge solutions is imperative. Our lab is at the forefront of developing Cloud Native Radio Access Network (RAN) technologies. These innovations harness the power of cloud-native principles to enhance flexibility, optimize resource utilization, and reduce operational costs. Through these advanced techniques, we aim to maximize network performance, ensure reliability, and facilitate rapid deployment of new services.

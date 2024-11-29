@@ -164,6 +164,9 @@ var store = [{
     "title": "공지사항",
     "excerpt":"번호 제목 글쓴이 날짜 {% for notice in site.notices reversed %} {% if notice.highlight %} 공지 {{ notice.title }} {{ notice.author }} {{ notice.date | date: \"%Y-%m-%d\" }} {% endif %} {% endfor %} {% assign total_notices = site.notices.size %} {% for notice in site.notices reversed %} {{ start_index |...","url": "http://localhost:4000/board/notice/"
   },{
+    "title": "Open RAN",
+    "excerpt":"The Open RAN project aims to develop an open and interoperable radio access network (RAN) architecture that enables multi-vendor deployments and disaggregated network elements. The project focuses on standardizing interfaces between RAN components, enabling operators to mix and match equipment from different vendors and deploy innovative solutions more quickly and...","url": "http://localhost:4000/research/projects/oran/"
+  },{
     "title": "Professor",
     "excerpt":"{%- for professor in site.data.members.professor -%} {% if professor.contact %} {% for contact in professor.contact %} {% if contact.link %} {% endif %} {% if contact.linkedin %} {% endif %} {% if contact.github %} {% endif %} {% if contact.instagram %} {% endif %} {% if contact.twitter %} {% endif...","url": "http://localhost:4000/members/professor/"
   },{
