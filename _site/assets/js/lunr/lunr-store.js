@@ -82,6 +82,18 @@ var store = [{
         "tags": [],
         "url": "/board/notice/5/",
         "teaser": null
+      },{
+        "title": "SKT AI Fellowship 6기 우수 연구상 수상",
+        "excerpt":"주제: 5G Green AI Algorithm 개발   팀원: 김건, 이성진, 홍현오 [ASAP(AI Solutions For A Planet)]   우수 연구상 수상을 축하합니다!  ","categories": [],
+        "tags": [],
+        "url": "/board/notice/7/",
+        "teaser": null
+      },{
+        "title": "2024년 통신학회 우수논문상 수상",
+        "excerpt":"이성진 학생의 2024년 통신학회 하계 우수논문상 수상을 축하합니다.   연합학습을 통한 네트워크 탄소배출량 감소 연구 [이성진, 김건, 권혁선, 홍인기]  ","categories": [],
+        "tags": [],
+        "url": "/board/notice/6/",
+        "teaser": null
       },,{
     "title": "[IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning",
     "excerpt":"발제자: 1.md 발제일: 2024년 05월 10일 키워드: [Cell on/off] [Energy-saving] [Network] [Artificial Intelligence] URL: https://ieeexplore.ieee.org/document/9682160 발표자료: PDF Why this paper Energy-saving을 실현하고 QoS 기준을 만족하는 cell 온오프 알고리즘을 RL 문제로 정의 다양한 Operational mode에서 training된 RL agent들간의 성능을 비교 현실 세계를 모방한 replicatvie simulator를 활용하여 training한 모델 사용 Summary of...","url": "http://localhost:4000/_lab_meeting/1/"
