@@ -82,6 +82,18 @@ var store = [{
         "tags": [],
         "url": "/board/notice/5/",
         "teaser": null
+      },{
+        "title": "SKT AI Fellowship 6기 우수 연구상 수상",
+        "excerpt":"주제: 5G Green AI Algorithm 개발   팀원: 김건, 이성진, 홍현오 [ASAP(AI Solutions For A Planet)]   우수 연구상 수상을 축하합니다!  ","categories": [],
+        "tags": [],
+        "url": "/board/notice/7/",
+        "teaser": null
+      },{
+        "title": "2024년 통신학회 우수논문상 수상",
+        "excerpt":"이성진 학생의 2024년 통신학회 하계 우수논문상 수상을 축하합니다.   연합학습을 통한 네트워크 탄소배출량 감소 연구 [이성진, 김건, 권혁선, 홍인기]  ","categories": [],
+        "tags": [],
+        "url": "/board/notice/6/",
+        "teaser": null
       },,{
     "title": "[IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning",
     "excerpt":"발제자: 1.md 발제일: 2024년 05월 10일 키워드: [Cell on/off] [Energy-saving] [Network] [Artificial Intelligence] URL: https://ieeexplore.ieee.org/document/9682160 발표자료: PDF Why this paper Energy-saving을 실현하고 QoS 기준을 만족하는 cell 온오프 알고리즘을 RL 문제로 정의 다양한 Operational mode에서 training된 RL agent들간의 성능을 비교 현실 세계를 모방한 replicatvie simulator를 활용하여 training한 모델 사용 Summary of...","url": "http://localhost:4000/_lab_meeting/1/"
@@ -151,6 +163,9 @@ var store = [{
   },{
     "title": "공지사항",
     "excerpt":"번호 제목 글쓴이 날짜 {% for notice in site.notices reversed %} {% if notice.highlight %} 공지 {{ notice.title }} {{ notice.author }} {{ notice.date | date: \"%Y-%m-%d\" }} {% endif %} {% endfor %} {% assign total_notices = site.notices.size %} {% for notice in site.notices reversed %} {{ start_index |...","url": "http://localhost:4000/board/notice/"
+  },{
+    "title": "Open RAN",
+    "excerpt":"The Open RAN project aims to develop an open and interoperable radio access network (RAN) architecture that enables multi-vendor deployments and disaggregated network elements. The project focuses on standardizing interfaces between RAN components, enabling operators to mix and match equipment from different vendors and deploy innovative solutions more quickly and...","url": "http://localhost:4000/research/projects/oran/"
   },{
     "title": "Professor",
     "excerpt":"{%- for professor in site.data.members.professor -%} {% if professor.contact %} {% for contact in professor.contact %} {% if contact.link %} {% endif %} {% if contact.linkedin %} {% endif %} {% if contact.github %} {% endif %} {% if contact.instagram %} {% endif %} {% if contact.twitter %} {% endif...","url": "http://localhost:4000/members/professor/"
