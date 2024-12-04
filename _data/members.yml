@@ -4,11 +4,11 @@ students:
     info: ['SD-RAN Engineering Team, Aether', 한국전자통신연구원 위촉연구원, SKT AI Fellowship 5기]
   - name: 김건
     course: M.S.Student
-    info: ['SD-RAN Engineering Team, Aether', SKT AI Fellowship 6기]
+    info: [SKT AI Fellowship 6기]
     contact:
       - link: https://geonkim.netlify.app/
-        linkedin: 41vin
-        github: 41vin
+        linkedin: cor5in
+        github: cor5in
         instagram:
         twitter:
         facebook:
@@ -55,7 +55,7 @@ alumnis:
     corp: TBD
   - name: 조영준
     generation: 21
-    corp: TBD
+    corp: 한국전자통신연구원(ETRI)
   - name: 방석영
     generation: 21
     corp: 현대모비스
