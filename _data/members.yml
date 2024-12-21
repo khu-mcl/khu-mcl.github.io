@@ -52,13 +52,13 @@ undergraduates:
 alumnis:
   - name: 이상연
     generation: 22
-    corp: TBD
+    corp: LS ELECTRIC
   - name: 이종석
     generation: 22
     corp: TBD
   - name: 조영준
     generation: 21
-    corp: 한국전자통신연구원(ETRI)
+    corp: LG유플러스
   - name: 방석영
     generation: 21
     corp: 현대모비스
