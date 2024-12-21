@@ -66,7 +66,7 @@ var store = [{
         "teaser": null
       },{
         "title": "정규 랩미팅 참가",
-        "excerpt":"정규 랩미팅 참가를 원하시는 분들은 아래에 댓글을 달아주시거나,  홈페이지 첫화면 아래 ‘Get In Touch‘로 연락 바랍니다.  ","categories": [],
+        "excerpt":"정규 랩미팅 참가를 원하시는 분들은 아래에 댓글을 달아주시거나,  Contact로 연락 바랍니다.  ","categories": [],
         "tags": [],
         "url": "/board/notice/3/",
         "teaser": null
