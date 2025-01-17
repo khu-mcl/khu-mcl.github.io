@@ -37,49 +37,12 @@
             }
         });
         $("#prevBtn").click(function() {
-            {% if page.prev == 'home' %}
-                location.replace('/');
-            {% elsif page.prev == 'about' %}
-                location.replace('/about/');
-            {% elsif page.prev == 'members' %}
-                location.replace('/members/');
-
-
-            {% elsif page.prev == 'research' %}
-                location.replace('/research/');
-            {% elsif page.prev == 'study' %}
-                location.replace('/study/');
-            {% elsif page.prev == 'paper_review' %}
-                location.replace('/study/paper_review/');
-            {% elsif page.prev == 'communication' %}
-                location.replace('/study/communication/');
-            {% elsif page.prev == 'data_analysis' %}
-                location.replace('/study/data_analysis/');
-            {% elsif page.prev == 'cloud' %}
-                location.replace('/study/cloud/');
-            {% elsif page.prev == 'ai' %}
-                location.replace('/study/ai/');
-            {% elsif page.prev == 'programming' %}
-                location.replace('/study/programming/');
-
-            {% elsif page.prev == 'projects' %}
-                location.replace('/projects/');
-            {% elsif page.prev == 'bluetooth' %}
-                location.replace('/projects/bluetooth/');
-            {% elsif page.prev == 'kpi' %}
-                location.replace('/projects/kpi/');
-
-            {% elsif page.prev == 'board' %}
-                location.replace('/board/');
-            {% elsif page.prev == 'notice' %}
-                location.replace('/board/notice/');
-            {% elsif page.prev == 'news' %}
-                location.replace('/board/news/');
-
-            {% elsif page.prev == 'lab_meeting' %}
-                location.replace('/research/lab_meeting/');
-
-            {% endif %}
+            var currentPath = window.location.pathname;
+            if (currentPath.endsWith('/')) {
+                currentPath = currentPath.slice(0, -1);
+            }
+            var newPath = currentPath.substring(0, currentPath.lastIndexOf('/')) + '/';
+            location.replace(newPath);
         });
     });
 </script>
