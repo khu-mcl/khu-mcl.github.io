@@ -41,6 +41,48 @@ var store = [{
         "url": "/research/lab_meeting/8/",
         "teaser": null
       },{
+        "title": "Data Augmentation techniques in time series domain: A survey and taxonomy",
+        "excerpt":"발제자: 권재빈 발제일: 2025년 01월 18일 키워드: [Data Augmentation] [Traditional algorithms] [VAE] [GANs] [Deep Learning] [Machine Learning] 1. Why this paper 시리얼 데이터에서 데이터 증강을 위한 관련 지식 필요 다양한 생성형 모델에 대한 지식 필요 동계학회 포스터 발표 예정 2. Summary of Paper Abstract 최근 딥러닝 기반 생성 모델(Deep Learnig-based...","categories": [],
+        "tags": [],
+        "url": "/research/lab_meeting/9/",
+        "teaser": null
+      },{
+        "title": "Deep Learning for Anomaly Detection: A Review",
+        "excerpt":"발제자: 신주희 발제일: 2025년 01월 20일 키워드: [Deep Learning] [Anomaly Detection] [Anomalous Data] [Neural Networks] [Data Mining] [Model Evaluation] [Supervised Learning] [Unsupervised Learning] [Time Series Data] [Anomaly Detection Techniques] 1. Why this paper 이상 탐지에 관한 전반적인 지식의 기반을 다지기 위함 이상 탐지 문제 복잡성에 따른 미해결 과제 연구 한국통신학회...","categories": [],
+        "tags": [],
+        "url": "/research/lab_meeting/10/",
+        "teaser": null
+      },{
+        "title": "[강화학습] Intro",
+        "excerpt":"     발제자: 신주희     발제일: 2025년 03월 21일     키워드:  [Reinforcement Learning]     소개           발표 주제: 강화학습 인트로            발표자: 신주희            발표 대상: 2025-1 종합설계 대상자       영상    ","categories": [],
+        "tags": [],
+        "url": "/research/lab_meeting/11/",
+        "teaser": null
+      },{
+        "title": "[이동통신] 4주차",
+        "excerpt":"     발제자: 정태일     발제일: 2025년 03월 21일     키워드:  [CNR]  [SNR]  [Link Budget]  [Coverage]  [Outage Probability]  [Receiver Sensitivity]     소개           발표 주제: 이동통신공학1 4주차 리뷰            발표자: 정태일            발표 대상: 2025-1 종합설계 대상자       영상    ","categories": [],
+        "tags": [],
+        "url": "/research/lab_meeting/12/",
+        "teaser": null
+      },{
+        "title": "[이동통신] 5주차",
+        "excerpt":"     발제자: 최재형     발제일: 2025년 03월 21일     키워드:  [Delay Spread]  [Delay Profile]  [Coherent Bandwidth]  [Inter Symbol Interference]  [OFDM]     소개           발표 주제: 이동통신공학1 5주차 리뷰            발표자: 최재형            발표 대상: 2025-1 종합설계 대상자       영상    ","categories": [],
+        "tags": [],
+        "url": "/research/lab_meeting/13/",
+        "teaser": null
+      },{
+        "title": "[이동통신] 6주차",
+        "excerpt":"     발제자: 신주희     발제일: 2025년 03월 21일     키워드:  [Doppler Frequency]  [Fading]  [LoS]  [NLoS]     소개           발표 주제: 이동통신공학1 6주차 리뷰            발표자: 신주희            발표 대상: 2025-1 종합설계 대상자       영상    ","categories": [],
+        "tags": [],
+        "url": "/research/lab_meeting/14/",
+        "teaser": null
+      },{
+        "title": "[5G] NR Overview",
+        "excerpt":"     발제자: 최재형     발제일: 2025년 03월 21일     키워드:  [NR]  [5G]     소개           발표 주제: 5G 책 리뷰            레퍼런스: 5G NR: The Next Generation Wireless Access Technology            발표자: 최재형            발표 대상: 2025-1 종합설계 대상자       영상    ","categories": [],
+        "tags": [],
+        "url": "/research/lab_meeting/15/",
+        "teaser": null
+      },{
         "title": "LG CNS, 경희대에 '이음5G' 구축…5G특화망 사업 본격화",
         "excerpt":"LG CNS가 공장, 건물 등 특정 범위에 한해 5G 통신망을 구현할 수 있는 ‘이음5G’ 사업을 본격화한다, LG CNS는 경희대와 ‘이음5G 구축 및 연구·개발’을 위한 업무협약을 체결했다고 16일 밝혔다. 양측은 이음5G를 기반으로 제조·물류 등 산업현장에 적용할 수 있는 솔루션과 서비스 연구·개발을 확대해 나갈 계획이다. LG CNS와 경희대는 이번 협약으로 이음5G 기반의...","categories": ["news"],
         "tags": [],
@@ -98,6 +140,24 @@ var store = [{
     "title": "[IEEE ‘20] Cell On/Off Parameter Optimization for Saving Energy via Reinforcement Learning",
     "excerpt":"발제자: 1.md 발제일: 2024년 05월 10일 키워드: [Cell on/off] [Energy-saving] [Network] [Artificial Intelligence] URL: https://ieeexplore.ieee.org/document/9682160 발표자료: PDF Why this paper Energy-saving을 실현하고 QoS 기준을 만족하는 cell 온오프 알고리즘을 RL 문제로 정의 다양한 Operational mode에서 training된 RL agent들간의 성능을 비교 현실 세계를 모방한 replicatvie simulator를 활용하여 training한 모델 사용 Summary of...","url": "http://localhost:4000/_lab_meeting/1/"
   },{
+    "title": "Deep Learning for Anomaly Detection: A Review",
+    "excerpt":"발제자: 10.md 발제일: 2025년 01월 20일 키워드: [Deep Learning] [Anomaly Detection] [Anomalous Data] [Neural Networks] [Data Mining] [Model Evaluation] [Supervised Learning] [Unsupervised Learning] [Time Series Data] [Anomaly Detection Techniques] 1. Why this paper 이상 탐지에 관한 전반적인 지식의 기반을 다지기 위함 이상 탐지 문제 복잡성에 따른 미해결 과제 연구 한국통신학회...","url": "http://localhost:4000/_lab_meeting/10/"
+  },{
+    "title": "[강화학습] Intro",
+    "excerpt":"     발제자: 11.md     발제일: 2025년 03월 21일     키워드:  [Reinforcement Learning]     소개           발표 주제: 강화학습 인트로            발표자: 신주희            발표 대상: 2025-1 종합설계 대상자       영상    ","url": "http://localhost:4000/_lab_meeting/11/"
+  },{
+    "title": "[이동통신] 4주차",
+    "excerpt":"     발제자: 12.md     발제일: 2025년 03월 21일     키워드:  [CNR]  [SNR]  [Link Budget]  [Coverage]  [Outage Probability]  [Receiver Sensitivity]     소개           발표 주제: 이동통신공학1 4주차 리뷰            발표자: 정태일            발표 대상: 2025-1 종합설계 대상자       영상    ","url": "http://localhost:4000/_lab_meeting/12/"
+  },{
+    "title": "[이동통신] 5주차",
+    "excerpt":"     발제자: 13.md     발제일: 2025년 03월 21일     키워드:  [Delay Spread]  [Delay Profile]  [Coherent Bandwidth]  [Inter Symbol Interference]  [OFDM]     소개           발표 주제: 이동통신공학1 5주차 리뷰            발표자: 최재형            발표 대상: 2025-1 종합설계 대상자       영상    ","url": "http://localhost:4000/_lab_meeting/13/"
+  },{
+    "title": "[이동통신] 6주차",
+    "excerpt":"     발제자: 14.md     발제일: 2025년 03월 21일     키워드:  [Doppler Frequency]  [Fading]  [LoS]  [NLoS]     소개           발표 주제: 이동통신공학1 6주차 리뷰            발표자: 신주희            발표 대상: 2025-1 종합설계 대상자       영상    ","url": "http://localhost:4000/_lab_meeting/14/"
+  },{
+    "title": "[5G] NR Overview",
+    "excerpt":"     발제자: 15.md     발제일: 2025년 03월 21일     키워드:  [NR]  [5G]     소개           발표 주제: 5G 책 리뷰            레퍼런스: 5G NR: The Next Generation Wireless Access Technology            발표자: 최재형            발표 대상: 2025-1 종합설계 대상자       영상    ","url": "http://localhost:4000/_lab_meeting/15/"
+  },{
     "title": "Open RAN for detection of a jamming attack in a 5G network",
     "excerpt":"발제자: 2.md 발제일: 2024년 05월 17일 키워드: [OpenRAN] [jamming detection] [Kolmogorov-Smirnov Test] URL: https://ieeexplore.ieee.org/document/10201067 발표자료: PDF Why this paper 무선 네트워크에 대한 jamming을 O-RAN RIC의 siangl quailty indicators를 통해 해결 네트워크 구조나 UE 분포에 대한 가정을 사용하지 않은 가벼운 algorithm 사용 Summary of paper 1. Introduction 1.1 Jamming 주파수대역에 신호를...","url": "http://localhost:4000/_lab_meeting/2/"
   },{
@@ -119,11 +179,14 @@ var store = [{
     "title": "[논문 분석] : Time Series Data Augmentation for Deep Learning: A Survey",
     "excerpt":"발제자: 8.md 발제일: 2024년 11월 14일 키워드: [Time Domain] [Anomaly Detection] [Deep Learning] [Time Series Forecasting] [Time Series Augmentation] 1. Why this paper 학술제 연구 프로세스 관련 참고 데이터 증강 기법 중 가우시안 분포를 활용하여 데이터 분해 및 증강을 하기 위함 AI 기반 트래픽 이상치 탐지를 통한 기지국 안정성 향상...","url": "http://localhost:4000/_lab_meeting/8/"
   },{
+    "title": "Data Augmentation techniques in time series domain: A survey and taxonomy",
+    "excerpt":"발제자: 9.md 발제일: 2025년 01월 18일 키워드: [Data Augmentation] [Traditional algorithms] [VAE] [GANs] [Deep Learning] [Machine Learning] 1. Why this paper 시리얼 데이터에서 데이터 증강을 위한 관련 지식 필요 다양한 생성형 모델에 대한 지식 필요 동계학회 포스터 발표 예정 2. Summary of Paper Abstract 최근 딥러닝 기반 생성 모델(Deep Learnig-based...","url": "http://localhost:4000/_lab_meeting/9/"
+  },{
     "title": "About",
     "excerpt":"Contact If you are interested in our work or would like to collaborate, please contact us. Tel: 031-201-2982 Address: (17104) 경기도 용인시 기흥구 덕영대로 1732 경희대학교 전자정보대학 549호 College of Electronic &amp; Information, Kyung Hee University, 1732, Deogyoung Road, Giheung, Yongin, Gyeonggi, 17104, South Korea. Members Professor Students Alumni Foreign...","url": "http://localhost:4000/about/"
   },{
     "title": "Alumni",
-    "excerpt":"이름 기수 Corp 이상연 22 TBD 이종석 22 TBD 조영준 21 TBD 방석영 21 현대모비스 나세현 20 KT 김영준 20 KT 안희준 19 현대모비스 이제우 18 큐셀네트웍스 김영민 18 티맥스소프트 한종원 17 SKT 박재완 17 삼성전자 박태윤 17 SK C&amp;C 김응효 17 삼성전자 하재우 15 현대모비스 백정연 15 Univ. of...","url": "http://localhost:4000/members/alumni/"
+    "excerpt":"이름 기수 Corp 이상연 22 LS ELECTRIC 이종석 22 TBD 조영준 21 LG유플러스 방석영 21 현대모비스 나세현 20 KT 김영준 20 KT 안희준 19 현대모비스 이제우 18 큐셀네트웍스 김영민 18 티맥스소프트 한종원 17 SKT 박재완 17 삼성전자 박태윤 17 SK C&amp;C 김응효 17 삼성전자 하재우 15 현대모비스 백정연 15 Univ....","url": "http://localhost:4000/members/alumni/"
   },{
     "title": "Board",
     "excerpt":"                                  공지사항                               갤러리                                             뉴스                    ","url": "http://localhost:4000/board/"
@@ -144,7 +207,7 @@ var store = [{
     "excerpt":"","url": "http://localhost:4000/"
   },{
     "title": "Lab Meeting",
-    "excerpt":"[논문 분석] : Time Series Data Augmentation for Deep Learning: A Survey November 14, 2024 신주희 Anomaly Detection in Time Series: A Comprehensive Evaluation November 14, 2024 권재빈 [학술제]: 3팀 연구 프로세스 September 20, 2024 멘티 - [권재빈, 신주희], 멘토 - [김건] Toward Smaller and Lower-Cost 5G Devices with Longer...","url": "http://localhost:4000/research/lab_meeting/"
+    "excerpt":"[5G] NR Overview March 21, 2025 최재형 [이동통신] 6주차 March 21, 2025 신주희 [이동통신] 5주차 March 21, 2025 최재형 [이동통신] 4주차 March 21, 2025 정태일 [강화학습] Intro March 21, 2025 신주희 Deep Learning for Anomaly Detection: A Review January 20, 2025 신주희 Data Augmentation techniques in time series domain: A...","url": "http://localhost:4000/research/lab_meeting/"
   },{
     "title": null,
     "excerpt":"var idx = lunr(function () { this.field('title') this.field('excerpt') this.field('categories') this.field('tags') this.ref('id') this.pipeline.remove(lunr.trimmer) for (var item in store) { this.add({ title: store[item].title, excerpt: store[item].excerpt, categories: store[item].categories, tags: store[item].tags, id: item }) } }); $(document).ready(function() { $('input#search').on('keyup', function () { var resultdiv = $('#results'); var query = $(this).val().toLowerCase(); var result = idx.query(function...","url": "http://localhost:4000/assets/js/lunr/lunr-en.js"
