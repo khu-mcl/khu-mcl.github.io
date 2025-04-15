@@ -3,7 +3,7 @@ students:
     course: Ph.D.Student
     info: ['SD-RAN Engineering Team, Aether', 한국전자통신연구원 위촉연구원, SKT AI Fellowship 5기]
   - name: 김건
-    course: M.S.Student
+    course: Ph.D.Student
     info: [SKT AI Fellowship 6기]
     contact:
       - link: https://geonkim.netlify.app/
@@ -13,12 +13,6 @@ students:
         twitter:
         facebook:
         email: gun@khu.ac.kr
-  - name: 김유빈
-    course: M.S.Student
-    info: [SKT AI Fellowship 5기]
-    contact:
-      - linkedin: yviiiii
-        email: dbqls15@khu.ac.kr
   - name: 이성진
     course: M.S.Student
     info: [SKT AI Fellowship 6기]
@@ -38,24 +32,30 @@ students:
       - link: https://to6044.github.io
         github: to6044
         email: to6044@khu.ac.kr
+  - name: 최재형
+    course: M.S.Student
+  - name: 정태일
+    course: M.S.Student
+  - name: 신주희
+    course: M.S.Student
 
 undergraduates:
   - name: 권재빈
   - name: 설민환
-  - name: 정태일
-  - name: 최재형
-  - name: 신주희
   - name: 임경섭
   - name: 진성미
   - name: 홍현오
 
 alumnis:
+  - name: 김유빈
+    generation: 23
+    corp: CJ올리브네트웍스
   - name: 이상연
     generation: 22
     corp: LS ELECTRIC
   - name: 이종석
     generation: 22
-    corp: TBD
+    corp: HFR
   - name: 조영준
     generation: 21
     corp: LG유플러스
