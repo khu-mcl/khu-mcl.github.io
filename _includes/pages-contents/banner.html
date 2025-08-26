@@ -10,7 +10,13 @@
 {% for banner in site.data.banner.main %}
 <div class="hero-slide">
   <div class="hero-image">
+    {% if banner.link %}
+    <a href="{{ banner.link }}">
+    {% endif %}
     <img src="{{ banner.img }}"/>
+    {% if banner.link %}
+    </a>
+    {% endif %}
   </div>
   <div class="hero-title">
     <p>{{ banner.title }}</p>
