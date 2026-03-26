@@ -20,7 +20,9 @@ students:
   - name: 신주희
     course: M.S.Student
   - name: 권재빈
+    course: M.S.Student
   - name: 임경섭
+    course: M.S.Student
 
 undergraduates: []
 
