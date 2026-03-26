@@ -45,6 +45,12 @@ undergraduates:
   - name: 진성미
 
 alumnis:
+  - name: 권혁선
+    generation: 24
+    corp: 한화시스템
+  - name: 이성진
+    generation: 23
+    corp: 한화시스템
   - name: 김유빈
     generation: 23
     corp: CJ올리브네트웍스
