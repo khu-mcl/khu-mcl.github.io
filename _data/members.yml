@@ -13,36 +13,16 @@ students:
         twitter:
         facebook:
         email: gun@khu.ac.kr
-  - name: 이성진
-    course: M.S.Student
-    info: [SKT AI Fellowship 6기]
-    contact:
-      - link: https://sodyn99.github.io
-        linkedin: sdin99
-        github: sodyn99
-        instagram: # sdin.99
-        twitter:
-        facebook:
-        email: ssjj3552@khu.ac.kr
-  - name: 권혁선
-    course: M.S.Student
-  - name: 최호성
-    course: M.S.Student
-    contact:
-      - link: https://to6044.github.io
-        github: to6044
-        email: to6044@khu.ac.kr
   - name: 최재형
     course: M.S.Student
   - name: 정태일
     course: M.S.Student
   - name: 신주희
     course: M.S.Student
-
-undergraduates:
   - name: 권재빈
   - name: 임경섭
-  - name: 진성미
+
+undergraduates: []
 
 alumnis:
   - name: 권혁선
