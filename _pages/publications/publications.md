@@ -6,6 +6,8 @@ permalink: /publications/
 
 # SCI Journal
 
+43. Hyun-Min Yoo, Sang-Yeon Lee, Geon Kim, Jong-Seok Rhee, and Een-Kee Hong, "Dedicated communication for sensing: A new use case for private 5G and open RAN for mMTC," in Journal of Communications and Networks, vol. 27, no. 3, pp. 200-207, June 2025.
+
 42. Young-Jun Cho, Hyeon-Min Yoo, Kyung-Sook Kim, Jee-Hyeon Na and Een-Kee Hong, "Practical Load Balancing Algorithm for 5G Small Cell Networks Based on Real-World 5G Traffic and O-RAN Architecture," in IEEE Access, 2024.
 
 41. Mao V. Ngo, Nguyen-Bao-Long Tran, Hyun-Min Yoo, Yong-Hao Pua, Thanh-Long Le, Xian-Loong Liang, Binbin Chen, Een-Kee Hong, Tony Q.S. Quek, RAN Intelligent Controller (RIC): From open-source implementation to real-world validation, ICT Express, 2024.
