@@ -19,7 +19,7 @@
   <div class="blog__info">
       <div class="blog__category">{{ news.date | date: "%Y.%m.%d"}}</div>
       <div class="blog__title">
-          <a href="{{ news.link }}">{{ news.title }}</a>
+          <a href="{{ news.link }}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">{{ news.title }}</a>
       </div>
       <div class="blog__description"><p class="archive__item-excerpt" itemprop="description">{{ news.excerpt | markdownify | strip_html | truncate: 150 }}</p></div>
   </div>
