@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Open RAN"
+title: "Open RAN/AI RAN"
 permalink: /research/projects/oran/
 ---
 
