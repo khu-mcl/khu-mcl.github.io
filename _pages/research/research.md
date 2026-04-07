@@ -30,7 +30,7 @@ In modern telecommunications networks, resources are incredibly valuable. To mee
 
 Artificial intelligence (AI) holds significant potential to enhance the efficiency of wireless networks. Our lab is exploring the application of machine learning models to various aspects, including processing wireless signals, predicting network traffic, and detecting failures. Through this research, we aim to realize automation and optimization of wireless systems, improving both their reliability and efficiency.
 
-### Open RAN
+### Open RAN/AI RAN
 
 Open RAN technology focuses on standardizing and ensuring interoperability among different components of telecommunications networks. By adopting Open RAN, networks can become more flexible and cost-effective, as equipment from various vendors becomes compatible. Our lab is pursuing international collaborations to implement and apply Open RAN technologies.
 
