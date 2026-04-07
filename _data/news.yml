@@ -1,4 +1,11 @@
 main:
+  - title: "LG유플러스, 경희대와 네트워크 지역적 특성 분석 AI 모델 개발"
+    category: news
+    teaser: /assets/news/teasers/5.jpg
+    prev: news
+    date: 2025-10-29
+    link: https://biz.chosun.com/it-science/ict/2025/10/29/C7DFP2SXAJD6TL76TZFGSN3CHM/
+    excerpt: "LG유플러스가 경희대와 네트워크 트래픽 데이터가 발생한 지역의 특성을 판별하는 인공지능(AI) 모델을 개발했다고 29일 밝혔다. 이번 연구는 사람이 판단하고 분류하던 네트워크 트래픽 데이터의 지역별 특성을 AI가 신속하게 판별하고 저장하는 자동화 체계를 구축할 목적으로 수행됐다. 개발된 AI 모델은 네트워크 트래픽 데이터를 입력하면 어느 지역에서 발생했고 실내외 트래픽 비중이 얼마나 되는지, 어느 시간대에 많이 사용되는지 등 특성을 도출한다. 아파트 단지나 지하철 등 특징이 뚜렷한 지역은 약 90% 이상의 정확도를 나타냈다. LG유플러스는 이 모델을 활용해 전국에 구축한 네트워크의 관리 비용과 에너지 효율을 높일 수 있을 것으로 기대한다."
   - title: "SKT AI 펠로우십 6기 최우수상 수상"
     category: news
     teaser: /assets/news/teasers/4.jpg
