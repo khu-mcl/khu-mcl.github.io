@@ -30,6 +30,9 @@ alumnis:
   - name: 권혁선
     generation: 24
     corp: 한화시스템
+  - name: 최호성
+    generation: 24
+    corp: LG유플러스
   - name: 이성진
     generation: 23
     corp: 한화시스템
