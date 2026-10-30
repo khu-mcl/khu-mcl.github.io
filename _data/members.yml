@@ -13,7 +13,11 @@ students:
   - name: 임경섭
     course: M.S.Student
 
-undergraduates: []
+undergraduates:
+  - name: 공상훈
+  - name: 박채원
+  - name: 임나림
+  - name: 정효정
 
 alumnis:
   - name: 권혁선
