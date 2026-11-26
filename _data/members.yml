@@ -1,7 +1,6 @@
 students:
   - name: 유현민
     course: Ph.D.Student
-    info: ['SD-RAN Engineering Team, Aether', 한국전자통신연구원 위촉연구원, SKT AI Fellowship 5기]
   - name: 최재형
     course: M.S.Student
   - name: 정태일
